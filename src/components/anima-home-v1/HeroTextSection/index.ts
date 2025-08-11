@@ -1,0 +1,1 @@
+export { HeroTextSection } from "./HeroTextSection";

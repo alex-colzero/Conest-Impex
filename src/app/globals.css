@@ -24,3 +24,18 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+/* Anima custom styles */
+button,
+input,
+select,
+textarea {
+  appearance: none;
+  background: transparent;
+  border: 0;
+  outline: none;
+}
+
+.all-\[unset\] {
+  all: unset;
+}
