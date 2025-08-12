@@ -20,12 +20,12 @@ export const BillboardSection = (): JSX.Element => {
   ];
 
   return (
-    <section className="absolute w-[1920px] h-[766px] top-[155px] left-0 bg-[url(/assets/anima-home-v1/left.svg)] bg-[100%_100%]">
-      <div className="relative w-[1670px] h-[1411px] top-[-155px] left-[250px]">
-        <div className="top-[314px] left-0 inline-flex flex-col items-start gap-[61px] absolute">
+    <section className="relative w-full min-h-[500px] md:min-h-[766px] bg-[url(/assets/anima-home-v1/left.svg)] bg-cover bg-center px-4 md:px-8 lg:px-[250px] py-8 md:py-16">
+      <div className="relative w-full max-w-7xl mx-auto">
+        <div className="flex flex-col lg:flex-row items-start lg:items-center gap-8 lg:gap-[61px] relative pt-8 lg:pt-[314px]">
           <header className="items-start gap-[34px] inline-flex flex-col relative flex-[0_0_auto]">
             <div className="items-start gap-5 inline-flex flex-col relative flex-[0_0_auto]">
-              <h1 className="relative w-[741px] mt-[-1.00px] [font-family:'Poppins',Helvetica] font-semibold text-white text-[56px] tracking-[0] leading-[72.8px]">
+              <h1 className="relative w-full max-w-3xl mt-[-1.00px] [font-family:'Poppins',Helvetica] font-semibold text-white text-3xl md:text-5xl lg:text-[56px] tracking-[0] leading-tight md:leading-[72.8px]">
                 Instalații gaze și centrale
                 <br />
                 termice constanța
