@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-export const FaqsSection = (): JSX.Element => {
+export const FaqsSection = (): React.JSX.Element => {
   const [openFaq, setOpenFaq] = useState<number | null>(0);
 
   const faqData = [

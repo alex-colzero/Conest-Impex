@@ -1,6 +1,6 @@
 import React from "react";
 
-export const OurWorksSection = (): JSX.Element => {
+export const OurWorksSection = (): React.JSX.Element => {
   // Data for testimonials
   const testimonials = [
     {

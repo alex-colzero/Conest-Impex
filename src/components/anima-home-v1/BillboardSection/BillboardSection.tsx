@@ -1,6 +1,6 @@
 import React from "react";
 
-export const BillboardSection = (): JSX.Element => {
+export const BillboardSection = (): React.JSX.Element => {
   const certifications = [
     {
       id: 1,

@@ -1,6 +1,6 @@
 import React from "react";
 
-export const ContentWrapperSection = (): JSX.Element => {
+export const ContentWrapperSection = (): React.JSX.Element => {
   const services = [
     {
       id: 1,

@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-export const TopNavigationSection = (): JSX.Element => {
+export const TopNavigationSection = (): React.JSX.Element => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   
   const navigationItems = [

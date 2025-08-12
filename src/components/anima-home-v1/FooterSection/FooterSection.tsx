@@ -1,6 +1,6 @@
 import React from "react";
 
-export const FooterSection = (): JSX.Element => {
+export const FooterSection = (): React.JSX.Element => {
   const contactInfo = [
     {
       icon: "/assets/anima-home-v1/solar-map-point-outline.svg",

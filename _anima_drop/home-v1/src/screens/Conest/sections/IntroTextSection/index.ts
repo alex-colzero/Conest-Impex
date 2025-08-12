@@ -1,1 +1,0 @@
-export { IntroTextSection } from "./IntroTextSection";

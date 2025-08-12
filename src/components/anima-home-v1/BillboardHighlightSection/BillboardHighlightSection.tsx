@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-export const BillboardHighlightSection = (): JSX.Element => {
+export const BillboardHighlightSection = (): React.JSX.Element => {
   const [formData, setFormData] = useState({
     fullName: "",
     phone: "",

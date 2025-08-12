@@ -1,6 +1,6 @@
 import React from "react";
 
-export const BillboardHighlightWrapperSection = (): JSX.Element => {
+export const BillboardHighlightWrapperSection = (): React.JSX.Element => {
   const statisticsData = [
     {
       value: "3400+",

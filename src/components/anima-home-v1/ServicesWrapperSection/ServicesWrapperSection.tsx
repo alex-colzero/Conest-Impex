@@ -11,7 +11,7 @@ interface ServiceCard {
   areas: ServiceArea[];
 }
 
-export const ServicesWrapperSection = (): JSX.Element => {
+export const ServicesWrapperSection = (): React.JSX.Element => {
   const serviceCards: ServiceCard[] = [
     {
       title: "Constanța - Acoperire Primară",

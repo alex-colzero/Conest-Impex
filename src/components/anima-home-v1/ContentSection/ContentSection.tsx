@@ -1,6 +1,6 @@
 import React from "react";
 
-export const ContentSection = (): JSX.Element => {
+export const ContentSection = (): React.JSX.Element => {
   const servicesData = [
     {
       id: 1,

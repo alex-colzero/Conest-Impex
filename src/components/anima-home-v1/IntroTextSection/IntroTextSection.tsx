@@ -1,6 +1,6 @@
 import React from "react";
 
-export const IntroTextSection = (): JSX.Element => {
+export const IntroTextSection = (): React.JSX.Element => {
   return (
     <section className="absolute w-[1420px] h-[372px] top-[6083px] left-[250px] rounded-[40px]">
       <div className="flex flex-col w-[1420px] items-center justify-center gap-10 relative">

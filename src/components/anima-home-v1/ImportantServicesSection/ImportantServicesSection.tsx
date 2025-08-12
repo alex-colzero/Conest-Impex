@@ -1,6 +1,6 @@
 import React from "react";
 
-export const ImportantServicesSection = (): JSX.Element => {
+export const ImportantServicesSection = (): React.JSX.Element => {
   return (
     <section className="inline-flex flex-col h-[2101px] items-start absolute top-0 left-[73px]">
       <div className="relative w-[1920px] h-[1158px]">

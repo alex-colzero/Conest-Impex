@@ -1,6 +1,6 @@
 import React from "react";
 
-export const ServicesSection = (): JSX.Element => {
+export const ServicesSection = (): React.JSX.Element => {
   const services = [
     {
       title: "Scăpări De Gaze",

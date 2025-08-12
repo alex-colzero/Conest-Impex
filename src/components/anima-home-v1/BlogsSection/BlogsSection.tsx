@@ -1,6 +1,6 @@
 import React from "react";
 
-export const BlogsSection = (): JSX.Element => {
+export const BlogsSection = (): React.JSX.Element => {
   const blogPosts = [
     {
       id: 1,
