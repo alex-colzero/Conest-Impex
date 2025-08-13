@@ -1,0 +1,286 @@
+/* PHASE 1: Mobile-First Foundation - Convert Fixed Container to Flexible */
+
+/* CSS Custom Properties for Responsive Design System */
+:root {
+  /* Spacing System */
+  --section-padding-mobile: 20px;
+  --section-padding-tablet: 40px;
+  --section-padding-desktop: 80px;
+  --max-content-width: 1420px;
+  
+  /* Typography Scale */
+  --font-size-h1-mobile: 32px;
+  --font-size-h1-tablet: 44px;
+  --font-size-h1-desktop: 56px;
+  
+  --font-size-h2-mobile: 24px;
+  --font-size-h2-tablet: 32px;
+  --font-size-h2-desktop: 48px;
+  
+  --font-size-body: 16px;
+  --line-height-body: 1.6;
+  
+  /* Colors from Anima Design */
+  --color-primary: #05213C;
+  --color-accent: #F2B821;
+  --color-background: #FAFAFA;
+  --color-text: #313131;
+  --color-text-muted: #5A5A5A;
+  --color-white: #FFFFFF;
+  --color-gray-light: #F2F2F2;
+}
+
+/* Phase 1: Convert Main Container from Fixed to Flexible */
+.CONEST {
+  width: 100%;
+  max-width: 100vw;
+  overflow-x: hidden;
+  background-color: var(--color-background);
+  /* Remove grid layout, use natural flow */
+  display: block;
+}
+
+.CONEST .div-13 {
+  /* CRITICAL: Remove fixed dimensions and absolute positioning container */
+  width: 100% !important;
+  height: auto !important;
+  max-width: none;
+  margin: 0 auto;
+  position: relative;
+  
+  /* Convert to flex column for natural section stacking */
+  display: flex;
+  flex-direction: column;
+  
+  background-color: var(--color-background);
+  overflow: visible;
+}
+
+/* Phase 1: Create proper section ordering in CSS */
+/* Based on visual hierarchy (top to bottom on page): */
+
+/* 1. Navigation - should be first */
+.top-navi {
+  order: 1;
+}
+
+/* 2. Hero Section - Billboard */
+.billboard {
+  order: 2;
+}
+
+/* 3. Brand Logos */
+.brand-logos {
+  order: 3;
+}
+
+/* 4. Hero Text Wrapper */  
+.hero-text-wrapper {
+  order: 4;
+}
+
+/* 5. Services Top */
+.services-top {
+  order: 5;
+}
+
+/* 6. Services Important & Div Wrapper (overlap-3) */
+.overlap-3 {
+  order: 6;
+}
+
+/* 7. Services Wrapper */
+.services-wrapper {
+  order: 7;
+}
+
+/* 8. Billboard Highlight Wrapper */
+.billboard-highlight-wrapper {
+  order: 8;
+}
+
+/* 9. Intro Text (About) */
+.intro-text {
+  order: 9;
+}
+
+/* 10. Services */
+.services {
+  order: 10;
+}
+
+/* 11. Our Works */
+.our-works {
+  order: 11;
+}
+
+/* 12. Billboard Highlight */
+.billboard-highlight {
+  order: 12;
+}
+
+/* 13. FAQs */
+.faqs {
+  order: 13;
+}
+
+/* 14. Blogs */
+.blogs {
+  order: 14;
+}
+
+/* 15. Footer Area (overlap-2) */
+.overlap-2 {
+  order: 15;
+}
+
+/* Phase 1: Remove ALL absolute positioning from main sections */
+.top-navi,
+.billboard, 
+.brand-logos,
+.hero-text-wrapper,
+.services-top,
+.overlap-3,
+.services-wrapper,
+.billboard-highlight-wrapper,
+.intro-text,
+.services,
+.our-works,
+.billboard-highlight,
+.faqs,
+.blogs,
+.overlap-2 {
+  position: relative !important;
+  left: auto !important;
+  top: auto !important;
+  width: 100% !important;
+  
+  /* Add section spacing */
+  margin-bottom: 0; /* Will be handled by individual section styles */
+}
+
+/* Phase 1: Section Container Pattern */
+.section-container {
+  width: 100%;
+  max-width: var(--max-content-width);
+  margin: 0 auto;
+  padding-left: var(--section-padding-mobile);
+  padding-right: var(--section-padding-mobile);
+}
+
+@media (min-width: 768px) {
+  .section-container {
+    padding-left: var(--section-padding-tablet);
+    padding-right: var(--section-padding-tablet);
+  }
+}
+
+@media (min-width: 1200px) {
+  .section-container {
+    padding-left: var(--section-padding-desktop);
+    padding-right: var(--section-padding-desktop);
+  }
+}
+
+/* Phase 1: Basic responsive typography foundation */
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Poppins", sans-serif;
+  color: var(--color-text);
+  line-height: 1.2;
+  margin: 0 0 1rem 0;
+}
+
+h1 {
+  font-size: var(--font-size-h1-mobile);
+  font-weight: 600;
+}
+
+h2 {
+  font-size: var(--font-size-h2-mobile);
+  font-weight: 600;
+}
+
+body, p {
+  font-family: "Poppins", sans-serif;
+  font-size: var(--font-size-body);
+  line-height: var(--line-height-body);
+  color: var(--color-text);
+}
+
+@media (min-width: 768px) {
+  h1 {
+    font-size: var(--font-size-h1-tablet);
+  }
+  
+  h2 {
+    font-size: var(--font-size-h2-tablet);
+  }
+}
+
+@media (min-width: 1200px) {
+  h1 {
+    font-size: var(--font-size-h1-desktop);
+  }
+  
+  h2 {
+    font-size: var(--font-size-h2-desktop);
+  }
+}
+
+/* Phase 1: Ensure images are responsive by default */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Phase 1: Reset any problematic absolute positioning in overlapping containers */
+.overlap-2,
+.overlap-3 {
+  position: relative !important;
+  left: 0 !important;
+  top: auto !important;
+  width: 100% !important;
+  height: auto !important;
+  
+  display: flex;
+  flex-direction: column;
+}
+
+/* Phase 1: Brand logos section responsive foundation */
+.brand-logos {
+  padding: 60px var(--section-padding-mobile) !important;
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  gap: 30px !important;
+  
+  position: relative !important;
+  left: 0 !important;
+  top: auto !important;
+  width: 100% !important;
+}
+
+.brand-logos .tag-7 {
+  width: 90% !important;
+  max-width: 743px;
+  margin: 0 auto;
+}
+
+.brand-logos-2 {
+  width: 90% !important;
+  max-width: 800px;
+}
+
+@media (min-width: 768px) {
+  .brand-logos {
+    padding: 80px var(--section-padding-tablet) !important;
+    gap: 40px !important;
+  }
+}
+
+@media (min-width: 1200px) {
+  .brand-logos {
+    padding: 100px var(--section-padding-desktop) !important;
+    gap: 60px !important;
+  }
+}

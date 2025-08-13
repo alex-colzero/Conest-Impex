@@ -1,37 +1,5 @@
-/* Simple viewport scaling approach - DON'T touch the layout at all */
+/* Phase 1 Complete: Import Foundation and Remove Scaling */
+/* This file is now importing the new responsive foundation */
 
-/* Allow horizontal scrolling on mobile - preserve the exact 1920px design */
-.CONEST {
-  width: 100%;
-  overflow-x: auto; /* Allow horizontal scroll */
-}
-
-.CONEST .div-13 {
-  min-width: 1920px; /* Keep original width, allow scroll */
-  width: 1920px;
-}
-
-/* On larger screens, center the design */
-@media (min-width: 1920px) {
-  .CONEST {
-    display: flex;
-    justify-content: center;
-  }
-  
-  .CONEST .div-13 {
-    width: 1920px;
-  }
-}
-
-/* On smaller screens, scale down slightly but allow scroll */
-@media (max-width: 1919px) {
-  .CONEST .div-13 {
-    transform-origin: top left;
-    transform: scale(calc(100vw / 1920));
-  }
-}
-
-/* Ensure mobile devices can scroll */
-body {
-  overflow-x: auto;
-}
+/* Remove all scaling approaches */
+/* Foundation styles are in responsive-foundation.css */
