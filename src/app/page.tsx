@@ -1,9 +1,5 @@
-import { FigmaExact } from '@/components/FigmaExact';
+import { FigmaProper } from '@/components/FigmaProper';
 
 export default function Home() {
-  return (
-    <div style={{width: '100vw', overflowX: 'auto'}}>
-      <FigmaExact />
-    </div>
-  );
+  return <FigmaProper />;
 }
