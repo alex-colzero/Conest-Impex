@@ -1,0 +1,438 @@
+/* Responsive Override Styles for Anima Export */
+
+/* Main Container */
+.CONEST {
+  width: 100%;
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+.CONEST .div-13 {
+  width: 100%;
+  max-width: 1920px;
+  margin: 0 auto;
+  height: auto !important;
+  min-height: 100vh;
+  position: relative;
+}
+
+/* Navigation Responsive */
+.top-navi {
+  width: 100% !important;
+  padding: 0 5% !important;
+  position: relative !important;
+  left: 0 !important;
+  right: 0 !important;
+}
+
+.top-navi .top-2 {
+  width: 100% !important;
+  max-width: 1420px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.top-navi .menu {
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.top-navi .nav-right {
+  flex-wrap: wrap;
+}
+
+.top-navi .right {
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+/* Hero Section Responsive */
+.billboard {
+  width: 100% !important;
+  height: auto !important;
+  min-height: 600px;
+  position: relative !important;
+}
+
+.billboard .div-14 {
+  width: 100% !important;
+  height: auto !important;
+  min-height: 600px;
+}
+
+.billboard .hero-image {
+  width: 100% !important;
+  height: 100% !important;
+  object-fit: cover;
+}
+
+.billboard .frame {
+  width: 90% !important;
+  max-width: 741px;
+  padding: 20px;
+  left: 5% !important;
+}
+
+.billboard .instalaii-gaze-i {
+  font-size: clamp(32px, 5vw, 56px) !important;
+  line-height: 1.2 !important;
+}
+
+.billboard .autorizai-ANRE {
+  font-size: clamp(18px, 3vw, 30px) !important;
+}
+
+/* Services Section Responsive */
+.services-wrapper,
+.services,
+.services-top,
+.services-important {
+  width: 100% !important;
+  padding: 40px 5% !important;
+  position: relative !important;
+  left: 0 !important;
+  height: auto !important;
+}
+
+.services-wrapper .overlap-group-3,
+.services .overlap-4,
+.services-top .overlap-5 {
+  width: 100% !important;
+  max-width: 1420px;
+  margin: 0 auto;
+  height: auto !important;
+  position: relative !important;
+}
+
+/* Service Cards Grid */
+.services-wrapper .div-4,
+.services .div-5,
+.services-top .div-6 {
+  display: grid !important;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)) !important;
+  gap: 20px !important;
+  width: 100% !important;
+  position: relative !important;
+  left: 0 !important;
+  top: 0 !important;
+}
+
+/* Individual Service Cards */
+.feature-cards,
+.feature-cards-yellow,
+.feature-cards-image {
+  width: 100% !important;
+  height: auto !important;
+  min-height: 350px;
+  position: relative !important;
+  margin: 0 !important;
+}
+
+/* Content Sections */
+.intro-text,
+.our-works,
+.faqs,
+.blogs {
+  width: 100% !important;
+  padding: 40px 5% !important;
+  position: relative !important;
+  left: 0 !important;
+  top: auto !important;
+  margin-top: 60px;
+  height: auto !important;
+}
+
+.intro-text .div-7,
+.our-works .div-8,
+.faqs .div-9,
+.blogs .div-10 {
+  width: 100% !important;
+  max-width: 1420px;
+  margin: 0 auto;
+  position: relative !important;
+}
+
+/* Typography Responsive */
+.despre-companie,
+.realizri-recente,
+.ntrebri-frecvente,
+.postri-recente {
+  font-size: clamp(32px, 5vw, 64px) !important;
+  text-align: center;
+}
+
+.text-wrapper-17,
+.text-wrapper-24,
+.text-wrapper-31 {
+  font-size: clamp(28px, 4vw, 48px) !important;
+  line-height: 1.3 !important;
+}
+
+/* Work Cards Grid */
+.our-works .rectangle-wrapper,
+.our-works .div-15,
+.our-works .div-16 {
+  width: 100% !important;
+  position: relative !important;
+  margin-bottom: 20px;
+}
+
+/* FAQ Items */
+.faqs .div-17,
+.faqs .div-18,
+.faqs .div-19 {
+  width: 100% !important;
+  position: relative !important;
+  margin-bottom: 20px;
+}
+
+/* Blog Cards Grid */
+.blogs .div-20 {
+  display: grid !important;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)) !important;
+  gap: 20px !important;
+  width: 100% !important;
+  position: relative !important;
+}
+
+.blogs .div-21,
+.blogs .div-22,
+.blogs .div-23 {
+  width: 100% !important;
+  position: relative !important;
+}
+
+/* Footer Responsive */
+.footer {
+  width: 100% !important;
+  padding: 40px 5% !important;
+  position: relative !important;
+  left: 0 !important;
+  height: auto !important;
+}
+
+.footer .div-11 {
+  width: 100% !important;
+  max-width: 1420px;
+  margin: 0 auto;
+  display: grid !important;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)) !important;
+  gap: 30px !important;
+  position: relative !important;
+}
+
+.footer .div-12 {
+  width: 100% !important;
+  position: relative !important;
+}
+
+/* Bottom Copyright */
+.bottom {
+  width: 100% !important;
+  padding: 30px 5% !important;
+  position: relative !important;
+  left: 0 !important;
+  justify-content: center !important;
+  gap: 20px !important;
+}
+
+.element-CON-EST-IMPEX {
+  width: 100% !important;
+  max-width: 1420px;
+  text-align: center;
+}
+
+/* Brand Logos Section */
+.brand-logos {
+  width: 100% !important;
+  padding: 40px 5% !important;
+  position: relative !important;
+  left: 0 !important;
+  top: auto !important;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+
+.brand-logos-2 {
+  width: 100% !important;
+  max-width: 800px;
+  height: auto;
+}
+
+/* Images Responsive */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Mobile Specific (max-width: 768px) */
+@media (max-width: 768px) {
+  /* Hide desktop menu, show mobile menu button */
+  .top-navi .menu {
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .top-navi .nav-item {
+    font-size: 18px !important;
+  }
+  
+  .top-navi .button {
+    padding: 12px 20px !important;
+    font-size: 14px !important;
+  }
+  
+  /* Stack service cards vertically */
+  .services-wrapper .div-4,
+  .services .div-5,
+  .services-top .div-6 {
+    grid-template-columns: 1fr !important;
+  }
+  
+  /* Adjust padding for mobile */
+  .top-navi,
+  .services-wrapper,
+  .services,
+  .services-top,
+  .intro-text,
+  .our-works,
+  .faqs,
+  .blogs,
+  .footer {
+    padding: 20px 20px !important;
+  }
+  
+  /* Adjust typography for mobile */
+  .despre-companie,
+  .realizri-recente,
+  .ntrebri-frecvente,
+  .postri-recente {
+    font-size: 28px !important;
+  }
+  
+  .text-wrapper-17,
+  .text-wrapper-24,
+  .text-wrapper-31 {
+    font-size: 24px !important;
+  }
+  
+  /* Stack footer columns */
+  .footer .div-11 {
+    grid-template-columns: 1fr !important;
+  }
+  
+  /* Adjust hero text */
+  .billboard .frame {
+    width: 90% !important;
+    left: 5% !important;
+    top: 50% !important;
+    transform: translateY(-50%);
+  }
+  
+  .billboard .instalaii-gaze-i {
+    font-size: 28px !important;
+  }
+  
+  .billboard .autorizai-ANRE {
+    font-size: 16px !important;
+  }
+}
+
+/* Tablet Specific (768px - 1024px) */
+@media (min-width: 769px) and (max-width: 1024px) {
+  .services-wrapper .div-4,
+  .services .div-5,
+  .services-top .div-6 {
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
+  
+  .blogs .div-20 {
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
+  
+  .footer .div-11 {
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
+}
+
+/* Large Desktop (min-width: 1920px) */
+@media (min-width: 1920px) {
+  .CONEST .div-13 {
+    margin: 0 auto;
+  }
+}
+
+/* Fix Absolute Positioning Issues */
+.billboard,
+.services-wrapper,
+.services,
+.services-top,
+.services-important,
+.intro-text,
+.our-works,
+.faqs,
+.blogs,
+.footer {
+  position: relative !important;
+  top: auto !important;
+  left: 0 !important;
+  margin-bottom: 60px;
+}
+
+/* Reset Heights */
+.billboard,
+.services-wrapper,
+.services,
+.services-top,
+.services-important,
+.intro-text,
+.our-works,
+.faqs,
+.blogs {
+  height: auto !important;
+  min-height: auto !important;
+}
+
+/* Ensure sections flow naturally */
+.CONEST .div-13 > * {
+  position: relative !important;
+  top: auto !important;
+  left: 0 !important;
+  width: 100% !important;
+}
+
+/* Fix overlapping issues */
+.overlap-2,
+.overlap-3,
+.overlap-4,
+.overlap-5 {
+  position: relative !important;
+  height: auto !important;
+  width: 100% !important;
+}
+
+/* Ensure text doesn't overflow */
+* {
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
+
+/* Fix button hover states */
+.button:hover {
+  opacity: 0.9;
+  transform: translateY(-1px);
+  transition: all 0.2s ease;
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Hide horizontal scrollbar */
+body {
+  overflow-x: hidden;
+}
