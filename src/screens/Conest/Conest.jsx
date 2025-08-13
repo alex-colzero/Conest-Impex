@@ -15,7 +15,7 @@ import { Services } from "./sections/Services";
 import { ServicesImportant } from "./sections/ServicesImportant";
 import { ServicesTop } from "./sections/ServicesTop";
 import { ServicesWrapper } from "./sections/ServicesWrapper";
-import { TopNavi } from "./sections/TopNavi";
+import { TopNaviResponsive } from "./sections/TopNavi/TopNavi-responsive";
 import "./style.css";
 import "./responsive-foundation.css";
 
@@ -67,7 +67,7 @@ export const Conest = () => {
         </div>
 
         <Billboard />
-        <TopNavi />
+        <TopNaviResponsive />
       </div>
     </div>
   );
