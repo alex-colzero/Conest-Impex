@@ -1,0 +1,19 @@
+.services-wrapper {
+  align-items: flex-start;
+  display: inline-flex;
+  gap: 20px;
+  justify-content: center;
+  left: 250px;
+  padding: 1px 0px;
+  position: absolute;
+  top: 6555px;
+}
+
+.services-wrapper .feature-cards-image-instance {
+  border: 0.3px solid !important;
+}
+
+.services-wrapper .design-component-instance-node {
+  border: unset !important;
+  border-color: unset !important;
+}

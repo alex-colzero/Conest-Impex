@@ -1,0 +1,147 @@
+.faqs {
+  align-items: center;
+  border-radius: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  left: 250px;
+  position: absolute;
+  top: 11532px;
+  width: 1420px;
+}
+
+.faqs .tag-2 {
+  align-items: center;
+  border: 1px solid;
+  border-color: #05213c33;
+  border-radius: 10px;
+  display: flex;
+  gap: 10px;
+  height: 60px;
+  justify-content: center;
+  overflow: hidden;
+  padding: 10px 13px;
+  position: relative;
+  width: 275px;
+}
+
+.faqs .text-wrapper-10 {
+  color: #303030;
+  font-family: "Poppins", Helvetica;
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: 1.80px;
+  line-height: normal;
+  position: relative;
+  width: fit-content;
+}
+
+.faqs .title-2 {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 18px;
+  position: relative;
+}
+
+.faqs .text-wrapper-11 {
+  color: #303030;
+  font-family: "Poppins", Helvetica;
+  font-size: 64px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 83.2px;
+  margin-top: -1.00px;
+  position: relative;
+  text-align: center;
+  width: 1419px;
+}
+
+.faqs .dropdowns {
+  align-items: flex-start;
+  align-self: stretch;
+  border-radius: 40px;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+}
+
+.faqs .faq {
+  align-items: flex-start;
+  align-self: stretch;
+  border: 1px solid;
+  border-color: #c1c1c1;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 10px;
+  padding: 26px;
+  position: relative;
+  width: 100%;
+}
+
+.faqs .frame-3 {
+  align-items: center;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  justify-content: space-between;
+  position: relative;
+  width: 100%;
+}
+
+.faqs .text-wrapper-12 {
+  color: #303030;
+  font-family: "Poppins", Helvetica;
+  font-size: 22px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 28.6px;
+  margin-top: -1.00px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.faqs .ion-caret-down {
+  height: 22px;
+  position: relative;
+  width: 22px;
+}
+
+.faqs .vector-7 {
+  height: 9px;
+  left: 4px;
+  position: absolute;
+  top: 6px;
+  width: 14px;
+}
+
+.faqs .text-wrapper-13 {
+  color: #5a5a5a;
+  font-family: "Poppins", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 28.8px;
+  position: relative;
+  width: 1310px;
+}
+
+.faqs .faq-2 {
+  align-items: center;
+  align-self: stretch;
+  background-color: #05213b0d;
+  border: 1px solid;
+  border-color: #c1c1c1;
+  display: flex;
+  flex: 0 0 auto;
+  justify-content: space-between;
+  margin-top: -1px;
+  padding: 26px;
+  position: relative;
+  width: 100%;
+}

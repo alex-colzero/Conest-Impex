@@ -1,0 +1,102 @@
+.CONEST {
+  align-items: start;
+  background-color: #fafafa;
+  display: grid;
+  justify-items: center;
+  width: 100vw;
+}
+
+.CONEST .div-13 {
+  background-color: #fafafa;
+  height: 13907px;
+  overflow: hidden;
+  position: relative;
+  width: 1920px;
+}
+
+.CONEST .overlap-2 {
+  height: 634px;
+  left: 0;
+  position: absolute;
+  top: 13273px;
+  width: 1920px;
+}
+
+.CONEST .bottom {
+  align-items: center;
+  background-color: #f2f2f2;
+  display: flex;
+  gap: 883px;
+  height: 634px;
+  justify-content: space-around;
+  left: 0;
+  padding: 30px 250px;
+  position: absolute;
+  top: 0;
+  width: 1920px;
+}
+
+.CONEST .element-CON-EST-IMPEX {
+  color: #5a5a5a;
+  font-family: "Poppins", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  height: 574px;
+  letter-spacing: 0;
+  line-height: 28.8px;
+  margin-top: -1.00px;
+  position: relative;
+  text-align: center;
+  width: 1420px;
+}
+
+.CONEST .overlap-3 {
+  height: 2247px;
+  left: -73px;
+  position: absolute;
+  top: 2653px;
+  width: 2065px;
+}
+
+.CONEST .brand-logos {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+  left: 250px;
+  position: absolute;
+  top: 1081px;
+  width: 1419px;
+}
+
+.CONEST .tag-7 {
+  align-items: center;
+  border: 1px solid;
+  border-color: #05213c33;
+  border-radius: 10px;
+  display: flex;
+  gap: 10px;
+  height: 60px;
+  justify-content: center;
+  overflow: hidden;
+  padding: 10px 13px;
+  position: relative;
+  width: 743px;
+}
+
+.CONEST .text-wrapper-54 {
+  color: #05213c;
+  font-family: "Poppins", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0.80px;
+  line-height: normal;
+  position: relative;
+  width: fit-content;
+}
+
+.CONEST .brand-logos-2 {
+  flex: 0 0 auto;
+  position: relative;
+  width: 1419px;
+}

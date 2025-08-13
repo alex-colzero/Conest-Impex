@@ -1,0 +1,122 @@
+.top-navi {
+  align-items: flex-start;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  height: 155px;
+  left: 0;
+  padding: 0px 250px;
+  position: absolute;
+  top: 0;
+  width: 1920px;
+}
+
+.top-navi .top-2 {
+  align-items: center;
+  display: flex;
+  height: 155px;
+  justify-content: space-between;
+  position: relative;
+  width: 1420px;
+}
+
+.top-navi .logo {
+  height: 93px;
+  position: relative;
+  width: 220px;
+}
+
+.top-navi .conest-logo-full-2 {
+  width: unset !important;
+}
+
+.top-navi .menu {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 80px;
+  justify-content: center;
+  position: relative;
+}
+
+.top-navi .nav-right {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 73px;
+  position: relative;
+}
+
+.top-navi .right {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 30px;
+  position: relative;
+}
+
+.top-navi .div-wrapper-2 {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 6px;
+  position: relative;
+}
+
+.top-navi .text-wrapper-40 {
+  color: #05213c;
+  font-family: "Poppins", Helvetica;
+  font-size: 22px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1.00px;
+  position: relative;
+  width: fit-content;
+}
+
+.top-navi .btn-wrapper {
+  all: unset;
+  align-items: center;
+  box-sizing: border-box;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 19px;
+  justify-content: flex-end;
+  position: relative;
+}
+
+.top-navi .btn-5 {
+  all: unset;
+  align-items: center;
+  background-color: #f2b721;
+  border-radius: 20px;
+  box-sizing: border-box;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 10px;
+  justify-content: center;
+  overflow: hidden;
+  padding: 18px 36px;
+  position: relative;
+}
+
+.top-navi .streamline-travel {
+  height: 24px;
+  position: relative;
+  width: 24px;
+}
+
+.top-navi .element-xxx-xxx-2 {
+  color: #05213c;
+  font-family: "Poppins", Helvetica;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 1.28px;
+  line-height: normal;
+  margin-top: -1.00px;
+  position: relative;
+  text-align: center;
+  width: fit-content;
+}

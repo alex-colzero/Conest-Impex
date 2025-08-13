@@ -1,0 +1,1 @@
+export { FeatureCardsImage } from "./FeatureCardsImage";

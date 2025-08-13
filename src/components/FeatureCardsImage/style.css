@@ -1,0 +1,111 @@
+.feature-cards-image {
+  align-items: center;
+  background-color: #ffffff;
+  border: 1px solid;
+  border-color: #05213c;
+  border-radius: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  height: 500px;
+  padding: 0px 40px;
+  position: relative;
+  width: 460px;
+}
+
+.feature-cards-image .modern-autonomous-wrapper {
+  align-items: center;
+  background-color: #05213c1a;
+  border: 1px solid;
+  border-color: #05213c;
+  border-radius: 40px 40px 0px 0px;
+  display: flex;
+  flex-direction: column;
+  height: 212px;
+  justify-content: center;
+  margin-left: -40.00px;
+  margin-right: -40.00px;
+  overflow: hidden;
+  position: relative;
+  width: 460px;
+}
+
+.feature-cards-image .modern-autonomous {
+  aspect-ratio: 1.5;
+  height: 212px;
+  object-fit: cover;
+  position: relative;
+  width: 460px;
+}
+
+.feature-cards-image .frame-10 {
+  align-items: flex-start;
+  display: inline-flex;
+  flex-direction: column;
+  gap: 40px;
+  height: 219px;
+  margin-left: -15.00px;
+  margin-right: -15.00px;
+  position: relative;
+}
+
+.feature-cards-image .constan-a-acoperire {
+  color: #05213c;
+  font-family: "Poppins", Helvetica;
+  font-size: 26px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 33.8px;
+  margin-top: -1.00px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.feature-cards-image .subtext-infos {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 20px;
+  margin-bottom: -20.00px;
+  position: relative;
+}
+
+.feature-cards-image .subtext {
+  height: 165px;
+  position: relative;
+  width: 197px;
+}
+
+.feature-cards-image .div-12 {
+  color: #05213c;
+  font-family: "Poppins", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  left: 0;
+  letter-spacing: 0;
+  line-height: 20.8px;
+  position: absolute;
+  top: 0;
+  width: 195px;
+}
+
+.feature-cards-image .text-wrapper-48 {
+  font-weight: 700;
+}
+
+.feature-cards-image .text-wrapper-49 {
+  color: #05213c;
+  font-family: "Poppins", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 20.8px;
+}
+
+.feature-cards-image .km-zone-reziden-wrapper {
+  height: 165px;
+  margin-right: -2.00px;
+  position: relative;
+  width: 197px;
+}

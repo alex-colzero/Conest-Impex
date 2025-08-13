@@ -1,0 +1,248 @@
+.footer {
+  background-color: transparent;
+  height: 363px;
+  left: 250px;
+  position: absolute;
+  top: 73px;
+  width: 1420px;
+}
+
+.footer .element {
+  align-items: flex-start;
+  display: inline-flex;
+  flex-direction: column;
+  gap: 20px;
+  height: 366px;
+  left: 1080px;
+  position: absolute;
+  top: 29px;
+}
+
+.footer .text-wrapper {
+  color: #303030;
+  font-family: "Poppins", Helvetica;
+  font-size: 22px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 28.6px;
+  margin-top: -1.00px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.footer .frame {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 12px;
+  position: relative;
+}
+
+.footer .div {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 6px;
+  justify-content: center;
+  position: relative;
+}
+
+.footer .div-2 {
+  height: 20px;
+  position: relative;
+  width: 20px;
+}
+
+.footer .vector {
+  height: 18px;
+  left: 3px;
+  position: absolute;
+  top: 1px;
+  width: 15px;
+}
+
+.footer .text-wrapper-2 {
+  color: #05213c;
+  font-family: "Poppins", Helvetica;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0.32px;
+  line-height: normal;
+  margin-top: -1.00px;
+  position: relative;
+  width: fit-content;
+}
+
+.footer .img {
+  height: 15px;
+  left: 1px;
+  position: absolute;
+  top: 3px;
+  width: 18px;
+}
+
+.footer .text-wrapper-3 {
+  color: #303030;
+  font-family: "Poppins", Helvetica;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0.32px;
+  line-height: normal;
+  margin-top: -1.00px;
+  position: relative;
+  width: fit-content;
+}
+
+.footer .group {
+  height: 17px;
+  left: 2px;
+  position: relative;
+  top: 1px;
+  width: 17px;
+}
+
+.footer .overlap-group {
+  height: 17px;
+  position: relative;
+}
+
+.footer .vector-2 {
+  height: 16px;
+  left: 0;
+  position: absolute;
+  top: 1px;
+  width: 16px;
+}
+
+.footer .vector-3 {
+  height: 8px;
+  left: 9px;
+  position: absolute;
+  top: 0;
+  width: 8px;
+}
+
+.footer .vector-4 {
+  height: 5px;
+  left: 9px;
+  position: absolute;
+  top: 3px;
+  width: 5px;
+}
+
+.footer .vector-5 {
+  height: 18px;
+  left: 1px;
+  position: absolute;
+  top: 1px;
+  width: 18px;
+}
+
+.footer .la-chevron-circle {
+  height: 18px;
+  position: relative;
+  width: 18px;
+}
+
+.footer .vector-6 {
+  height: 15px;
+  left: 2px;
+  position: absolute;
+  top: 2px;
+  width: 15px;
+}
+
+.footer .element-2 {
+  align-items: flex-start;
+  display: inline-flex;
+  flex-direction: column;
+  gap: 20px;
+  height: 315px;
+  left: 720px;
+  position: absolute;
+  top: 29px;
+}
+
+.footer .frame-2 {
+  align-items: flex-start;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 12px;
+  position: relative;
+  width: 293px;
+}
+
+.footer .element-3 {
+  align-items: center;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  gap: 6px;
+  position: relative;
+  width: 100%;
+}
+
+.footer .text-wrapper-4 {
+  color: #303030;
+  flex: 1;
+  font-family: "Poppins", Helvetica;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0.32px;
+  line-height: normal;
+  margin-top: -1.00px;
+  position: relative;
+}
+
+.footer .element-4 {
+  align-items: flex-start;
+  display: inline-flex;
+  flex-direction: column;
+  gap: 20px;
+  height: 315px;
+  left: 360px;
+  position: absolute;
+  top: 29px;
+}
+
+.footer .text-wrapper-5 {
+  color: #05213c;
+  font-family: "Poppins", Helvetica;
+  font-size: 22px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 28.6px;
+  margin-top: -1.00px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.footer .element-5 {
+  align-items: flex-start;
+  display: inline-flex;
+  flex-direction: column;
+  height: 224px;
+  left: 0;
+  position: absolute;
+  top: 29px;
+}
+
+.footer .conest-logo-full-instance {
+  position: relative !important;
+}
+
+.footer .instala-ii-gaze {
+  color: #05213c;
+  font-family: "Poppins", Helvetica;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0.32px;
+  line-height: normal;
+  margin-top: -1.00px;
+  position: relative;
+  width: 340px;
+}

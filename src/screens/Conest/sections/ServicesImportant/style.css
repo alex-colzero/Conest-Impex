@@ -1,0 +1,140 @@
+.services-important {
+  align-items: center;
+  display: inline-flex;
+  flex-direction: column;
+  height: 2101px;
+  left: 73px;
+  position: absolute;
+  top: 0;
+}
+
+.services-important .call-to-action-box {
+  background-image: url(/img/image.svg);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 1241px;
+  position: relative;
+  width: 1920px;
+}
+
+.services-important .card-important {
+  height: 632px;
+  left: 672px;
+  position: relative;
+  top: 305px;
+  width: 576px;
+}
+
+.services-important .feature-cards-2 {
+  align-items: center;
+  background-color: #ffffff;
+  border: 1px solid;
+  border-color: #05213c;
+  border-radius: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  height: 632px;
+  justify-content: center;
+  padding: 40px;
+  position: relative;
+  width: 576px;
+}
+
+.services-important .flame-big-wrapper {
+  align-items: center;
+  aspect-ratio: 1;
+  background-color: #ffffff;
+  border: 1px solid;
+  border-color: #05213c;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  height: 100px;
+  justify-content: center;
+  overflow: hidden;
+  position: relative;
+  width: 100px;
+}
+
+.services-important .icon-wrapper {
+  aspect-ratio: 1;
+  height: 50px;
+  position: relative;
+  width: 50px;
+}
+
+.services-important .icon-3 {
+  aspect-ratio: 0.24;
+  height: 58px;
+  left: 17px;
+  object-fit: cover;
+  position: absolute;
+  top: -4px;
+  width: 14px;
+}
+
+.services-important .text-8 {
+  align-items: center;
+  display: inline-flex;
+  flex-direction: column;
+  gap: 20px;
+  height: 150px;
+  justify-content: center;
+  position: relative;
+}
+
+.services-important .centrale-termice-nc {
+  color: #05213c;
+  font-family: "Poppins", Helvetica;
+  font-size: 26px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 33.8px;
+  position: relative;
+  text-decoration: underline;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.services-important .montaj-i-autorizare {
+  color: #05213c;
+  font-family: "Poppins", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  height: 82px;
+  letter-spacing: 0;
+  line-height: 20.8px;
+  position: relative;
+  text-align: center;
+  text-decoration: underline;
+  width: 372px;
+}
+
+.services-important .button {
+  all: unset;
+  align-items: flex-end;
+  background-color: #f2b721;
+  border-radius: 10px;
+  box-sizing: border-box;
+  display: inline-flex;
+  flex: 0 0 auto;
+  justify-content: center;
+  overflow: hidden;
+  padding: 18px 36px;
+  position: relative;
+}
+
+.services-important .servicii-centrale-2 {
+  color: #05213c;
+  font-family: "Poppins", Helvetica;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 1.28px;
+  line-height: normal;
+  margin-top: -1.00px;
+  position: relative;
+  text-align: center;
+  text-decoration: underline;
+  width: fit-content;
+}

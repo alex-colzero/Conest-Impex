@@ -1,0 +1,147 @@
+.billboard-highlight {
+  align-items: center;
+  background-color: #05213c;
+  display: inline-flex;
+  gap: 96px;
+  justify-content: center;
+  left: -3px;
+  padding: 91px 253px;
+  position: absolute;
+  top: 10399px;
+}
+
+.billboard-highlight .content {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 61px;
+  position: relative;
+}
+
+.billboard-highlight .text-2 {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 34px;
+  position: relative;
+}
+
+.billboard-highlight .text-3 {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 20px;
+  position: relative;
+}
+
+.billboard-highlight .text-wrapper-14 {
+  color: #ffffff;
+  font-family: "Poppins", Helvetica;
+  font-size: 56px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 72.8px;
+  margin-top: -1.00px;
+  position: relative;
+  width: 741px;
+}
+
+.billboard-highlight .text-wrapper-15 {
+  color: #ffffff;
+  font-family: "Poppins", Helvetica;
+  font-size: 38px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 49.4px;
+  position: relative;
+  width: 703px;
+}
+
+.billboard-highlight .why-choose {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 40px;
+  position: relative;
+}
+
+.billboard-highlight .group-2 {
+  height: 48px;
+  position: relative;
+  width: 712px;
+}
+
+.billboard-highlight .element-6 {
+  align-items: center;
+  display: inline-flex;
+  gap: 10px;
+  left: 0;
+  position: absolute;
+  top: 0;
+}
+
+.billboard-highlight .check {
+  aspect-ratio: 1 !important;
+  height: 19px !important;
+  position: relative !important;
+  width: 19px !important;
+}
+
+.billboard-highlight .telefon-principal {
+  color: #ffffff;
+  font-family: "Poppins", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  height: 48px;
+  letter-spacing: 0.80px;
+  line-height: normal;
+  margin-top: -1.00px;
+  position: relative;
+  width: 218px;
+}
+
+.billboard-highlight .text-wrapper-16 {
+  letter-spacing: 0.13px;
+}
+
+.billboard-highlight .text-wrapper-17 {
+  font-weight: 700;
+  letter-spacing: 0.13px;
+  text-decoration: underline;
+}
+
+.billboard-highlight .element-7 {
+  align-items: center;
+  display: inline-flex;
+  gap: 10px;
+  left: 360px;
+  position: absolute;
+  top: 0;
+}
+
+.billboard-highlight .div-5 {
+  color: #ffffff;
+  font-family: "Poppins", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0.80px;
+  line-height: normal;
+  margin-top: -1.00px;
+  position: relative;
+  width: fit-content;
+}
+
+.billboard-highlight .group-3 {
+  height: 72px;
+  position: relative;
+  width: 584px;
+}
+
+.billboard-highlight .text-wrapper-18 {
+  font-weight: 700;
+  letter-spacing: 0.13px;
+}
