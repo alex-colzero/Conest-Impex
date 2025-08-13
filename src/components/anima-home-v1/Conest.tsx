@@ -1,3 +1,5 @@
+"use client";
+
 import React from "react";
 import { BillboardHighlightSection } from "./BillboardHighlightSection/BillboardHighlightSection";
 import { BillboardHighlightWrapperSection } from "./BillboardHighlightWrapperSection/BillboardHighlightWrapperSection";

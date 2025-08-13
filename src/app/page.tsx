@@ -1,7 +1,5 @@
-'use client';
-
-import { Conest } from '@/components/anima-home-v1/Conest';
+import { FigmaComplete } from '@/components/FigmaComplete';
 
 export default function Home() {
-  return <Conest />;
+  return <FigmaComplete />;
 }
