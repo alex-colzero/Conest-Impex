@@ -4,7 +4,7 @@ import React from "react";
 
 export const FigmaComplete = () => {
   return (
-    <div style={{width: '100%', height: '100%', position: 'relative', background: '#FBFBFB', overflow: 'hidden'}}>
+    <div style={{width: '100%', minHeight: '100vh', position: 'relative', background: '#FBFBFB'}}>
       
       {/* Navigation */}
       <div style={{width: 1920, height: 155, paddingLeft: 250, paddingRight: 250, left: 0, top: 0, position: 'absolute', background: 'white', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 10, display: 'inline-flex'}}>
