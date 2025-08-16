@@ -1,17 +1,60 @@
-/* Conservative Mobile Responsive - Only changes container width */
+/* Proper Mobile Responsive - Transforms fixed layout to mobile-friendly */
 
-/* Only modify the main container to be flexible */
-@media (max-width: 1920px) {
+/* Base responsive foundation */
+.CONEST .div-12 {
+  width: 100vw !important;
+  min-width: 320px !important;
+}
+
+/* Mobile-first responsive scaling */
+@media (max-width: 768px) {
+  /* Scale down the entire container proportionally */
   .CONEST .div-12 {
-    width: 100vw !important;
-    min-width: 320px !important;
+    transform: scale(0.35) !important;
+    transform-origin: top left !important;
+    width: 285.7% !important; /* 100% / 0.35 = 285.7% */
+    height: auto !important;
+  }
+  
+  /* Adjust container height to prevent large white space */
+  .CONEST {
+    height: auto !important;
+    overflow-x: hidden !important;
   }
 }
 
-/* On very small screens, add small padding to prevent edge cut-off */
-@media (max-width: 768px) {
+/* Tablet responsive scaling */
+@media (min-width: 769px) and (max-width: 1024px) {
   .CONEST .div-12 {
-    padding: 0 10px !important;
-    box-sizing: border-box !important;
+    transform: scale(0.53) !important;
+    transform-origin: top left !important;
+    width: 188.7% !important; /* 100% / 0.53 = 188.7% */
+    height: auto !important;
+  }
+  
+  .CONEST {
+    overflow-x: hidden !important;
+  }
+}
+
+/* Small desktop responsive scaling */
+@media (min-width: 1025px) and (max-width: 1400px) {
+  .CONEST .div-12 {
+    transform: scale(0.75) !important;
+    transform-origin: top left !important;
+    width: 133.3% !important; /* 100% / 0.75 = 133.3% */
+    height: auto !important;
+  }
+  
+  .CONEST {
+    overflow-x: hidden !important;
+  }
+}
+
+/* Large screens - no scaling needed */
+@media (min-width: 1401px) {
+  .CONEST .div-12 {
+    transform: none !important;
+    width: 1920px !important;
   }
 }
