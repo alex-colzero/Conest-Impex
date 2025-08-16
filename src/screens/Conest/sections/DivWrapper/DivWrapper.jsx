@@ -9,12 +9,12 @@ export const DivWrapper = () => {
       <div className="para-wrapper">
         <div className="para-3">
           <div className="title-7">
-            <p className="text-wrapper-32">
+            <p className="text-wrapper-36">
               Siguranță și eficiență pentru casa ta
             </p>
           </div>
 
-          <p className="text-wrapper-33">
+          <p className="text-wrapper-37">
             Integram cele mai noi tehnologii pentru a vă transforma locuința
             într-un spațiu mai sigur și mai eficient energetic, cu sisteme smart
             home și protecție automată împotriva gazelor.
@@ -36,7 +36,7 @@ export const DivWrapper = () => {
                 Senzori gaze și electrovalve
               </div>
 
-              <p className="text-wrapper-34">
+              <p className="text-wrapper-38">
                 Montaj detectoare gaze naturale cu electrovalvă automată.
                 Siguranță completă pentru familia dvs.
               </p>
@@ -59,7 +59,7 @@ export const DivWrapper = () => {
                 Modernizare și Smart-Home
               </div>
 
-              <p className="text-wrapper-34">
+              <p className="text-wrapper-38">
                 Modernizarea instalațiilor existente și integrarea cu sisteme
                 smart home. Eficiență energetică maximă.
               </p>

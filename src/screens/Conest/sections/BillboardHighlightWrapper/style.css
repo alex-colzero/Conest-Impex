@@ -5,7 +5,7 @@
   gap: 99px;
   justify-content: center;
   left: 0;
-  padding: 91px 250px;
+  padding: 100px 250px;
   position: absolute;
   top: 4900px;
 }
@@ -105,12 +105,12 @@
   width: 218px;
 }
 
-.billboard-highlight-wrapper .text-wrapper-30 {
+.billboard-highlight-wrapper .text-wrapper-34 {
   font-weight: 700;
   letter-spacing: 0.13px;
 }
 
-.billboard-highlight-wrapper .text-wrapper-31 {
+.billboard-highlight-wrapper .text-wrapper-35 {
   letter-spacing: 0.13px;
 }
 

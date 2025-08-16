@@ -1,20 +1,18 @@
 .feature-cards {
   align-items: center;
   background-color: #ffffff;
-  border: 1px solid;
-  border-color: #05213c;
   border-radius: 40px;
   display: flex;
   flex-direction: column;
   gap: 20px;
   height: 800px;
   justify-content: center;
-  padding: 80px 40px 60px;
+  padding: 40px;
   position: relative;
   width: 580px;
 }
 
-.feature-cards .text-wrapper-41 {
+.feature-cards .text-wrapper-45 {
   color: #05213c;
   font-family: "Poppins", Helvetica;
   font-size: 38px;
@@ -22,7 +20,6 @@
   height: 80px;
   letter-spacing: 0;
   line-height: 49.4px;
-  margin-top: -16.00px;
   position: relative;
   text-align: center;
   width: 390px;
@@ -33,6 +30,12 @@
   margin-right: -2.00px;
   position: relative;
   width: 502px;
+}
+
+.feature-cards .overlap-group-2 {
+  height: 95px;
+  position: relative;
+  width: 500px;
 }
 
 .feature-cards .frame-6 {
@@ -51,7 +54,7 @@
   width: 500px;
 }
 
-.feature-cards .text-wrapper-42 {
+.feature-cards .text-wrapper-46 {
   color: #05213c80;
   font-family: "Poppins", Helvetica;
   font-size: 16px;
@@ -65,7 +68,7 @@
   width: 460px;
 }
 
-.feature-cards .text-wrapper-43 {
+.feature-cards .text-wrapper-47 {
   color: #05213c;
   font-family: "Poppins", Helvetica;
   font-size: 16px;
@@ -75,7 +78,6 @@
   line-height: 20.8px;
   position: absolute;
   top: 0;
-  white-space: nowrap;
   width: 500px;
 }
 
@@ -95,7 +97,7 @@
   width: 500px;
 }
 
-.feature-cards .text-wrapper-44 {
+.feature-cards .text-wrapper-48 {
   align-self: stretch;
   color: #05213c80;
   font-family: "Poppins", Helvetica;
@@ -120,7 +122,7 @@
   width: 100%;
 }
 
-.feature-cards .text-wrapper-45 {
+.feature-cards .text-wrapper-49 {
   color: #05213c80;
   font-family: "Poppins", Helvetica;
   font-size: 16px;
@@ -172,7 +174,7 @@
   width: 500px;
 }
 
-.feature-cards .text-wrapper-46 {
+.feature-cards .text-wrapper-50 {
   align-self: stretch;
   color: #05213c80;
   font-family: "Poppins", Helvetica;
@@ -194,14 +196,13 @@
   display: flex;
   flex: 0 0 auto;
   justify-content: center;
-  margin-bottom: -15.00px;
   overflow: hidden;
   padding: 18px 36px;
   position: relative;
   width: 100%;
 }
 
-.feature-cards .text-wrapper-47 {
+.feature-cards .text-wrapper-51 {
   color: #05213c;
   font-family: "Poppins", Helvetica;
   font-size: 16px;

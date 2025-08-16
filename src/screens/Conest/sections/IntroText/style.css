@@ -5,8 +5,9 @@
   flex-direction: column;
   gap: 10px;
   left: 250px;
+  padding: 200px 0px;
   position: absolute;
-  top: 6083px;
+  top: 5900px;
   width: 1420px;
 }
 
@@ -22,10 +23,11 @@
   width: 100%;
 }
 
-.intro-text .tag-5 {
+.intro-text .tag-6 {
   align-items: center;
+  background-color: #ffffff;
   border: 1px solid;
-  border-color: #05213c33;
+  border-color: #05213c66;
   border-radius: 10px;
   display: flex;
   gap: 10px;
@@ -37,7 +39,7 @@
   width: 184px;
 }
 
-.intro-text .text-wrapper-27 {
+.intro-text .text-wrapper-31 {
   color: #303030;
   font-family: "Poppins", Helvetica;
   font-size: 18px;
@@ -68,7 +70,7 @@
   width: 1420px;
 }
 
-.intro-text .text-wrapper-28 {
+.intro-text .text-wrapper-32 {
   color: #303030;
   font-family: "Poppins", Helvetica;
   font-size: 64px;
@@ -92,7 +94,7 @@
   width: 1420px;
 }
 
-.intro-text .text-wrapper-29 {
+.intro-text .text-wrapper-33 {
   color: #5a5a5a;
   font-family: "Poppins", Helvetica;
   font-size: 30px;

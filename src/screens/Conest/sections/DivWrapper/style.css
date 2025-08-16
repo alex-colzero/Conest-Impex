@@ -3,12 +3,13 @@
   display: flex;
   flex-direction: column;
   gap: 100px;
-  height: 978px;
+  height: 1006px;
   justify-content: center;
   left: 0;
+  padding: 200px 0px;
   position: absolute;
-  top: 1269px;
-  width: 2065px;
+  top: 3894px;
+  width: 1920px;
 }
 
 .div-wrapper .para-wrapper {
@@ -18,6 +19,7 @@
   flex-direction: column;
   gap: 28px;
   justify-content: center;
+  margin-top: -28.50px;
   position: relative;
 }
 
@@ -43,7 +45,7 @@
   width: 1420px;
 }
 
-.div-wrapper .text-wrapper-32 {
+.div-wrapper .text-wrapper-36 {
   color: #303030;
   font-family: "Poppins", Helvetica;
   font-size: 64px;
@@ -56,7 +58,7 @@
   width: 1290px;
 }
 
-.div-wrapper .text-wrapper-33 {
+.div-wrapper .text-wrapper-37 {
   color: #5a5a5a;
   font-family: "Poppins", Helvetica;
   font-size: 38px;
@@ -69,18 +71,18 @@
 }
 
 .div-wrapper .cards-2 {
-  align-items: flex-start;
+  align-items: center;
   display: inline-flex;
   flex: 0 0 auto;
   gap: 20px;
+  justify-content: center;
+  margin-bottom: -28.50px;
   position: relative;
 }
 
 .div-wrapper .feature-cards-wide {
   align-items: center;
   background-color: #ffffff;
-  border: 1px solid;
-  border-color: #05213c;
   border-radius: 40px;
   display: flex;
   flex-direction: column;
@@ -155,7 +157,7 @@
   width: fit-content;
 }
 
-.div-wrapper .text-wrapper-34 {
+.div-wrapper .text-wrapper-38 {
   align-self: stretch;
   color: #05213c;
   font-family: "Poppins", Helvetica;

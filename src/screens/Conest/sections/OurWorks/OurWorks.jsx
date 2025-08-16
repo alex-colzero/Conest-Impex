@@ -9,23 +9,23 @@ export const OurWorks = () => {
       <div className="testimonials">
         <div className="title-reviews">
           <div className="title-4">
-            <div className="tag-3">
-              <div className="text-wrapper-22">Păreri</div>
+            <div className="tag-4">
+              <div className="text-wrapper-23">Păreri</div>
             </div>
 
-            <div className="text-wrapper-23">
+            <div className="text-wrapper-24">
               Aprecierile clienților ne onorează.
             </div>
           </div>
 
           <div className="reviews">
             <div className="review">
-              <p className="text-wrapper-24">
+              <p className="text-wrapper-25">
                 Oameni prompți și profesioniști, prețuri echitabile
               </p>
 
               <div className="name-reviews">
-                <div className="text-wrapper-25">Vali Enache</div>
+                <div className="text-wrapper-26">Vali Enache</div>
 
                 <img
                   className="reviews-2"
@@ -36,10 +36,10 @@ export const OurWorks = () => {
             </div>
 
             <div className="review">
-              <div className="text-wrapper-24">Totul perfect.Multumim</div>
+              <div className="text-wrapper-25">Totul perfect.Multumim</div>
 
               <div className="name-reviews">
-                <div className="text-wrapper-25">Cristina Pavel</div>
+                <div className="text-wrapper-26">Cristina Pavel</div>
 
                 <img
                   className="reviews-2"
@@ -50,10 +50,10 @@ export const OurWorks = () => {
             </div>
 
             <div className="review">
-              <div className="text-wrapper-24">Super profi.</div>
+              <div className="text-wrapper-25">Super profi.</div>
 
               <div className="name-reviews">
-                <div className="text-wrapper-25">Otilia Susnea</div>
+                <div className="text-wrapper-26">Otilia Susnea</div>
 
                 <img
                   className="reviews-2"
@@ -77,11 +77,11 @@ export const OurWorks = () => {
       <div className="projects-slider">
         <div className="title-wrapper">
           <div className="title-5">
-            <div className="tag-4">
-              <div className="text-wrapper-22">Galerie</div>
+            <div className="tag-5">
+              <div className="text-wrapper-27">Galerie</div>
             </div>
 
-            <div className="text-wrapper-26">Ultimele noastre lucrări</div>
+            <div className="text-wrapper-28">Ultimele noastre lucrări</div>
           </div>
         </div>
 

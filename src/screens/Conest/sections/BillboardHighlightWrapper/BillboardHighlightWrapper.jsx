@@ -34,12 +34,12 @@ export const BillboardHighlightWrapper = () => {
               <div className="element-8">
                 <Check4 className="check-4" color="#F2B821" />
                 <p className="autoriza-ii-complete">
-                  <span className="text-wrapper-30">
+                  <span className="text-wrapper-34">
                     Autorizații complete
                     <br />
                   </span>
 
-                  <span className="text-wrapper-31">
+                  <span className="text-wrapper-35">
                     ANRE și ISCIR (RVT și RSL)
                     <br />
                   </span>
@@ -49,12 +49,12 @@ export const BillboardHighlightWrapper = () => {
               <div className="element-9">
                 <Check4 className="check-4" color="#F2B821" />
                 <p className="div-10">
-                  <span className="text-wrapper-30">
+                  <span className="text-wrapper-34">
                     Experiență vastă
                     <br />
                   </span>
 
-                  <span className="text-wrapper-31">
+                  <span className="text-wrapper-35">
                     Peste 27 de ani pe piață
                   </span>
                 </p>
@@ -65,24 +65,24 @@ export const BillboardHighlightWrapper = () => {
               <div className="element-8">
                 <Check4 className="check-4" color="#F2B821" />
                 <p className="div-10">
-                  <span className="text-wrapper-30">
+                  <span className="text-wrapper-34">
                     Siguranță garantată
                     <br />
                   </span>
 
-                  <span className="text-wrapper-31">Standarde europene</span>
+                  <span className="text-wrapper-35">Standarde europene</span>
                 </p>
               </div>
 
               <div className="element-9">
                 <Check4 className="check-4" color="#F2B821" />
                 <p className="div-10">
-                  <span className="text-wrapper-30">
+                  <span className="text-wrapper-34">
                     Reduceri speciale
                     <br />
                   </span>
 
-                  <span className="text-wrapper-31">-25% pensionari</span>
+                  <span className="text-wrapper-35">-25% pensionari</span>
                 </p>
               </div>
             </div>

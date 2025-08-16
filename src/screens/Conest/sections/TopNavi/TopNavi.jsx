@@ -11,9 +11,8 @@ export const TopNavi = () => {
         <div className="logo">
           <ConestLogoFull
             className="conest-logo-full-2"
-            conest="/img/conest2-2.svg"
-            conest1="/img/conest4-2.svg"
-            img="/img/conest3-2.svg"
+            flamedrop="/img/flamedrop-2.svg"
+            overlapGroupClassName="conest-logo-full-3"
           />
         </div>
 
@@ -21,19 +20,19 @@ export const TopNavi = () => {
           <div className="nav-right">
             <div className="right">
               <div className="div-wrapper-2">
-                <div className="text-wrapper-40">Servicii</div>
+                <div className="text-wrapper-44">Servicii</div>
               </div>
 
               <div className="div-wrapper-2">
-                <div className="text-wrapper-40">Despre Noi</div>
+                <div className="text-wrapper-44">Despre Noi</div>
               </div>
 
               <div className="div-wrapper-2">
-                <div className="text-wrapper-40">Zone Deservite</div>
+                <div className="text-wrapper-44">Zone Deservite</div>
               </div>
 
               <div className="div-wrapper-2">
-                <div className="text-wrapper-40">Contact</div>
+                <div className="text-wrapper-44">Contact</div>
               </div>
 
               <button className="btn-wrapper">

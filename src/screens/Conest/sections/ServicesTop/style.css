@@ -2,32 +2,30 @@
   align-items: flex-start;
   display: inline-flex;
   gap: 20px;
-  height: 501px;
+  height: 600px;
   justify-content: center;
   left: 250px;
-  padding: 1px 0px;
+  padding: 0px 0px 400px;
   position: absolute;
-  top: 1958px;
+  top: 1913px;
 }
 
 .services-top .feature-cards-3 {
   align-items: center;
   background-color: #ffffff;
-  border: 1px solid;
-  border-color: #05213c;
   border-radius: 40px;
   display: flex;
   flex-direction: column;
   gap: 40px;
   height: 500px;
   justify-content: center;
-  margin-bottom: -1.00px;
+  margin-bottom: -300.00px;
   padding: 40px;
   position: relative;
   width: 460px;
 }
 
-.services-top .img-wrapper {
+.services-top .frame-icon-3 {
   align-items: center;
   aspect-ratio: 1;
   background-color: #05213c1a;
@@ -71,7 +69,7 @@
   width: fit-content;
 }
 
-.services-top .text-wrapper-35 {
+.services-top .text-wrapper-39 {
   color: #05213c;
   font-family: "Poppins", Helvetica;
   font-size: 16px;

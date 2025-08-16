@@ -7,65 +7,133 @@ import "./style.css";
 export const ServicesWrapper = () => {
   return (
     <div className="services-wrapper">
-      <FeatureCardsImage
-        className="feature-cards-image-instance"
-        frameIconClassName="design-component-instance-node"
-        modernAutonomous="/img/acoperire-primara-constanta.png"
-      />
-      <FeatureCardsImage
-        className="feature-cards-image-instance"
-        frameIconClassName="design-component-instance-node"
-        modernAutonomous="/img/regiunea-dobrogea.png"
-        text="Regiunea Dobrogea"
-        text1="Năvodari "
-        text2={
-          <>
-            - Case și vilet
-            <br />
-            <br />
-          </>
-        }
-        text3="Medgidia "
-        text4="- Service centrale"
-        text5="Mangalia "
-        text6={
-          <>
-            - Instalații sezonale
-            <br />
-            <br />
-          </>
-        }
-        text7="Eforie"
-        text8=" - Hoteluri"
-      />
-      <FeatureCardsImage
-        className="feature-cards-image-instance"
-        frameIconClassName="design-component-instance-node"
-        modernAutonomous="/img/proiecte-nationale.png"
-        text="Proiecte Naționale"
-        text1="București "
-        text2={
-          <>
-            {" "}
-            - Proiecte mari
-            <br />
-            <br />
-          </>
-        }
-        text3="Cluj-Napoca"
-        text4=" - Dezvoltatori"
-        text5="Iași"
-        text6={
-          <>
-            {" "}
-            - Modernizări
-            <br />
-            <br />
-          </>
-        }
-        text7="Alte județe "
-        text8="- La cerere"
-      />
+      <FeatureCardsImage modernAutonomous="/img/acoperire-primara-constanta.png" />
+      <div className="feature-cards-image-2">
+        <div className="img-wrapper">
+          <img
+            className="img-4"
+            alt="Regiunea dobrogea"
+            src="/img/regiunea-dobrogea.png"
+          />
+        </div>
+
+        <div className="text-box">
+          <div className="constan-a-acoperire">Regiunea Dobrogea</div>
+
+          <div className="rectangle" />
+
+          <div className="subtext">
+            <p className="mamaia-propriet-i">
+              <span className="text-wrapper-29">
+                Năvodari
+                <br />
+              </span>
+
+              <span className="text-wrapper-30">
+                Case și vilet
+                <br />
+              </span>
+
+              <span className="text-wrapper-29">
+                <br />
+                Medgidia
+                <br />
+              </span>
+
+              <span className="text-wrapper-30">
+                Service centrale
+                <br />
+                <br />
+              </span>
+
+              <span className="text-wrapper-29">
+                Mangalia
+                <br />
+              </span>
+
+              <span className="text-wrapper-30">
+                Instalații sezonale
+                <br />
+                <br />
+              </span>
+
+              <span className="text-wrapper-29">
+                Eforie
+                <br />
+              </span>
+
+              <span className="text-wrapper-30">
+                Hoteluri
+                <br />
+                <br />
+              </span>
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div className="feature-cards-image-2">
+        <div className="img-wrapper">
+          <img
+            className="img-4"
+            alt="Proiecte nationale"
+            src="/img/proiecte-nationale.png"
+          />
+        </div>
+
+        <div className="text-box">
+          <div className="constan-a-acoperire">Proiecte Naționale</div>
+
+          <div className="rectangle" />
+
+          <div className="subtext">
+            <p className="mamaia-propriet-i">
+              <span className="text-wrapper-29">
+                București
+                <br />
+              </span>
+
+              <span className="text-wrapper-30">
+                Proiecte mari
+                <br />
+                <br />
+              </span>
+
+              <span className="text-wrapper-29">
+                Cluj-Napoca
+                <br />
+              </span>
+
+              <span className="text-wrapper-30">
+                Dezvoltatori
+                <br />
+                <br />
+              </span>
+
+              <span className="text-wrapper-29">
+                Iași
+                <br />
+              </span>
+
+              <span className="text-wrapper-30">
+                Modernizări
+                <br />
+                <br />
+              </span>
+
+              <span className="text-wrapper-29">
+                Alte județe
+                <br />
+              </span>
+
+              <span className="text-wrapper-30">
+                La cerere
+                <br />
+              </span>
+            </p>
+          </div>
+        </div>
+      </div>
     </div>
   );
 };

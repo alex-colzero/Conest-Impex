@@ -1,5 +1,5 @@
 .billboard {
-  height: 766px;
+  height: 708px;
   left: 0;
   position: absolute;
   top: 155px;
@@ -19,7 +19,7 @@
   gap: 61px;
   left: 250px;
   position: relative;
-  top: 159px;
+  top: 214px;
 }
 
 .billboard .text-11 {
@@ -40,8 +40,8 @@
   position: relative;
 }
 
-.billboard .instala-ii-gaze-i {
-  color: #ffffff;
+.billboard .instala-ii-gaze-i-2 {
+  color: #05213c;
   font-family: "Poppins", Helvetica;
   font-size: 56px;
   font-weight: 600;
@@ -53,7 +53,7 @@
 }
 
 .billboard .autoriza-i-ANRE {
-  color: #ffffff;
+  color: #05213c;
   font-family: "Poppins", Helvetica;
   font-size: 30px;
   font-weight: 400;
@@ -86,8 +86,8 @@
   width: 19px !important;
 }
 
-.billboard .text-wrapper-38 {
-  color: #ffffff;
+.billboard .text-wrapper-42 {
+  color: #05213c;
   font-family: "Poppins", Helvetica;
   font-size: 16px;
   font-weight: 500;
@@ -101,8 +101,7 @@
 .billboard .btn-3 {
   all: unset;
   align-items: center;
-  border: 1px solid;
-  border-color: #f2b721;
+  background-color: #05213c;
   border-radius: 10px;
   box-sizing: border-box;
   display: inline-flex;
@@ -115,32 +114,15 @@
 }
 
 .billboard .icon-6 {
-  height: 24px;
-  overflow: hidden;
+  background-image: url(/img/icon-9.png);
+  background-size: 100% 100%;
+  height: 23.98px;
   position: relative;
-  width: 24px;
+  width: 23.98px;
 }
 
-.billboard .checklist-wrapper {
-  height: 25px;
-}
-
-.billboard .checklist {
-  height: 25px;
-  position: relative;
-  width: 24px;
-}
-
-.billboard .icon-7 {
-  height: 24px;
-  left: 0;
-  position: absolute;
-  top: 0;
-  width: 24px;
-}
-
-.billboard .text-wrapper-39 {
-  color: #f2b721;
+.billboard .text-wrapper-43 {
+  color: #ffffff;
   font-family: "Poppins", Helvetica;
   font-size: 16px;
   font-weight: 600;
@@ -167,7 +149,7 @@
   position: relative;
 }
 
-.billboard .icon-8 {
+.billboard .icon-7 {
   background-image: url(/img/phoneicon-1.svg);
   background-size: 100% 100%;
   height: 23.99px;

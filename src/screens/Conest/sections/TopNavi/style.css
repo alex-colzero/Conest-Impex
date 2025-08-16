@@ -31,6 +31,10 @@
   width: unset !important;
 }
 
+.top-navi .conest-logo-full-3 {
+  background-image: url(/img/wordmark-2.svg) !important;
+}
+
 .top-navi .menu {
   align-items: center;
   display: inline-flex;
@@ -64,7 +68,7 @@
   position: relative;
 }
 
-.top-navi .text-wrapper-40 {
+.top-navi .text-wrapper-44 {
   color: #05213c;
   font-family: "Poppins", Helvetica;
   font-size: 22px;

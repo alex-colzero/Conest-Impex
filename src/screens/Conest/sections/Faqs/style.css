@@ -5,15 +5,17 @@
   flex-direction: column;
   gap: 40px;
   left: 250px;
+  padding: 200px 0px;
   position: absolute;
-  top: 11532px;
+  top: 12052px;
   width: 1420px;
 }
 
 .faqs .tag-2 {
   align-items: center;
+  background-color: #ffffff;
   border: 1px solid;
-  border-color: #05213c33;
+  border-color: #05213c66;
   border-radius: 10px;
   display: flex;
   gap: 10px;
@@ -37,7 +39,7 @@
 }
 
 .faqs .title-2 {
-  align-items: flex-start;
+  align-items: center;
   display: inline-flex;
   flex: 0 0 auto;
   flex-direction: column;
@@ -59,12 +61,13 @@
 }
 
 .faqs .dropdowns {
-  align-items: flex-start;
+  align-items: center;
   align-self: stretch;
   border-radius: 40px;
   display: flex;
   flex: 0 0 auto;
   flex-direction: column;
+  justify-content: center;
   position: relative;
   width: 100%;
 }

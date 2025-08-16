@@ -12,28 +12,30 @@ import "./style.css";
 export const FeatureCards = ({ vector = "/img/vector.svg" }) => {
   return (
     <div className="feature-cards">
-      <div className="text-wrapper-41">Solicitare Ofertă</div>
+      <div className="text-wrapper-45">Solicitare Ofertă</div>
 
       <div className="type-field">
-        <div className="frame-6">
-          <div className="text-wrapper-42">Numele dvs. complet</div>
-        </div>
+        <div className="overlap-group-2">
+          <div className="frame-6">
+            <div className="text-wrapper-46">Numele dvs. complet</div>
+          </div>
 
-        <div className="text-wrapper-43">Nume Complet *</div>
+          <div className="text-wrapper-47">Nume Complet *</div>
+        </div>
       </div>
 
       <div className="type-field">
         <div className="frame-7">
-          <div className="text-wrapper-44">0xxx-xxx-xxx</div>
+          <div className="text-wrapper-48">0xxx-xxx-xxx</div>
         </div>
 
-        <div className="text-wrapper-43">Telefon *</div>
+        <div className="text-wrapper-47">Telefon *</div>
       </div>
 
       <div className="type-field">
         <div className="frame-7">
           <div className="frame-8">
-            <div className="text-wrapper-45">Instaltie gaze</div>
+            <div className="text-wrapper-49">Instaltie gaze</div>
 
             <div className="arrow-down">
               <img className="vector-8" alt="Vector" src={vector} />
@@ -41,21 +43,21 @@ export const FeatureCards = ({ vector = "/img/vector.svg" }) => {
           </div>
         </div>
 
-        <div className="text-wrapper-43">Tipul Serviciului</div>
+        <div className="text-wrapper-47">Tipul Serviciului</div>
       </div>
 
       <div className="type-field-2">
         <div className="frame-9">
-          <p className="text-wrapper-46">
+          <p className="text-wrapper-50">
             Descrieți pe scurt proiectul dvs ...
           </p>
         </div>
 
-        <div className="text-wrapper-43">Descrierea Proiectului</div>
+        <div className="text-wrapper-47">Descrierea Proiectului</div>
       </div>
 
       <div className="btn-6">
-        <p className="text-wrapper-47">
+        <p className="text-wrapper-51">
           Trimite Solicitarea - Răspuns în 30 minute
         </p>
       </div>

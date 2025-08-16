@@ -11,7 +11,7 @@ export const Billboard = () => {
         <div className="content-3">
           <div className="text-11">
             <div className="text-12">
-              <p className="instala-ii-gaze-i">
+              <p className="instala-ii-gaze-i-2">
                 Instalații gaze și centrale
                 <br />
                 termice constanța
@@ -25,36 +25,30 @@ export const Billboard = () => {
             <div className="div-11">
               <div className="element-10">
                 <Check4 className="check-11" color="#F2B821" />
-                <div className="text-wrapper-38">Autorizat Anre</div>
+                <div className="text-wrapper-42">Autorizat Anre</div>
               </div>
 
               <div className="element-10">
                 <Check4 className="check-11" color="#F2B821" />
-                <div className="text-wrapper-38">Certificat Iscir</div>
+                <div className="text-wrapper-42">Certificat Iscir</div>
               </div>
 
               <div className="element-10">
                 <Check4 className="check-11" color="#F2B821" />
-                <div className="text-wrapper-38">Garanție 2 Ani</div>
+                <div className="text-wrapper-42">Garanție 2 Ani</div>
               </div>
             </div>
           </div>
 
           <div className="div-11">
             <button className="btn-3">
-              <div className="icon-6">
-                <div className="checklist-wrapper">
-                  <div className="checklist">
-                    <img className="icon-7" alt="Icon" src="/img/icon-9.png" />
-                  </div>
-                </div>
-              </div>
+              <div className="icon-6" />
 
-              <div className="text-wrapper-39">Cere Ofertă</div>
+              <div className="text-wrapper-43">Cere Ofertă</div>
             </button>
 
             <button className="btn-4">
-              <div className="icon-8" />
+              <div className="icon-7" />
 
               <div className="element-xxx-xxx">0758 XXX XXX</div>
             </button>

@@ -5,8 +5,9 @@
   gap: 40px;
   justify-content: center;
   left: 250px;
+  padding: 100px 0px;
   position: absolute;
-  top: 12458px;
+  top: 13261px;
 }
 
 .blogs .top {
@@ -31,8 +32,9 @@
 
 .blogs .tag {
   align-items: center;
+  background-color: #ffffff;
   border: 1px solid;
-  border-color: #05213c33;
+  border-color: #05213c66;
   border-radius: 10px;
   display: flex;
   gap: 10px;
@@ -72,6 +74,7 @@
   display: inline-flex;
   flex: 0 0 auto;
   gap: 20px;
+  justify-content: center;
   position: relative;
 }
 

@@ -3,10 +3,12 @@
   display: inline-flex;
   flex-direction: column;
   gap: 200px;
-  height: 671px;
+  height: 1768px;
+  justify-content: center;
   left: 0;
+  padding: 200px 0px;
   position: absolute;
-  top: 7256px;
+  top: 7825px;
 }
 
 .our-works .testimonials {
@@ -15,6 +17,7 @@
   flex: 0 0 auto;
   flex-direction: column;
   gap: 80px;
+  margin-top: -144.00px;
   position: relative;
   width: 1420px;
 }
@@ -41,10 +44,11 @@
   position: relative;
 }
 
-.our-works .tag-3 {
+.our-works .tag-4 {
   align-items: center;
+  background-color: #ffffff;
   border: 1px solid;
-  border-color: #05213c33;
+  border-color: #05213c66;
   border-radius: 10px;
   display: flex;
   gap: 10px;
@@ -56,7 +60,7 @@
   width: 130px;
 }
 
-.our-works .text-wrapper-22 {
+.our-works .text-wrapper-23 {
   color: #303030;
   font-family: "Poppins", Helvetica;
   font-size: 18px;
@@ -67,7 +71,7 @@
   width: fit-content;
 }
 
-.our-works .text-wrapper-23 {
+.our-works .text-wrapper-24 {
   color: #05213c;
   font-family: "Poppins", Helvetica;
   font-size: 64px;
@@ -99,7 +103,7 @@
   position: relative;
 }
 
-.our-works .text-wrapper-24 {
+.our-works .text-wrapper-25 {
   align-self: stretch;
   color: #5a5a5a;
   font-family: "Poppins", Helvetica;
@@ -120,7 +124,7 @@
   position: relative;
 }
 
-.our-works .text-wrapper-25 {
+.our-works .text-wrapper-26 {
   color: #05213c;
   font-family: "Poppins", Helvetica;
   font-size: 26px;
@@ -171,7 +175,7 @@
   flex-direction: column;
   gap: 80px;
   justify-content: center;
-  margin-bottom: -985.00px;
+  margin-bottom: -144.00px;
   position: relative;
 }
 
@@ -195,10 +199,11 @@
   position: relative;
 }
 
-.our-works .tag-4 {
+.our-works .tag-5 {
   align-items: center;
+  background-color: #ffffff;
   border: 1px solid;
-  border-color: #05213c33;
+  border-color: #05213c66;
   border-radius: 10px;
   display: flex;
   gap: 10px;
@@ -210,7 +215,18 @@
   width: 146px;
 }
 
-.our-works .text-wrapper-26 {
+.our-works .text-wrapper-27 {
+  color: #05213c;
+  font-family: "Poppins", Helvetica;
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: 1.80px;
+  line-height: normal;
+  position: relative;
+  width: fit-content;
+}
+
+.our-works .text-wrapper-28 {
   color: #303030;
   font-family: "Poppins", Helvetica;
   font-size: 64px;

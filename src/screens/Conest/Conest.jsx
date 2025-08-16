@@ -15,28 +15,14 @@ import { Services } from "./sections/Services";
 import { ServicesImportant } from "./sections/ServicesImportant";
 import { ServicesTop } from "./sections/ServicesTop";
 import { ServicesWrapper } from "./sections/ServicesWrapper";
-import { TopNaviResponsive } from "./sections/TopNavi/TopNavi-responsive";
+import { TopNavi } from "./sections/TopNavi";
 import "./style.css";
-import "./responsive-foundation.css";
 
 export const Conest = () => {
   return (
     <div className="CONEST" data-model-id="33:112">
-      <div className="div-13">
-        <div className="overlap-2">
-          <div className="bottom">
-            <p className="element-CON-EST-IMPEX">
-              © 2024 CON EST IMPEX SRL. Toate drepturile rezervate. | Instalații
-              Gaze &amp; Centrale Termice Constanța din 1996
-              <br />
-              Autorizat ANRE • Certificat ISCIR (RVT și RSL) • Conform
-              standardelor europene
-            </p>
-          </div>
-
-          <Footer />
-        </div>
-
+      <div className="div-12">
+        <Footer />
         <Blogs />
         <Faqs />
         <BillboardHighlight />
@@ -45,16 +31,13 @@ export const Conest = () => {
         <ServicesWrapper />
         <IntroText />
         <BillboardHighlightWrapper />
-        <div className="overlap-3">
-          <DivWrapper />
-          <ServicesImportant />
-        </div>
-
+        <DivWrapper />
+        <ServicesImportant />
         <ServicesTop />
         <HeroTextWrapper />
         <div className="brand-logos">
-          <div className="tag-7">
-            <p className="text-wrapper-54">
+          <div className="tag-8">
+            <p className="text-wrapper-60">
               Montaj și service autorizat pentru brandurile de top din domeniu
             </p>
           </div>
@@ -67,7 +50,7 @@ export const Conest = () => {
         </div>
 
         <Billboard />
-        <TopNaviResponsive />
+        <TopNavi />
       </div>
     </div>
   );

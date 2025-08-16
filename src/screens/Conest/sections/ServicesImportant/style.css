@@ -1,27 +1,31 @@
 .services-important {
   align-items: center;
-  display: inline-flex;
+  display: flex;
   flex-direction: column;
-  height: 2101px;
-  left: 73px;
+  height: 1241px;
+  justify-content: center;
+  left: 0;
+  padding: 200px 0px;
   position: absolute;
-  top: 0;
+  top: 2653px;
+  width: 1920px;
 }
 
-.services-important .call-to-action-box {
-  background-image: url(/img/image.svg);
+.services-important .image-3 {
+  background-color: #ffffff;
+  background-image: url(/img/image.png);
   background-position: 50% 50%;
   background-size: cover;
   height: 1241px;
-  position: relative;
+  left: 0;
+  position: absolute;
+  top: 0;
   width: 1920px;
 }
 
 .services-important .card-important {
   height: 632px;
-  left: 672px;
   position: relative;
-  top: 305px;
   width: 576px;
 }
 

@@ -7,8 +7,8 @@ export const HeroTextWrapper = () => {
   return (
     <div className="hero-text-wrapper">
       <div className="hero-text-2">
-        <div className="tag-6">
-          <div className="text-wrapper-36">ANRE și ISCIR</div>
+        <div className="tag-7">
+          <div className="text-wrapper-40">ANRE și ISCIR</div>
         </div>
 
         <div className="text-10">
@@ -20,7 +20,7 @@ export const HeroTextWrapper = () => {
           </div>
 
           <div className="para-4">
-            <p className="text-wrapper-37">
+            <p className="text-wrapper-41">
               Cu o experiență de peste 27 de ani, oferim servicii complete
               autorizate ANRE și ISCIR pentru toate nevoile dvs. de încălzire și
               instalații gaze.
