@@ -17,6 +17,7 @@ import { ServicesTop } from "./sections/ServicesTop";
 import { ServicesWrapper } from "./sections/ServicesWrapper";
 import { TopNavi } from "./sections/TopNavi";
 import "./style.css";
+import "./mobile-responsive.css";
 
 export const Conest = () => {
   return (

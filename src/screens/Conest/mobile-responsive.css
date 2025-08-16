@@ -1,0 +1,17 @@
+/* Conservative Mobile Responsive - Only changes container width */
+
+/* Only modify the main container to be flexible */
+@media (max-width: 1920px) {
+  .CONEST .div-12 {
+    width: 100vw !important;
+    min-width: 320px !important;
+  }
+}
+
+/* On very small screens, add small padding to prevent edge cut-off */
+@media (max-width: 768px) {
+  .CONEST .div-12 {
+    padding: 0 10px !important;
+    box-sizing: border-box !important;
+  }
+}
