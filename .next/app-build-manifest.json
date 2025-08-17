@@ -1,33 +1,22 @@
 {
   "pages": {
     "/_not-found/page": [
-      "static/chunks/webpack-852fd2563a5bddff.js",
+      "static/chunks/webpack-5a12b4b719c62e72.js",
       "static/chunks/4bd1b696-2385f465b218746f.js",
       "static/chunks/964-816cb07c2324a35a.js",
       "static/chunks/main-app-d23674d673c40733.js",
       "static/chunks/app/_not-found/page-5aff3245c10d1f1d.js"
     ],
     "/layout": [
-      "static/chunks/webpack-852fd2563a5bddff.js",
+      "static/chunks/webpack-5a12b4b719c62e72.js",
       "static/chunks/4bd1b696-2385f465b218746f.js",
       "static/chunks/964-816cb07c2324a35a.js",
       "static/chunks/main-app-d23674d673c40733.js",
       "static/css/5c92db5bff831fb9.css",
       "static/chunks/app/layout-77b85072ef4b0da7.js"
     ],
-    "/revizie/page": [
-      "static/chunks/webpack-852fd2563a5bddff.js",
-      "static/chunks/4bd1b696-2385f465b218746f.js",
-      "static/chunks/964-816cb07c2324a35a.js",
-      "static/chunks/main-app-d23674d673c40733.js",
-      "static/css/d84cfde47515842b.css",
-      "static/css/aedd996a67a48f16.css",
-      "static/css/fc615314b3021b4e.css",
-      "static/chunks/498-c9bfd1967d9e5389.js",
-      "static/chunks/app/revizie/page-c7a6dd0960448c29.js"
-    ],
     "/servicii/page": [
-      "static/chunks/webpack-852fd2563a5bddff.js",
+      "static/chunks/webpack-5a12b4b719c62e72.js",
       "static/chunks/4bd1b696-2385f465b218746f.js",
       "static/chunks/964-816cb07c2324a35a.js",
       "static/chunks/main-app-d23674d673c40733.js",
@@ -39,7 +28,7 @@
       "static/chunks/app/servicii/page-3864ecb717477879.js"
     ],
     "/page": [
-      "static/chunks/webpack-852fd2563a5bddff.js",
+      "static/chunks/webpack-5a12b4b719c62e72.js",
       "static/chunks/4bd1b696-2385f465b218746f.js",
       "static/chunks/964-816cb07c2324a35a.js",
       "static/chunks/main-app-d23674d673c40733.js",
@@ -50,6 +39,17 @@
       "static/css/adc8bae522ab1454.css",
       "static/chunks/498-c9bfd1967d9e5389.js",
       "static/chunks/app/page-33d2704d02743b92.js"
+    ],
+    "/revizie/page": [
+      "static/chunks/webpack-5a12b4b719c62e72.js",
+      "static/chunks/4bd1b696-2385f465b218746f.js",
+      "static/chunks/964-816cb07c2324a35a.js",
+      "static/chunks/main-app-d23674d673c40733.js",
+      "static/css/d84cfde47515842b.css",
+      "static/css/aedd996a67a48f16.css",
+      "static/css/d73adffc74a84395.css",
+      "static/chunks/498-c9bfd1967d9e5389.js",
+      "static/chunks/app/revizie/page-f06cee3e42d2bf6e.js"
     ]
   }
 }

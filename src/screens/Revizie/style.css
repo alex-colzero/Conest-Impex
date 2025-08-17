@@ -1,457 +1,70 @@
-.revizie {
-  background-color: #ffffff;
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  font-family: "Poppins", Helvetica;
-  overflow-x: hidden;
-}
-
-/* Navigation Styles - Desktop */
-.top-bar-revizie {
-  align-items: center;
-  background-color: #ffffff;
-  border-bottom: 1px solid #f1f3f4;
-  display: flex;
-  gap: 640px;
-  justify-content: space-between;
-  padding: 24px 100px;
-  position: relative;
-  width: 100%;
-}
-
-.conest-logo-full-instance-wrapper {
-  align-items: flex-start;
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-}
-
-.instance-node {
-  position: relative !important;
-}
-
-.conest-logo-full-6 {
-  background-image: url(/img/wordmark-1.svg) !important;
-}
-
-.navigation-revizie {
-  align-items: center;
-  display: flex;
-  gap: 48px;
-}
-
-.text-wrapper-nav {
-  color: #303030;
-  font-family: "Poppins", Helvetica;
-  font-size: 16px;
-  font-weight: 500;
-  letter-spacing: 0;
-  line-height: normal;
-  text-decoration: none;
-  transition: color 0.3s ease;
-}
-
-.text-wrapper-nav:hover,
-.text-wrapper-nav.active {
-  color: #ff6b35;
-}
-
-.button-revizie {
-  align-items: center;
-  background-color: #ff6b35;
-  border-radius: 8px;
-  display: flex;
-  gap: 8px;
-  padding: 12px 24px;
-}
-
-.copy-revizie {
-  color: #ffffff;
-  font-family: "Poppins", Helvetica;
-  font-size: 14px;
-  font-weight: 600;
-  letter-spacing: 1.4px;
-  line-height: normal;
-  text-transform: uppercase;
-}
-
-.phoneicon-revizie {
-  height: 16px;
-  position: relative;
-  width: 16px;
-}
-
-/* Hero Section */
-.mobile-hero {
-  padding: 40px 50px 60px;
-  text-align: center;
-}
-
-.hero-section-desktop {
-  padding: 80px 100px;
-  text-align: center;
-}
-
-.tag-revizie {
-  align-items: center;
-  background-color: #f2b821;
-  border-radius: 20px;
-  display: inline-flex;
-  justify-content: center;
-  margin-bottom: 24px;
-  padding: 8px 24px;
-}
-
-.text-wrapper-revizie {
-  color: #ffffff;
-  font-family: "Poppins", Helvetica;
-  font-size: 14px;
-  font-weight: 500;
-  letter-spacing: 1.4px;
-  line-height: normal;
-  text-transform: uppercase;
-}
-
-.main-title {
-  color: #05213c;
-  font-family: "Poppins", Helvetica;
-  font-size: 48px;
-  font-weight: 700;
-  line-height: 56px;
-  margin-bottom: 24px;
-}
-
+/* Mobile specific styles for revizie page */
 .mobile-title {
   color: #05213c;
   font-family: "Poppins", Helvetica;
-  font-size: 32px;
+  font-size: 28px;
   font-weight: 700;
-  line-height: 40px;
+  line-height: 34px;
   margin-bottom: 16px;
-}
-
-.subtitle {
-  color: #303030;
-  font-family: "Poppins", Helvetica;
-  font-size: 18px;
-  font-weight: 400;
-  line-height: 28px;
-  max-width: 800px;
-  margin: 0 auto;
+  text-align: center;
 }
 
 .mobile-subtitle {
-  color: #303030;
+  color: #666666;
   font-family: "Poppins", Helvetica;
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
+  margin-bottom: 40px;
+  text-align: center;
 }
 
-/* Services Section */
-.services-section {
+.mobile-contact {
   background-color: #f8f9fa;
-  width: 100%;
-}
-
-.services-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 30px;
-}
-
-.service-card {
-  background-color: #ffffff;
   border-radius: 16px;
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
-  display: flex;
-  flex-direction: column;
-  overflow: hidden;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  padding: 30px 20px;
+  text-align: center;
+  margin-bottom: 40px;
 }
 
-.service-card:hover {
-  transform: translateY(-4px);
-  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.12);
-}
-
-.service-card.active {
-  border: 2px solid #ff6b35;
-  transform: translateY(-4px);
-  box-shadow: 0 8px 30px rgba(255, 107, 53, 0.15);
-}
-
-.service-content {
-  padding: 32px;
-  flex: 1;
-}
-
-.service-icon-wrapper {
-  background-color: #f8f9fa;
-  border-radius: 12px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 64px;
-  width: 64px;
-  margin-bottom: 20px;
-}
-
-.service-icon {
-  height: 32px;
-  width: 32px;
-}
-
-.service-text {
-  display: flex;
-  flex-direction: column;
-}
-
-.service-title {
+.mobile-contact h3 {
   color: #05213c;
   font-family: "Poppins", Helvetica;
   font-size: 20px;
   font-weight: 600;
-  line-height: 28px;
-  margin-bottom: 12px;
+  margin-bottom: 20px;
 }
 
-.service-description {
-  color: #666666;
-  font-family: "Poppins", Helvetica;
-  font-size: 14px;
-  font-weight: 400;
-  line-height: 22px;
-  margin: 0;
-}
-
-.service-button-wrapper {
-  padding: 0 32px 32px;
-}
-
-.service-button {
+.mobile-phone {
+  color: #ff6b35;
   display: block;
-  width: 100%;
-  text-decoration: none;
-}
-
-.btn-service {
-  background-color: #ff6b35;
-  border: none;
-  border-radius: 8px;
-  cursor: pointer;
-  padding: 12px 24px;
-  transition: background-color 0.3s ease;
-  width: 100%;
-}
-
-.btn-service:hover {
-  background-color: #e55a2b;
-}
-
-.btn-service.active {
-  background-color: #05213c;
-}
-
-.button-text {
-  color: #ffffff;
-  font-family: "Poppins", Helvetica;
-  font-size: 14px;
-  font-weight: 600;
-  letter-spacing: 0.28px;
-  line-height: normal;
-}
-
-/* Mobile Services */
-.mobile-services {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-}
-
-.mobile-service-card {
-  background-color: #ffffff;
-  border-radius: 12px;
-  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
-  padding: 24px;
-}
-
-.mobile-service-card.active {
-  border: 2px solid #ff6b35;
-  box-shadow: 0 4px 20px rgba(255, 107, 53, 0.15);
-}
-
-.mobile-service-content {
-  display: flex;
-  align-items: flex-start;
-  gap: 16px;
-}
-
-.mobile-service-icon-wrapper {
-  background-color: #f8f9fa;
-  border-radius: 8px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 48px;
-  width: 48px;
-  flex-shrink: 0;
-}
-
-.mobile-service-icon {
-  height: 24px;
-  width: 24px;
-}
-
-.mobile-service-text {
-  flex: 1;
-}
-
-.mobile-service-title {
-  color: #05213c;
-  font-family: "Poppins", Helvetica;
-  font-size: 16px;
-  font-weight: 600;
-  line-height: 24px;
-  margin-bottom: 8px;
-}
-
-.mobile-service-description {
-  color: #666666;
-  font-family: "Poppins", Helvetica;
-  font-size: 14px;
-  font-weight: 400;
-  line-height: 20px;
-  margin: 0;
-}
-
-/* Contact Section */
-.contact-section {
-  background-color: #ffffff;
-  width: 100%;
-}
-
-.contact-grid {
-  display: grid;
-}
-
-.info-card,
-.contact-card {
-  background-color: #f8f9fa;
-  border-radius: 16px;
-  padding: 40px;
-}
-
-.info-card h2,
-.contact-card h2 {
-  color: #05213c;
   font-family: "Poppins", Helvetica;
   font-size: 28px;
-  font-weight: 600;
-  line-height: 36px;
-  margin-bottom: 24px;
-}
-
-.info-card ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-.info-card li {
-  color: #666666;
-  font-family: "Poppins", Helvetica;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 24px;
-  margin-bottom: 12px;
-  padding-left: 24px;
-  position: relative;
-}
-
-.info-card li:before {
-  content: "✓";
-  color: #ff6b35;
-  font-weight: 600;
-  position: absolute;
-  left: 0;
-}
-
-.contact-card p {
-  color: #666666;
-  font-family: "Poppins", Helvetica;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 24px;
-  margin-bottom: 16px;
-}
-
-.phone-number {
-  color: #ff6b35;
-  display: block;
-  font-family: "Poppins", Helvetica;
-  font-size: 36px;
   font-weight: 700;
-  line-height: 44px;
-  margin: 24px 0;
-  text-align: center;
+  line-height: 36px;
+  margin: 20px 0;
   text-decoration: none;
 }
 
-.phone-number:hover {
+.mobile-phone:hover {
   color: #e55a2b;
 }
 
-.working-hours {
-  color: #666666;
-  font-family: "Poppins", Helvetica;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 24px;
-  text-align: center;
-  margin-bottom: 24px;
-}
-
-.contact-features {
-  display: flex;
-  flex-direction: column;
-  gap: 12px;
-}
-
-.contact-feature {
-  align-items: center;
-  display: flex;
-  gap: 12px;
-}
-
-.checkmark {
-  background-color: #ff6b35;
-  border-radius: 50%;
-  color: #ffffff;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 12px;
-  font-weight: 600;
-  height: 20px;
-  width: 20px;
-}
-
-.contact-feature span:last-child {
+.mobile-contact p {
   color: #666666;
   font-family: "Poppins", Helvetica;
   font-size: 14px;
-  font-weight: 500;
+  font-weight: 400;
   line-height: 20px;
+  margin: 8px 0;
 }
 
-/* Footer */
+/* Footer styling */
 .footer-section {
   background-color: #05213c;
   color: #ffffff;
+  padding: 40px 20px;
   text-align: center;
-  width: 100%;
 }
 
 .footer-section p {
@@ -463,31 +76,12 @@
   margin: 0;
 }
 
-/* Mobile Responsive */
-@media (max-width: 1599px) {
-  .main-title {
-    font-size: 32px;
-    line-height: 40px;
-  }
-  
-  .contact-grid {
-    grid-template-columns: 1fr !important;
-    gap: 30px !important;
-  }
-  
-  .phone-number {
-    font-size: 28px;
-    line-height: 36px;
-  }
-  
-  .info-card h2,
-  .contact-card h2 {
-    font-size: 24px;
-    line-height: 32px;
-  }
-  
-  .info-card,
-  .contact-card {
-    padding: 30px 20px;
-  }
+/* Active button style */
+.btn-9.active {
+  background-color: #05213c;
+  border: 2px solid #f2b821;
+}
+
+.btn-9.active .text-wrapper-82 {
+  color: #ffffff;
 }

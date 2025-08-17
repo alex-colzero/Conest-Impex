@@ -1,6 +1,6 @@
 {
   "/_not-found/page": "/_not-found",
-  "/revizie/page": "/revizie",
   "/servicii/page": "/servicii",
-  "/page": "/"
+  "/page": "/",
+  "/revizie/page": "/revizie"
 }
