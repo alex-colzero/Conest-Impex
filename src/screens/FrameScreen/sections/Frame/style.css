@@ -1,0 +1,153 @@
+.frame {
+  align-items: center;
+  align-self: stretch;
+  background-image: url(/img/frame-3549-1.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  display: flex;
+  gap: 10px;
+  height: 913px;
+  justify-content: center;
+  padding: 98px 0px 78px;
+  position: relative;
+  width: 100%;
+}
+
+.frame .div-2 {
+  align-items: center;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  flex-grow: 1;
+  gap: 40px;
+  position: relative;
+}
+
+.frame .p {
+  align-self: stretch;
+  color: #05213c;
+  font-family: "Poppins", Helvetica;
+  font-size: 56px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 72.8px;
+  margin-top: -1.00px;
+  position: relative;
+  text-align: center;
+}
+
+.frame .autoriza-i-ANRE {
+  align-self: stretch;
+  color: #05213c;
+  font-family: "Poppins", Helvetica;
+  font-size: 30px;
+  font-weight: 400;
+  letter-spacing: 3.00px;
+  line-height: normal;
+  position: relative;
+  text-align: center;
+}
+
+.frame .text {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  gap: 30px;
+  position: relative;
+  width: 100%;
+}
+
+.frame .why-choose {
+  align-items: flex-start;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px 40px;
+  justify-content: center;
+  position: relative;
+  width: 440px;
+}
+
+.frame .element {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 10px;
+  position: relative;
+}
+
+.frame .check-9 {
+  aspect-ratio: 1 !important;
+  height: 19px !important;
+  position: relative !important;
+  width: 19px !important;
+}
+
+.frame .text-wrapper-2 {
+  color: #05213c;
+  font-family: "Poppins", Helvetica;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0.80px;
+  line-height: normal;
+  margin-top: -1.00px;
+  position: relative;
+  width: fit-content;
+}
+
+.frame .CTA-buttons-wrapper {
+  align-items: center;
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  gap: 34px;
+  height: 140px;
+  position: relative;
+  width: 100%;
+}
+
+.frame .CTA-buttons {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-wrap: wrap;
+  gap: 40px 40px;
+  padding: 40px 0px;
+  position: relative;
+}
+
+.frame .btn {
+  all: unset;
+  align-items: center;
+  background-color: #05213c;
+  border-radius: 10px;
+  box-sizing: border-box;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 10px;
+  justify-content: center;
+  overflow: hidden;
+  padding: 18px 36px;
+  position: relative;
+}
+
+.frame .icon {
+  background-image: url(/img/icon-1.png);
+  background-size: 100% 100%;
+  height: 23.98px;
+  position: relative;
+  width: 23.98px;
+}
+
+.frame .text-wrapper-3 {
+  color: #ffffff;
+  font-family: "Poppins", Helvetica;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 1.28px;
+  line-height: normal;
+  margin-top: -1.00px;
+  position: relative;
+  text-align: center;
+  width: fit-content;
+}

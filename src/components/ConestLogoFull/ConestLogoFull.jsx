@@ -12,7 +12,7 @@ import "./style.css";
 export const ConestLogoFull = ({
   className,
   overlapGroupClassName,
-  flamedrop = "/img/flamedrop.svg",
+  flamedrop = "/img/flamedrop-4.svg",
 }) => {
   return (
     <div className={`conest-logo-full ${className}`}>

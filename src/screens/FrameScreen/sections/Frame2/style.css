@@ -1,0 +1,159 @@
+.frame-2 {
+  align-items: center;
+  display: flex;
+  flex: 0 0 auto;
+  justify-content: space-between;
+  margin-left: -500.00px;
+  margin-right: -500.00px;
+  padding: 110px 0px 0px;
+  position: relative;
+  width: 1440px;
+}
+
+.frame-2 .feature-cards-image {
+  align-items: center;
+  background-color: #ffffff;
+  border-radius: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  height: 953px;
+  padding: 0px 40px;
+  position: relative;
+  width: 460px;
+}
+
+.frame-2 .img-wrapper {
+  align-items: center;
+  background-color: #05213c1a;
+  border-radius: 40px 40px 0px 0px;
+  display: flex;
+  flex-direction: column;
+  height: 300px;
+  justify-content: center;
+  margin-left: -40.00px;
+  margin-right: -40.00px;
+  overflow: hidden;
+  position: relative;
+  width: 460px;
+}
+
+.frame-2 .acoperire-primara {
+  aspect-ratio: 1.5;
+  height: 314.75px;
+  margin-left: -26202.03px;
+  margin-top: -8665.15px;
+  object-fit: cover;
+  position: relative;
+  width: 472.07px;
+}
+
+.frame-2 .text-box {
+  align-items: flex-start;
+  display: inline-flex;
+  flex-direction: column;
+  gap: 40px;
+  height: 179px;
+  margin-left: -14.00px;
+  margin-right: -14.00px;
+  position: relative;
+}
+
+.frame-2 .constan-a-acoperire {
+  color: #05213c;
+  font-family: "Poppins", Helvetica;
+  font-size: 38px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 49.4px;
+  margin-top: -1.00px;
+  position: relative;
+  text-align: center;
+  width: 408px;
+}
+
+.frame-2 .text-wrapper-23 {
+  font-weight: 600;
+}
+
+.frame-2 .text-wrapper-24 {
+  color: #05213c;
+  font-family: "Poppins", Helvetica;
+  font-size: 38px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 49.4px;
+}
+
+.frame-2 .rectangle {
+  background-color: #05213c66;
+  height: 1px;
+  position: relative;
+  width: 408px;
+}
+
+.frame-2 .subtext {
+  height: 398px;
+  margin-bottom: -398.00px;
+  margin-right: -2.00px;
+  position: relative;
+  width: 410px;
+}
+
+.frame-2 .mamaia-propriet-i {
+  color: #05213c;
+  font-family: "Poppins", Helvetica;
+  font-size: 26px;
+  font-weight: 400;
+  left: 0;
+  letter-spacing: 0;
+  line-height: 33.8px;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  width: 408px;
+}
+
+.frame-2 .text-wrapper-25 {
+  font-weight: 700;
+}
+
+.frame-2 .text-wrapper-26 {
+  color: #05213c;
+  font-family: "Poppins", Helvetica;
+  font-size: 26px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 33.8px;
+}
+
+.frame-2 .proiecte-nationale {
+  aspect-ratio: 1.5;
+  height: 300px;
+  object-fit: cover;
+  position: relative;
+  width: 440px;
+}
+
+.frame-2 .constan-a-acoperire-2 {
+  color: #05213c;
+  font-family: "Poppins", Helvetica;
+  font-size: 38px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 49.4px;
+  margin-top: -1.00px;
+  position: relative;
+  text-align: center;
+  width: 408px;
+}
+
+.frame-2 .regiunea-dobrogea {
+  aspect-ratio: 1.5;
+  height: 314.75px;
+  margin-left: -27182.03px;
+  margin-top: -8665.15px;
+  object-fit: cover;
+  position: relative;
+  width: 472.07px;
+}

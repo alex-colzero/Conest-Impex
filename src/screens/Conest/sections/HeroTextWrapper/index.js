@@ -1,1 +1,0 @@
-export { HeroTextWrapper } from "./HeroTextWrapper";

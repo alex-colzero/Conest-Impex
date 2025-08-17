@@ -1,0 +1,124 @@
+.section-component-node {
+  align-items: center;
+  align-self: stretch;
+  background-color: #05213c;
+  display: flex;
+  gap: 100px;
+  height: 1056px;
+  justify-content: center;
+  position: relative;
+  width: 100%;
+}
+
+.section-component-node .frame-18 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  margin-left: -441.50px;
+  position: relative;
+  width: 643px;
+}
+
+.section-component-node .exper-i-n-instala-ii {
+  align-self: stretch;
+  color: #ffffff;
+  font-family: "Poppins", Helvetica;
+  font-size: 56px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 72.8px;
+  margin-top: -1.00px;
+  position: relative;
+}
+
+.section-component-node .SC-CON-EST-IMPEX-SRL {
+  align-self: stretch;
+  color: #ffffff;
+  font-family: "Poppins", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  height: 167px;
+  letter-spacing: 1.60px;
+  line-height: normal;
+  position: relative;
+}
+
+.section-component-node .text-3 {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 30px;
+  position: relative;
+  width: 100%;
+}
+
+.section-component-node .frame-19 {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 70px;
+  position: relative;
+}
+
+.section-component-node .element-2 {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 10px;
+  position: relative;
+}
+
+.section-component-node .autoriza-ii-complete {
+  color: #ffffff;
+  font-family: "Poppins", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  height: 48px;
+  letter-spacing: 0.80px;
+  line-height: normal;
+  margin-top: -1.00px;
+  position: relative;
+  width: 218px;
+}
+
+.section-component-node .span {
+  font-weight: 700;
+  letter-spacing: 0.13px;
+}
+
+.section-component-node .text-wrapper-19 {
+  letter-spacing: 0.13px;
+}
+
+.section-component-node .div-3 {
+  color: #ffffff;
+  font-family: "Poppins", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0.80px;
+  line-height: normal;
+  margin-top: -1.00px;
+  position: relative;
+  width: fit-content;
+}
+
+.section-component-node .element-3 {
+  align-items: center;
+  display: flex;
+  gap: 10px;
+  position: relative;
+  width: 247px;
+}
+
+.section-component-node .feature-cards-yellow-instance {
+  margin-right: -441.50px !important;
+}
+
+.section-component-node .feature-cards-yellow-2 {
+  font-size: 26px !important;
+  font-weight: 400 !important;
+  line-height: 33.8px !important;
+}

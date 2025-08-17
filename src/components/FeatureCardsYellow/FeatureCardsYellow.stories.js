@@ -7,6 +7,7 @@ export default {
 
 export const Default = {
   args: {
+    className: {},
     divClassName: {},
     text: "Ani de Experiență",
     text1: "1000+",

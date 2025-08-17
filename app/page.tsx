@@ -1,7 +1,7 @@
 'use client'
 
-import { Conest } from '../src/screens/Conest'
+import { FrameScreen } from '../src/screens/FrameScreen'
 
 export default function Home() {
-  return <Conest />
+  return <FrameScreen />
 }

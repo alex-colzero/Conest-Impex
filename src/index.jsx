@@ -2,10 +2,10 @@
 
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
-import { Conest } from "./screens/Conest";
+import { FrameScreen } from "./screens/FrameScreen";
 
 createRoot(document.getElementById("app")).render(
   <StrictMode>
-    <Conest />
+    <FrameScreen />
   </StrictMode>,
 );
