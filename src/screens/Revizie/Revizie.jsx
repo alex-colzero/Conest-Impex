@@ -1,6 +1,10 @@
 "use client";
 
 import React from "react";
+import Link from "next/link";
+import { useWindowWidth } from "../../breakpoints";
+import { ConestLogoFull } from "../../components/ConestLogoFull";
+import { TopBar } from "../FrameScreen/sections/TopBar";
 import { BillboardHighlightRevizie } from "./sections/BillboardHighlightRevizie";
 import { BillboardHighlightWrapper } from "../Servicii/sections/BillboardHighlightWrapper";
 import { FaqsRevizie } from "./sections/FaqsRevizie";
@@ -9,12 +13,46 @@ import { ImageTextRevizie } from "./sections/ImageTextRevizie";
 import { ImageText1 } from "../Servicii/sections/ImageText1";
 import { ImageTextWrapper } from "../Servicii/sections/ImageTextWrapper";
 import { ServicesRevizie } from "./sections/ServicesRevizie";
-import { TopNaviRevizie } from "./sections/TopNaviRevizie";
 import "./style.css";
 
 export const Revizie = () => {
+  const screenWidth = useWindowWidth();
+
   return (
     <div className="servicii" data-model-id="111:2202">
+      {/* Homepage Navigation */}
+      {screenWidth < 1600 && (
+        <TopBar />
+      )}
+
+      {screenWidth >= 1600 && (
+        <div className="top-bar-2">
+          <div className="conest-logo-full-instance-wrapper">
+            <ConestLogoFull
+              className="instance-node"
+              flamedrop="/img/flamedrop-1.svg"
+              overlapGroupClassName="conest-logo-full-6"
+            />
+          </div>
+
+          <div className="navigation-2">
+            <Link href="/" className="text-wrapper-75">Acasă</Link>
+            <Link href="/servicii" className="text-wrapper-75">Servicii</Link>
+            <div className="text-wrapper-75" style={{color: "#ff6b35"}}>Revizii</div>
+
+            <div className="button-3">
+              <div className="copy-2">COMENZI</div>
+              <img
+                className="phoneicon-2"
+                alt="Phoneicon"
+                src="/img/phoneicon-1.svg"
+              />
+              <div className="copy-2">0722 619 097</div>
+            </div>
+          </div>
+        </div>
+      )}
+      
       <div className="div-17">
         <div className="overlap">
           <div className="bottom">
@@ -94,7 +132,7 @@ export const Revizie = () => {
         <ImageTextRevizie />
         <ImageTextWrapper />
         <ImageText1 />
-        <TopNaviRevizie />
+        {/* TopNaviRevizie removed - using homepage navigation instead */}
       </div>
     </div>
   );
