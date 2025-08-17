@@ -1,6 +1,7 @@
 "use client";
 
 import React from "react";
+import Link from "next/link";
 import "./style.css";
 
 export const FrameWrapper = () => {
@@ -115,9 +116,11 @@ export const FrameWrapper = () => {
 
             <div className="frame-8">
               <div className="btn-wrapper">
-                <button className="btn-2">
-                  <div className="text-wrapper-9">Programează Revizie ➔</div>
-                </button>
+                <Link href="/revizie">
+                  <button className="btn-2">
+                    <div className="text-wrapper-9">Programează Revizie ➔</div>
+                  </button>
+                </Link>
               </div>
             </div>
           </div>

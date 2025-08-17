@@ -1,0 +1,250 @@
+.revizie {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  min-height: 100vh;
+  font-family: "Poppins", Helvetica;
+}
+
+/* Desktop Styles */
+.desktop-version {
+  width: 1920px;
+  margin: 0 auto;
+  padding: 40px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 60px;
+  padding: 0 60px;
+}
+
+.navigation {
+  display: flex;
+  gap: 40px;
+}
+
+.nav-link {
+  color: #333333;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 16px;
+  padding: 10px 20px;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
+
+.nav-link:hover,
+.nav-link.active {
+  background-color: #ff6b35;
+  color: white;
+}
+
+.hero-section {
+  text-align: center;
+  margin-bottom: 80px;
+  padding: 80px 60px;
+  background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+  border-radius: 20px;
+}
+
+.main-title {
+  font-size: 48px;
+  font-weight: 700;
+  color: #333333;
+  margin-bottom: 24px;
+  line-height: 1.2;
+}
+
+.subtitle {
+  font-size: 20px;
+  color: #666666;
+  max-width: 800px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
+.content-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 60px;
+  margin-bottom: 80px;
+  padding: 0 60px;
+}
+
+.info-card,
+.contact-card {
+  background: white;
+  border-radius: 16px;
+  padding: 40px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  border: 1px solid #e9ecef;
+}
+
+.info-card h2,
+.contact-card h2 {
+  font-size: 28px;
+  font-weight: 600;
+  color: #333333;
+  margin-bottom: 24px;
+}
+
+.info-card ul {
+  list-style: none;
+  padding: 0;
+}
+
+.info-card li {
+  padding: 12px 0;
+  color: #666666;
+  font-size: 16px;
+  border-bottom: 1px solid #f1f3f4;
+  position: relative;
+  padding-left: 24px;
+}
+
+.info-card li:before {
+  content: "✓";
+  color: #ff6b35;
+  font-weight: bold;
+  position: absolute;
+  left: 0;
+}
+
+.phone-number {
+  display: block;
+  font-size: 36px;
+  font-weight: 700;
+  color: #ff6b35;
+  text-decoration: none;
+  margin: 20px 0;
+  text-align: center;
+}
+
+.phone-number:hover {
+  color: #e55a2b;
+}
+
+.working-hours {
+  color: #666666;
+  font-size: 16px;
+  text-align: center;
+  line-height: 1.6;
+}
+
+.footer-section {
+  background-color: #f8f9fa;
+  padding: 40px 60px;
+  text-align: center;
+  color: #666666;
+  font-size: 14px;
+  line-height: 1.6;
+  border-radius: 12px;
+}
+
+/* Mobile Styles */
+.mobile-version {
+  width: 100%;
+  padding: 20px;
+}
+
+.mobile-header {
+  text-align: center;
+  margin-bottom: 40px;
+  padding: 20px 0;
+}
+
+.mobile-hero {
+  text-align: center;
+  margin-bottom: 40px;
+  padding: 40px 20px;
+  background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+  border-radius: 16px;
+}
+
+.mobile-hero h1 {
+  font-size: 32px;
+  font-weight: 700;
+  color: #333333;
+  margin-bottom: 16px;
+}
+
+.mobile-hero p {
+  font-size: 16px;
+  color: #666666;
+  line-height: 1.5;
+}
+
+.mobile-content {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin-bottom: 40px;
+}
+
+.mobile-info,
+.mobile-contact {
+  background: white;
+  border-radius: 12px;
+  padding: 30px 20px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.mobile-info h2,
+.mobile-contact h2 {
+  font-size: 24px;
+  font-weight: 600;
+  color: #333333;
+  margin-bottom: 20px;
+}
+
+.mobile-info ul {
+  list-style: none;
+  padding: 0;
+}
+
+.mobile-info li {
+  padding: 10px 0;
+  color: #666666;
+  font-size: 14px;
+  border-bottom: 1px solid #f1f3f4;
+  position: relative;
+  padding-left: 20px;
+}
+
+.mobile-info li:before {
+  content: "✓";
+  color: #ff6b35;
+  font-weight: bold;
+  position: absolute;
+  left: 0;
+}
+
+.mobile-phone {
+  display: block;
+  font-size: 28px;
+  font-weight: 700;
+  color: #ff6b35;
+  text-decoration: none;
+  margin: 16px 0;
+  text-align: center;
+}
+
+.mobile-contact p {
+  color: #666666;
+  font-size: 14px;
+  text-align: center;
+  margin: 8px 0;
+}
+
+.mobile-footer {
+  background-color: #f8f9fa;
+  padding: 30px 20px;
+  text-align: center;
+  color: #666666;
+  font-size: 12px;
+  border-radius: 12px;
+}

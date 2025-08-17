@@ -302,13 +302,13 @@ export const FrameScreen = () => {
                   </div>
 
                   <div className="frame-43">
-                    <div className="frame-44">
+                    <Link href="/revizie" className="frame-44">
                       <button className="btn-9">
                         <div className="text-wrapper-82">
                           Programează Revizie ➔
                         </div>
                       </button>
-                    </div>
+                    </Link>
                   </div>
                 </div>
               </div>
