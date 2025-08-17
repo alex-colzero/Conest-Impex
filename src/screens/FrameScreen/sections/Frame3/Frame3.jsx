@@ -27,7 +27,7 @@ export const Frame3 = () => {
       </p>
 
       <div className="cards">
-        <div className="feature-cards-small">
+        <div className="feature-cards-small-2">
           <div className="div-4">
             <div className="frame-icon-2">
               <div className="icon-4">
@@ -43,7 +43,7 @@ export const Frame3 = () => {
           </div>
         </div>
 
-        <div className="feature-cards-small">
+        <div className="feature-cards-small-2">
           <div className="div-4">
             <div className="frame-icon-2">
               <div className="icon-4">
@@ -59,7 +59,7 @@ export const Frame3 = () => {
           </div>
         </div>
 
-        <div className="feature-cards-small">
+        <div className="feature-cards-small-2">
           <div className="div-4">
             <div className="frame-icon-2">
               <div className="icon-4">
@@ -75,7 +75,7 @@ export const Frame3 = () => {
           </div>
         </div>
 
-        <div className="feature-cards-small">
+        <div className="feature-cards-small-2">
           <div className="div-4">
             <div className="frame-icon-2">
               <div className="icon-4">
@@ -91,7 +91,7 @@ export const Frame3 = () => {
           </div>
         </div>
 
-        <div className="feature-cards-small">
+        <div className="feature-cards-small-2">
           <div className="div-4">
             <div className="frame-icon-2">
               <div className="icon-4">

@@ -19,7 +19,7 @@ export const Div = () => {
       </p>
 
       <div className="frame-16">
-        <div className="feature-cards-3">
+        <div className="feature-cards-4">
           <div className="image-wrapper">
             <img
               className="image"
@@ -46,7 +46,7 @@ export const Div = () => {
           </div>
         </div>
 
-        <div className="feature-cards-3">
+        <div className="feature-cards-4">
           <div className="image-wrapper">
             <img className="image-2" alt="Image" src="/img/image-9.png" />
           </div>

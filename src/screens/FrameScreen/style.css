@@ -32,7 +32,7 @@
   position: relative !important;
 }
 
-.frame-screen .conest-logo-full-4 {
+.frame-screen .conest-logo-full-6 {
   background-image: url(/img/wordmark-1.svg) !important;
 }
 
@@ -44,7 +44,7 @@
   position: relative;
 }
 
-.frame-screen .text-wrapper-41 {
+.frame-screen .text-wrapper-75 {
   color: #05213c;
   font-family: "Poppins", Helvetica;
   font-size: 22px;
@@ -55,7 +55,7 @@
   width: fit-content;
 }
 
-.frame-screen .button-2 {
+.frame-screen .button-3 {
   align-items: center;
   background-color: #f2b721;
   border-radius: 20px;
@@ -87,7 +87,7 @@
   width: 23.75px;
 }
 
-.frame-screen .frame-24 {
+.frame-screen .frame-35 {
   align-items: center;
   align-self: stretch;
   background-image: url(/img/frame-3549-1.png);
@@ -102,7 +102,7 @@
   width: 100%;
 }
 
-.frame-screen .frame-25 {
+.frame-screen .frame-36 {
   align-items: flex-start;
   display: flex;
   flex-direction: column;
@@ -113,7 +113,7 @@
   width: 900px;
 }
 
-.frame-screen .text-wrapper-42 {
+.frame-screen .text-wrapper-76 {
   align-self: stretch;
   color: #05213c;
   font-family: "Poppins", Helvetica;
@@ -136,7 +136,7 @@
   position: relative;
 }
 
-.frame-screen .text-4 {
+.frame-screen .text-13 {
   align-items: flex-start;
   align-self: stretch;
   display: flex;
@@ -147,7 +147,7 @@
   width: 100%;
 }
 
-.frame-screen .why-choose-2 {
+.frame-screen .why-choose-4 {
   align-items: flex-start;
   display: inline-flex;
   flex: 0 0 auto;
@@ -155,7 +155,7 @@
   position: relative;
 }
 
-.frame-screen .element-11 {
+.frame-screen .element-21 {
   align-items: center;
   display: inline-flex;
   flex: 0 0 auto;
@@ -163,14 +163,14 @@
   position: relative;
 }
 
-.frame-screen .check-5 {
+.frame-screen .check-instance {
   aspect-ratio: 1 !important;
   height: 19px !important;
   position: relative !important;
   width: 19px !important;
 }
 
-.frame-screen .text-wrapper-43 {
+.frame-screen .text-wrapper-77 {
   color: #05213c;
   font-family: "Poppins", Helvetica;
   font-size: 16px;
@@ -182,7 +182,7 @@
   width: fit-content;
 }
 
-.frame-screen .text-5 {
+.frame-screen .text-14 {
   align-items: flex-start;
   align-self: stretch;
   display: flex;
@@ -202,7 +202,7 @@
   position: relative;
 }
 
-.frame-screen .btn-5 {
+.frame-screen .btn-8 {
   all: unset;
   align-items: center;
   background-color: #05213c;
@@ -225,7 +225,7 @@
   width: 23.98px;
 }
 
-.frame-screen .text-wrapper-44 {
+.frame-screen .text-wrapper-78 {
   color: #ffffff;
   font-family: "Poppins", Helvetica;
   font-size: 16px;
@@ -238,7 +238,7 @@
   width: fit-content;
 }
 
-.frame-screen .button-3 {
+.frame-screen .button-4 {
   all: unset;
   align-items: center;
   background-color: #f2b721;
@@ -253,7 +253,7 @@
   position: relative;
 }
 
-.frame-screen .frame-26 {
+.frame-screen .frame-37 {
   align-items: center;
   display: flex;
   flex: 0 0 auto;
@@ -263,7 +263,7 @@
   width: 100%;
 }
 
-.frame-screen .tag-4 {
+.frame-screen .tag-9 {
   align-items: center;
   background-color: #ffffff;
   border: 1px solid;
@@ -286,7 +286,7 @@
   width: fit-content;
 }
 
-.frame-screen .div-6 {
+.frame-screen .div-12 {
   align-self: stretch;
   color: #303030;
   font-family: "Poppins", Helvetica;
@@ -298,7 +298,7 @@
   text-align: center;
 }
 
-.frame-screen .text-wrapper-45 {
+.frame-screen .text-wrapper-79 {
   align-self: stretch;
   color: #5a5a5a;
   font-family: "Poppins", Helvetica;
@@ -310,7 +310,7 @@
   text-align: center;
 }
 
-.frame-screen .frame-27 {
+.frame-screen .frame-38 {
   align-items: flex-start;
   align-self: stretch;
   display: flex;
@@ -323,7 +323,7 @@
   width: 100%;
 }
 
-.frame-screen .frame-28 {
+.frame-screen .frame-39 {
   align-items: center;
   display: inline-flex;
   flex: 0 0 auto;
@@ -331,7 +331,7 @@
   position: relative;
 }
 
-.frame-screen .feature-cards-4 {
+.frame-screen .feature-cards-5 {
   align-items: center;
   background-color: #ffffff;
   border-radius: 40px;
@@ -344,7 +344,7 @@
   width: 450px;
 }
 
-.frame-screen .frame-29 {
+.frame-screen .frame-40 {
   align-items: center;
   align-self: stretch;
   display: flex;
@@ -355,7 +355,7 @@
   width: 100%;
 }
 
-.frame-screen .frame-30 {
+.frame-screen .frame-41 {
   align-items: center;
   align-self: stretch;
   display: flex;
@@ -391,7 +391,7 @@
   width: 51px;
 }
 
-.frame-screen .frame-31 {
+.frame-screen .frame-42 {
   align-items: center;
   align-self: stretch;
   display: flex;
@@ -402,7 +402,7 @@
   width: 100%;
 }
 
-.frame-screen .text-wrapper-46 {
+.frame-screen .text-wrapper-80 {
   align-self: stretch;
   color: #05213c;
   font-family: "Poppins", Helvetica;
@@ -415,7 +415,7 @@
   text-align: center;
 }
 
-.frame-screen .text-wrapper-47 {
+.frame-screen .text-wrapper-81 {
   align-self: stretch;
   color: #05213c;
   font-family: "Poppins", Helvetica;
@@ -427,7 +427,7 @@
   text-align: center;
 }
 
-.frame-screen .frame-32 {
+.frame-screen .frame-43 {
   align-items: center;
   display: inline-flex;
   flex: 1;
@@ -438,7 +438,7 @@
   position: relative;
 }
 
-.frame-screen .frame-33 {
+.frame-screen .frame-44 {
   align-items: center;
   display: inline-flex;
   flex: 0 0 auto;
@@ -448,7 +448,7 @@
   position: relative;
 }
 
-.frame-screen .btn-6 {
+.frame-screen .btn-9 {
   all: unset;
   align-items: center;
   background-color: #05213c;
@@ -463,7 +463,7 @@
   width: 294px;
 }
 
-.frame-screen .text-wrapper-48 {
+.frame-screen .text-wrapper-82 {
   color: #ffffff;
   flex: 1;
   font-family: "Poppins", Helvetica;
@@ -487,7 +487,7 @@
   width: 60px;
 }
 
-.frame-screen .frame-34 {
+.frame-screen .frame-45 {
   align-items: center;
   display: inline-flex;
   flex: 0 0 auto;
@@ -513,7 +513,7 @@
   width: 100%;
 }
 
-.frame-screen .frame-35 {
+.frame-screen .frame-46 {
   align-items: center;
   display: flex;
   flex: 0 0 auto;
@@ -525,7 +525,7 @@
   width: 100%;
 }
 
-.frame-screen .text-wrapper-49 {
+.frame-screen .text-wrapper-83 {
   color: #05213c;
   font-family: "Poppins", Helvetica;
   font-size: 20px;
@@ -536,7 +536,7 @@
   width: fit-content;
 }
 
-.frame-screen .frame-36 {
+.frame-screen .frame-47 {
   align-items: center;
   align-self: stretch;
   background-image: url(/img/frame-3550-1.png);
@@ -550,7 +550,7 @@
   width: 100%;
 }
 
-.frame-screen .frame-37 {
+.frame-screen .frame-48 {
   align-items: center;
   box-shadow: 0px 4px 104px #000000f2;
   display: inline-flex;
@@ -559,7 +559,7 @@
   position: relative;
 }
 
-.frame-screen .feature-cards-5 {
+.frame-screen .feature-cards-6 {
   align-items: center;
   background-color: #ffffff;
   border-radius: 40px;
@@ -597,7 +597,7 @@
   width: 14px;
 }
 
-.frame-screen .frame-38 {
+.frame-screen .frame-49 {
   align-items: center;
   display: flex;
   flex: 1;
@@ -609,7 +609,7 @@
   width: 294px;
 }
 
-.frame-screen .frame-39 {
+.frame-screen .frame-50 {
   align-items: center;
   align-self: stretch;
   display: flex;
@@ -621,7 +621,7 @@
   width: 100%;
 }
 
-.frame-screen .btn-7 {
+.frame-screen .btn-10 {
   all: unset;
   align-items: center;
   background-color: #f2b721;
@@ -635,7 +635,7 @@
   position: relative;
 }
 
-.frame-screen .text-wrapper-50 {
+.frame-screen .text-wrapper-84 {
   color: #05213c;
   font-family: "Poppins", Helvetica;
   font-size: 16px;
@@ -649,7 +649,7 @@
   width: 222px;
 }
 
-.frame-screen .frame-40 {
+.frame-screen .frame-51 {
   align-items: center;
   display: flex;
   flex: 0 0 auto;
@@ -661,7 +661,7 @@
   width: 100%;
 }
 
-.frame-screen .tag-5 {
+.frame-screen .tag-10 {
   align-items: center;
   background-color: #ffffff;
   border: 1px solid;
@@ -677,7 +677,7 @@
   width: 172px;
 }
 
-.frame-screen .text-wrapper-51 {
+.frame-screen .text-wrapper-85 {
   color: #303030;
   font-family: "Poppins", Helvetica;
   font-size: 18px;
@@ -690,7 +690,7 @@
   width: fit-content;
 }
 
-.frame-screen .frame-41 {
+.frame-screen .frame-52 {
   align-items: flex-start;
   display: inline-flex;
   flex: 0 0 auto;
@@ -700,7 +700,7 @@
   position: relative;
 }
 
-.frame-screen .feature-cards-6 {
+.frame-screen .feature-cards-7 {
   align-items: flex-start;
   background-color: #ffffff;
   border-radius: 40px;
@@ -723,7 +723,7 @@
   width: 45px;
 }
 
-.frame-screen .frame-42 {
+.frame-screen .frame-53 {
   align-items: flex-start;
   display: inline-flex;
   flex: 0 0 auto;
@@ -732,7 +732,7 @@
   position: relative;
 }
 
-.frame-screen .text-6 {
+.frame-screen .text-15 {
   align-items: flex-start;
   display: inline-flex;
   flex: 0 0 auto;
@@ -741,7 +741,7 @@
   position: relative;
 }
 
-.frame-screen .text-wrapper-52 {
+.frame-screen .text-wrapper-86 {
   color: #05213c;
   font-family: "Poppins", Helvetica;
   font-size: 26px;
@@ -754,7 +754,7 @@
   width: fit-content;
 }
 
-.frame-screen .text-wrapper-53 {
+.frame-screen .text-wrapper-87 {
   color: #05213c;
   font-family: "Poppins", Helvetica;
   font-size: 16px;
@@ -765,7 +765,7 @@
   width: 372px;
 }
 
-.frame-screen .btn-8 {
+.frame-screen .btn-11 {
   all: unset;
   align-items: flex-end;
   background-color: #05213c;
@@ -789,7 +789,7 @@
   width: 51px;
 }
 
-.frame-screen .frame-43 {
+.frame-screen .frame-54 {
   align-items: center;
   align-self: stretch;
   background-color: #05213c;
@@ -801,7 +801,7 @@
   width: 100%;
 }
 
-.frame-screen .frame-44 {
+.frame-screen .frame-55 {
   align-items: flex-start;
   display: flex;
   flex-direction: column;
@@ -810,7 +810,7 @@
   width: 643px;
 }
 
-.frame-screen .exper-i-n-instala-ii-2 {
+.frame-screen .exper-i-n-instala-ii-3 {
   align-self: stretch;
   color: #ffffff;
   font-family: "Poppins", Helvetica;
@@ -822,7 +822,7 @@
   position: relative;
 }
 
-.frame-screen .SC-CON-EST-IMPEX-SRL-2 {
+.frame-screen .SC-CON-EST-IMPEX-SRL-3 {
   align-self: stretch;
   color: #ffffff;
   font-family: "Poppins", Helvetica;
@@ -834,7 +834,7 @@
   position: relative;
 }
 
-.frame-screen .frame-45 {
+.frame-screen .frame-56 {
   align-items: flex-start;
   display: inline-flex;
   flex: 0 0 auto;
@@ -842,7 +842,7 @@
   position: relative;
 }
 
-.frame-screen .autoriza-ii-complete-2 {
+.frame-screen .autoriza-ii-complete-3 {
   color: #ffffff;
   font-family: "Poppins", Helvetica;
   font-size: 16px;
@@ -855,16 +855,16 @@
   width: 218px;
 }
 
-.frame-screen .text-wrapper-54 {
+.frame-screen .text-wrapper-88 {
   font-weight: 700;
   letter-spacing: 0.13px;
 }
 
-.frame-screen .text-wrapper-55 {
+.frame-screen .text-wrapper-89 {
   letter-spacing: 0.13px;
 }
 
-.frame-screen .div-7 {
+.frame-screen .div-13 {
   color: #ffffff;
   font-family: "Poppins", Helvetica;
   font-size: 16px;
@@ -876,7 +876,7 @@
   width: fit-content;
 }
 
-.frame-screen .element-12 {
+.frame-screen .element-22 {
   align-items: center;
   display: flex;
   gap: 10px;
@@ -884,13 +884,13 @@
   width: 247px;
 }
 
-.frame-screen .feature-cards-yellow-3 {
+.frame-screen .feature-cards-yellow-4 {
   font-size: 26px !important;
   font-weight: 400 !important;
   line-height: 33.8px !important;
 }
 
-.frame-screen .frame-46 {
+.frame-screen .frame-57 {
   align-items: center;
   display: flex;
   flex: 0 0 auto;
@@ -902,7 +902,7 @@
   width: 1400px;
 }
 
-.frame-screen .frame-47 {
+.frame-screen .frame-58 {
   align-items: center;
   display: flex;
   flex: 0 0 auto;
@@ -972,11 +972,11 @@
   width: 408px;
 }
 
-.frame-screen .text-wrapper-56 {
+.frame-screen .text-wrapper-90 {
   font-weight: 600;
 }
 
-.frame-screen .text-wrapper-57 {
+.frame-screen .text-wrapper-91 {
   color: #05213c;
   font-family: "Poppins", Helvetica;
   font-size: 38px;
@@ -985,7 +985,7 @@
   line-height: 49.4px;
 }
 
-.frame-screen .rectangle-2 {
+.frame-screen .rectangle-4 {
   background-color: #05213c66;
   height: 1px;
   position: relative;
@@ -1014,11 +1014,11 @@
   width: 408px;
 }
 
-.frame-screen .text-wrapper-58 {
+.frame-screen .text-wrapper-92 {
   font-weight: 700;
 }
 
-.frame-screen .text-wrapper-59 {
+.frame-screen .text-wrapper-93 {
   color: #05213c;
   font-family: "Poppins", Helvetica;
   font-size: 26px;
@@ -1040,7 +1040,7 @@
   width: 408px;
 }
 
-.frame-screen .frame-48 {
+.frame-screen .frame-59 {
   align-items: center;
   display: flex;
   flex: 0 0 auto;
@@ -1052,7 +1052,7 @@
   width: 1440px;
 }
 
-.frame-screen .text-wrapper-60 {
+.frame-screen .text-wrapper-94 {
   color: #303030;
   font-family: "Poppins", Helvetica;
   font-size: 64px;
@@ -1061,7 +1061,7 @@
   line-height: 83.2px;
 }
 
-.frame-screen .text-wrapper-61 {
+.frame-screen .text-wrapper-95 {
   align-self: stretch;
   color: #5a5a5a;
   font-family: "Poppins", Helvetica;
@@ -1073,7 +1073,7 @@
   text-align: center;
 }
 
-.frame-screen .cards-2 {
+.frame-screen .cards-3 {
   align-items: center;
   align-self: stretch;
   display: flex;
@@ -1086,7 +1086,7 @@
   width: 100%;
 }
 
-.frame-screen .feature-cards-small-2 {
+.frame-screen .feature-cards-small-3 {
   align-items: center;
   background-color: #ffffff;
   border: 1px solid;
@@ -1101,7 +1101,7 @@
   width: 222px;
 }
 
-.frame-screen .div-8 {
+.frame-screen .div-14 {
   align-items: center;
   display: inline-flex;
   flex-direction: column;
@@ -1143,7 +1143,7 @@
   width: 14px;
 }
 
-.frame-screen .div-9 {
+.frame-screen .div-15 {
   align-items: center;
   display: flex;
   flex-direction: column;
@@ -1152,7 +1152,7 @@
   width: 221px;
 }
 
-.frame-screen .modernizare-smart-2 {
+.frame-screen .modernizare-smart-3 {
   color: #05213c;
   font-family: "Poppins", Helvetica;
   font-size: 16px;
@@ -1165,7 +1165,7 @@
   width: fit-content;
 }
 
-.frame-screen .text-wrapper-62 {
+.frame-screen .text-wrapper-96 {
   align-self: stretch;
   color: #05213c;
   font-family: "Poppins", Helvetica;
@@ -1179,7 +1179,7 @@
   text-align: center;
 }
 
-.frame-screen .title-2 {
+.frame-screen .title-8 {
   align-items: center;
   display: flex;
   flex: 0 0 auto;
@@ -1191,7 +1191,7 @@
   width: 1440px;
 }
 
-.frame-screen .text-wrapper-63 {
+.frame-screen .text-wrapper-97 {
   color: #303030;
   font-family: "Poppins", Helvetica;
   font-size: 64px;
@@ -1228,7 +1228,7 @@
   width: 1175px;
 }
 
-.frame-screen .text-wrapper-64 {
+.frame-screen .text-wrapper-98 {
   color: #5a5a5a;
   font-family: "Poppins", Helvetica;
   font-size: 38px;
@@ -1262,7 +1262,7 @@
   width: 1396px;
 }
 
-.frame-screen .element-13 {
+.frame-screen .element-23 {
   align-items: flex-start;
   display: inline-flex;
   flex: 0 0 auto;
@@ -1271,11 +1271,11 @@
   position: relative;
 }
 
-.frame-screen .conest-logo-full-5 {
+.frame-screen .conest-logo-full-7 {
   background-image: url(/img/wordmark-2-2.svg) !important;
 }
 
-.frame-screen .frame-49 {
+.frame-screen .frame-60 {
   align-items: flex-start;
   display: inline-flex;
   flex: 0 0 auto;
@@ -1284,7 +1284,7 @@
   position: relative;
 }
 
-.frame-screen .element-14 {
+.frame-screen .element-24 {
   align-items: center;
   display: inline-flex;
   flex: 0 0 auto;
@@ -1305,7 +1305,7 @@
   width: 340px;
 }
 
-.frame-screen .element-15 {
+.frame-screen .element-25 {
   align-items: flex-start;
   display: flex;
   flex-direction: column;
@@ -1315,7 +1315,7 @@
   width: 293px;
 }
 
-.frame-screen .text-wrapper-65 {
+.frame-screen .text-wrapper-99 {
   color: #05213c;
   font-family: "Poppins", Helvetica;
   font-size: 22px;
@@ -1328,13 +1328,13 @@
   width: fit-content;
 }
 
-.frame-screen .la-chevron-circle-2 {
+.frame-screen .la-chevron-circle-3 {
   height: 18px;
   position: relative;
   width: 18px;
 }
 
-.frame-screen .vector-20 {
+.frame-screen .vector-29 {
   height: 15px;
   left: 2px;
   position: absolute;
@@ -1342,7 +1342,7 @@
   width: 15px;
 }
 
-.frame-screen .text-wrapper-66 {
+.frame-screen .text-wrapper-100 {
   color: #05213c;
   font-family: "Poppins", Helvetica;
   font-size: 16px;
@@ -1354,7 +1354,7 @@
   width: fit-content;
 }
 
-.frame-screen .element-16 {
+.frame-screen .element-26 {
   align-items: flex-start;
   display: inline-flex;
   flex: 0 0 auto;
@@ -1364,7 +1364,7 @@
   position: relative;
 }
 
-.frame-screen .text-wrapper-67 {
+.frame-screen .text-wrapper-101 {
   color: #303030;
   font-family: "Poppins", Helvetica;
   font-size: 22px;
@@ -1377,7 +1377,7 @@
   width: fit-content;
 }
 
-.frame-screen .frame-50 {
+.frame-screen .frame-61 {
   align-items: flex-start;
   display: flex;
   flex: 0 0 auto;
@@ -1387,7 +1387,7 @@
   width: 293px;
 }
 
-.frame-screen .element-17 {
+.frame-screen .element-27 {
   align-items: center;
   align-self: stretch;
   display: flex;
@@ -1397,7 +1397,7 @@
   width: 100%;
 }
 
-.frame-screen .text-wrapper-68 {
+.frame-screen .text-wrapper-102 {
   color: #303030;
   flex: 1;
   font-family: "Poppins", Helvetica;
@@ -1409,7 +1409,7 @@
   position: relative;
 }
 
-.frame-screen .element-18 {
+.frame-screen .element-28 {
   align-items: flex-start;
   display: inline-flex;
   flex: 0 0 auto;
@@ -1419,13 +1419,13 @@
   position: relative;
 }
 
-.frame-screen .div-10 {
+.frame-screen .div-16 {
   height: 20px;
   position: relative;
   width: 20px;
 }
 
-.frame-screen .vector-21 {
+.frame-screen .vector-30 {
   height: 18px;
   left: 3px;
   position: absolute;
@@ -1433,7 +1433,7 @@
   width: 15px;
 }
 
-.frame-screen .vector-22 {
+.frame-screen .vector-31 {
   height: 15px;
   left: 1px;
   position: absolute;
@@ -1441,7 +1441,7 @@
   width: 18px;
 }
 
-.frame-screen .text-wrapper-69 {
+.frame-screen .text-wrapper-103 {
   color: #303030;
   font-family: "Poppins", Helvetica;
   font-size: 16px;
@@ -1453,7 +1453,7 @@
   width: fit-content;
 }
 
-.frame-screen .overlap-group-wrapper {
+.frame-screen .group-6 {
   height: 17px;
   left: 2px;
   position: relative;
@@ -1461,12 +1461,12 @@
   width: 17px;
 }
 
-.frame-screen .overlap-group-3 {
+.frame-screen .overlap-group-5 {
   height: 17px;
   position: relative;
 }
 
-.frame-screen .vector-23 {
+.frame-screen .vector-32 {
   height: 16px;
   left: 0;
   position: absolute;
@@ -1474,7 +1474,7 @@
   width: 16px;
 }
 
-.frame-screen .vector-24 {
+.frame-screen .vector-33 {
   height: 8px;
   left: 9px;
   position: absolute;
@@ -1482,7 +1482,7 @@
   width: 8px;
 }
 
-.frame-screen .vector-25 {
+.frame-screen .vector-34 {
   height: 5px;
   left: 9px;
   position: absolute;
@@ -1490,7 +1490,7 @@
   width: 5px;
 }
 
-.frame-screen .vector-26 {
+.frame-screen .vector-35 {
   height: 18px;
   left: 1px;
   position: absolute;

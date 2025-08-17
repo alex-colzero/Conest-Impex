@@ -7,7 +7,7 @@ export const DivWrapper = () => {
   return (
     <div className="div-wrapper">
       <div className="frame-10">
-        <div className="feature-cards-2">
+        <div className="feature-cards-3">
           <div className="frame-11">
             <div className="frame-12">
               <div className="icon-wrapper">

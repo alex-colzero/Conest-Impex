@@ -1,0 +1,80 @@
+.feature-cards-small {
+  align-items: center;
+  background-color: #ffffff;
+  border-radius: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  height: 250px;
+  justify-content: center;
+  position: relative;
+  width: 222px;
+}
+
+.feature-cards-small .frame-33 {
+  align-items: center;
+  display: inline-flex;
+  flex-direction: column;
+  gap: 20px;
+  height: 250px;
+  justify-content: center;
+  padding: 24px 0px;
+  position: relative;
+}
+
+.feature-cards-small .flame-big-wrapper {
+  align-items: center;
+  aspect-ratio: 1;
+  background-color: #05213c1a;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  height: 100px;
+  justify-content: center;
+  overflow: hidden;
+  position: relative;
+  width: 100px;
+}
+
+.feature-cards-small .flame-big {
+  aspect-ratio: 1 !important;
+  height: 54px !important;
+  position: relative !important;
+  width: 50px !important;
+}
+
+.feature-cards-small .frame-34 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 37px;
+  position: relative;
+  width: 221px;
+}
+
+.feature-cards-small .modernizare-smart-2 {
+  color: #05213c;
+  font-family: "Poppins", Helvetica;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 20.8px;
+  margin-top: -1.00px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.feature-cards-small .interven-ie-imediat {
+  align-self: stretch;
+  color: #05213c;
+  font-family: "Poppins", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  height: 46px;
+  letter-spacing: 0;
+  line-height: 20.8px;
+  margin-bottom: -29.00px;
+  position: relative;
+  text-align: center;
+}

@@ -18,30 +18,30 @@ export const FeatureCardsYellow = ({
 }) => {
   return (
     <div className={`feature-cards-yellow ${className}`}>
-      <div className="frame-22">
-        <div className="text-wrapper-37">27+</div>
+      <div className="frame-27">
+        <div className="text-wrapper-64">27+</div>
 
         <div className={`ani-de-experien ${divClassName}`}>{text}</div>
       </div>
 
       <div className="spacing" />
 
-      <div className="frame-23">
-        <div className="element-10">{text1}</div>
+      <div className="frame-28">
+        <div className="element-20">{text1}</div>
 
-        <div className="text-wrapper-38">Proiecte Realizate</div>
+        <div className="text-wrapper-65">Proiecte Realizate</div>
       </div>
 
-      <div className="frame-23">
-        <div className="text-wrapper-39">24/7</div>
+      <div className="frame-28">
+        <div className="text-wrapper-66">24/7</div>
 
-        <div className="text-wrapper-40">Service Urgențe</div>
+        <div className="text-wrapper-67">Service Urgențe</div>
       </div>
 
-      <div className="frame-23">
-        <div className="text-wrapper-39">100%</div>
+      <div className="frame-28">
+        <div className="text-wrapper-66">100%</div>
 
-        <div className="text-wrapper-40">{text2}</div>
+        <div className="text-wrapper-67">{text2}</div>
       </div>
     </div>
   );

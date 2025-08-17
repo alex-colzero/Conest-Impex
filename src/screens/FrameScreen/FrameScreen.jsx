@@ -1,6 +1,7 @@
 "use client";
 
 import React from "react";
+import Link from "next/link";
 import { useWindowWidth } from "../../breakpoints";
 import { ConestLogoFull } from "../../components/ConestLogoFull";
 import { FeatureCardsYellow } from "../../components/FeatureCardsYellow";
@@ -54,18 +55,18 @@ export const FrameScreen = () => {
               <ConestLogoFull
                 className="instance-node"
                 flamedrop="/img/flamedrop-1.svg"
-                overlapGroupClassName="conest-logo-full-4"
+                overlapGroupClassName="conest-logo-full-6"
               />
             </div>
 
             <div className="navigation-2">
-              <div className="text-wrapper-41">Servicii</div>
+              <div className="text-wrapper-75">Servicii</div>
 
-              <div className="text-wrapper-41">Despre Noi</div>
+              <div className="text-wrapper-75">Despre Noi</div>
 
-              <div className="text-wrapper-41">Despre Noi</div>
+              <div className="text-wrapper-75">Despre Noi</div>
 
-              <div className="button-2">
+              <div className="button-3">
                 <div className="copy-2">COMENZI</div>
 
                 <img
@@ -79,9 +80,9 @@ export const FrameScreen = () => {
             </div>
           </div>
 
-          <div className="frame-24">
-            <div className="frame-25">
-              <p className="text-wrapper-42">
+          <div className="frame-35">
+            <div className="frame-36">
+              <p className="text-wrapper-76">
                 Instalații gaze și centrale termice constanța
               </p>
 
@@ -89,34 +90,34 @@ export const FrameScreen = () => {
                 Autorizați ANRE &amp; ISCIR din 1996
               </p>
 
-              <div className="text-4">
-                <div className="why-choose-2">
-                  <div className="element-11">
-                    <Check9 className="check-5" color="#F2B821" />
-                    <div className="text-wrapper-43">Autorizat Anre</div>
+              <div className="text-13">
+                <div className="why-choose-4">
+                  <div className="element-21">
+                    <Check9 className="check-instance" color="#F2B821" />
+                    <div className="text-wrapper-77">Autorizat Anre</div>
                   </div>
 
-                  <div className="element-11">
-                    <Check9 className="check-5" color="#F2B821" />
-                    <div className="text-wrapper-43">Certificat Iscir</div>
+                  <div className="element-21">
+                    <Check9 className="check-instance" color="#F2B821" />
+                    <div className="text-wrapper-77">Certificat Iscir</div>
                   </div>
 
-                  <div className="element-11">
-                    <Check9 className="check-5" color="#F2B821" />
-                    <div className="text-wrapper-43">Garanție 2 Ani</div>
+                  <div className="element-21">
+                    <Check9 className="check-instance" color="#F2B821" />
+                    <div className="text-wrapper-77">Garanție 2 Ani</div>
                   </div>
                 </div>
               </div>
 
-              <div className="text-5">
+              <div className="text-14">
                 <div className="CTA-buttons-2">
-                  <button className="btn-5">
+                  <button className="btn-8">
                     <div className="icon-10" />
 
-                    <div className="text-wrapper-44">Cere Ofertă</div>
+                    <div className="text-wrapper-78">Cere Ofertă</div>
                   </button>
 
-                  <button className="button-3">
+                  <button className="button-4">
                     <img
                       className="phoneicon-2"
                       alt="Phoneicon"
@@ -133,7 +134,7 @@ export const FrameScreen = () => {
       )}
 
       <div
-        className="frame-26"
+        className="frame-37"
         style={{
           gap:
             screenWidth >= 1600
@@ -149,7 +150,7 @@ export const FrameScreen = () => {
                 : undefined,
         }}
       >
-        <div className="tag-4">
+        <div className="tag-9">
           <div
             className="montaj-i-service"
             style={{
@@ -187,21 +188,21 @@ export const FrameScreen = () => {
 
         {screenWidth >= 1600 && (
           <>
-            <p className="div-6">
+            <p className="div-12">
               Soluții complete pentru instalații gaze și centrale termice
             </p>
 
-            <p className="text-wrapper-45">
+            <p className="text-wrapper-79">
               Cu o experiență de peste 27 de ani, oferim servicii complete
               autorizate ANRE și ISCIR pentru toate nevoile dvs. de încălzire și
               instalații gaze.
             </p>
 
-            <div className="frame-27">
-              <div className="frame-28">
-                <div className="feature-cards-4">
-                  <div className="frame-29">
-                    <div className="frame-30">
+            <div className="frame-38">
+              <div className="frame-39">
+                <div className="feature-cards-5">
+                  <div className="frame-40">
+                    <div className="frame-41">
                       <div className="frame-icon-3">
                         <img
                           className="icon-11"
@@ -210,12 +211,12 @@ export const FrameScreen = () => {
                         />
                       </div>
 
-                      <div className="frame-31">
-                        <div className="text-wrapper-46">
+                      <div className="frame-42">
+                        <div className="text-wrapper-80">
                           Instalații gaze naturale
                         </div>
 
-                        <p className="text-wrapper-47">
+                        <p className="text-wrapper-81">
                           Proiectare și execuție instalații gaze naturale
                           conforme ANRE. Branșamente, conducte de distribuție și
                           aparate consumatoare cu garanție completă.
@@ -224,22 +225,22 @@ export const FrameScreen = () => {
                     </div>
                   </div>
 
-                  <div className="frame-32">
-                    <div className="frame-33">
-                      <button className="btn-6">
-                        <div className="text-wrapper-48">
+                  <div className="frame-43">
+                    <Link href="/servicii" className="frame-44">
+                      <button className="btn-9">
+                        <div className="text-wrapper-82">
                           Detalii Instalații Gaze ➔
                         </div>
                       </button>
-                    </div>
+                    </Link>
                   </div>
                 </div>
               </div>
 
-              <div className="frame-28">
-                <div className="feature-cards-4">
-                  <div className="frame-29">
-                    <div className="frame-30">
+              <div className="frame-39">
+                <div className="feature-cards-5">
+                  <div className="frame-40">
+                    <div className="frame-41">
                       <div className="frame-icon-3">
                         <img
                           className="icon-12"
@@ -248,12 +249,12 @@ export const FrameScreen = () => {
                         />
                       </div>
 
-                      <div className="frame-31">
-                        <div className="text-wrapper-46">
+                      <div className="frame-42">
+                        <div className="text-wrapper-80">
                           Centrale termice și încălzire
                         </div>
 
-                        <p className="text-wrapper-47">
+                        <p className="text-wrapper-81">
                           Montaj și autorizare centrale termice cu tiraj forțat
                           sau natural. Service autorizat ISCIR pentru toate
                           mărcile de centrale.
@@ -262,10 +263,10 @@ export const FrameScreen = () => {
                     </div>
                   </div>
 
-                  <div className="frame-32">
-                    <div className="frame-33">
-                      <button className="btn-6">
-                        <div className="text-wrapper-48">
+                  <div className="frame-43">
+                    <div className="frame-44">
+                      <button className="btn-9">
+                        <div className="text-wrapper-82">
                           Servicii Centrale ➔
                         </div>
                       </button>
@@ -274,10 +275,10 @@ export const FrameScreen = () => {
                 </div>
               </div>
 
-              <div className="frame-34">
-                <div className="feature-cards-4">
-                  <div className="frame-29">
-                    <div className="frame-30">
+              <div className="frame-45">
+                <div className="feature-cards-5">
+                  <div className="frame-40">
+                    <div className="frame-41">
                       <div className="frame-icon-3">
                         <img
                           className="service-icon-2"
@@ -286,12 +287,12 @@ export const FrameScreen = () => {
                         />
                       </div>
 
-                      <div className="frame-31">
-                        <div className="text-wrapper-46">
+                      <div className="frame-42">
+                        <div className="text-wrapper-80">
                           Revizii și verificări ANRE
                         </div>
 
-                        <p className="text-wrapper-47">
+                        <p className="text-wrapper-81">
                           Verificări tehnice periodice obligatorii la 2 ani.
                           Revizii complete și eliberare certificate de
                           conformitate.
@@ -300,10 +301,10 @@ export const FrameScreen = () => {
                     </div>
                   </div>
 
-                  <div className="frame-32">
-                    <div className="frame-33">
-                      <button className="btn-6">
-                        <div className="text-wrapper-48">
+                  <div className="frame-43">
+                    <div className="frame-44">
+                      <button className="btn-9">
+                        <div className="text-wrapper-82">
                           Programează Revizie ➔
                         </div>
                       </button>
@@ -322,19 +323,19 @@ export const FrameScreen = () => {
 
       {screenWidth >= 1600 && (
         <>
-          <div className="frame-35">
-            <div className="tag-4">
-              <div className="text-wrapper-49">Montaj și service autorizat</div>
+          <div className="frame-46">
+            <div className="tag-9">
+              <div className="text-wrapper-83">Montaj și service autorizat</div>
             </div>
 
             <img className="logos" alt="Logos" src="/img/logos-1.svg" />
           </div>
 
-          <div className="frame-36">
-            <div className="frame-37">
-              <div className="feature-cards-5">
-                <div className="frame-29">
-                  <div className="frame-30">
+          <div className="frame-47">
+            <div className="frame-48">
+              <div className="feature-cards-6">
+                <div className="frame-40">
+                  <div className="frame-41">
                     <div className="frame-icon-4">
                       <img
                         className="icon-13"
@@ -343,12 +344,12 @@ export const FrameScreen = () => {
                       />
                     </div>
 
-                    <div className="frame-31">
-                      <div className="text-wrapper-46">
+                    <div className="frame-42">
+                      <div className="text-wrapper-80">
                         Intervenții Urgente 24/7
                       </div>
 
-                      <p className="text-wrapper-47">
+                      <p className="text-wrapper-81">
                         Service non-stop pentru urgențe gaze și centrale
                         termice. Timp de răspuns rapid în Constanța și
                         împrejurimi.
@@ -357,10 +358,10 @@ export const FrameScreen = () => {
                   </div>
                 </div>
 
-                <div className="frame-38">
-                  <div className="frame-39">
-                    <button className="btn-7">
-                      <div className="text-wrapper-50">Urgențe Non-Stop ➔</div>
+                <div className="frame-49">
+                  <div className="frame-50">
+                    <button className="btn-10">
+                      <div className="text-wrapper-84">Urgențe Non-Stop ➔</div>
                     </button>
                   </div>
                 </div>
@@ -368,21 +369,21 @@ export const FrameScreen = () => {
             </div>
           </div>
 
-          <div className="frame-40">
-            <div className="tag-5">
-              <div className="text-wrapper-51">ANRE și ISCIR</div>
+          <div className="frame-51">
+            <div className="tag-10">
+              <div className="text-wrapper-85">ANRE și ISCIR</div>
             </div>
 
-            <p className="div-6">Siguranță și eficiență pentru casa ta</p>
+            <p className="div-12">Siguranță și eficiență pentru casa ta</p>
 
-            <p className="text-wrapper-45">
+            <p className="text-wrapper-79">
               Integram cele mai noi tehnologii pentru a vă transforma locuința
               într-un spațiu mai sigur și mai eficient energetic, cu sisteme
               smart home și protecție automată împotriva gazelor.
             </p>
 
-            <div className="frame-41">
-              <div className="feature-cards-6">
+            <div className="frame-52">
+              <div className="feature-cards-7">
                 <div className="frame-icon-3">
                   <img
                     className="image-3"
@@ -391,25 +392,25 @@ export const FrameScreen = () => {
                   />
                 </div>
 
-                <div className="frame-42">
-                  <div className="text-6">
-                    <div className="text-wrapper-52">
+                <div className="frame-53">
+                  <div className="text-15">
+                    <div className="text-wrapper-86">
                       Senzori gaze și electrovalve
                     </div>
 
-                    <p className="text-wrapper-53">
+                    <p className="text-wrapper-87">
                       Montaj detectoare gaze naturale cu electrovalvă automată.
                       Siguranță completă pentru familia dvs.
                     </p>
                   </div>
 
-                  <button className="btn-8">
-                    <div className="text-wrapper-44">Sisteme Siguranță ➔</div>
+                  <button className="btn-11">
+                    <div className="text-wrapper-78">Sisteme Siguranță ➔</div>
                   </button>
                 </div>
               </div>
 
-              <div className="feature-cards-6">
+              <div className="feature-cards-7">
                 <div className="frame-icon-3">
                   <img
                     className="image-4"
@@ -418,35 +419,35 @@ export const FrameScreen = () => {
                   />
                 </div>
 
-                <div className="frame-42">
-                  <div className="text-6">
-                    <div className="text-wrapper-52">
+                <div className="frame-53">
+                  <div className="text-15">
+                    <div className="text-wrapper-86">
                       Modernizare și Smart-Home
                     </div>
 
-                    <p className="text-wrapper-53">
+                    <p className="text-wrapper-87">
                       Modernizarea instalațiilor existente și integrarea cu
                       sisteme smart home. Eficiență energetică maximă.
                     </p>
                   </div>
 
-                  <button className="btn-8">
-                    <div className="text-wrapper-44">Modernizare ➔</div>
+                  <button className="btn-11">
+                    <div className="text-wrapper-78">Modernizare ➔</div>
                   </button>
                 </div>
               </div>
             </div>
           </div>
 
-          <div className="frame-43">
-            <div className="frame-44">
-              <p className="exper-i-n-instala-ii-2">
+          <div className="frame-54">
+            <div className="frame-55">
+              <p className="exper-i-n-instala-ii-3">
                 Experți în instalații
                 <br />
                 gaze din 1996
               </p>
 
-              <p className="SC-CON-EST-IMPEX-SRL-2">
+              <p className="SC-CON-EST-IMPEX-SRL-3">
                 SC CON EST IMPEX SRL este o companie cu tradiție în domeniul
                 instalațiilor de gaze naturale și centrale termice, activând din
                 1996 în Constanța și regiunea Dobrogea.
@@ -457,62 +458,62 @@ export const FrameScreen = () => {
                 conformitatea completă cu reglementările naționale și europene.
               </p>
 
-              <div className="text-4">
-                <div className="frame-45">
-                  <div className="element-11">
-                    <Check9 className="check-5" color="#F2B821" />
-                    <p className="autoriza-ii-complete-2">
-                      <span className="text-wrapper-54">
+              <div className="text-13">
+                <div className="frame-56">
+                  <div className="element-21">
+                    <Check9 className="check-instance" color="#F2B821" />
+                    <p className="autoriza-ii-complete-3">
+                      <span className="text-wrapper-88">
                         Autorizații complete
                         <br />
                       </span>
 
-                      <span className="text-wrapper-55">
+                      <span className="text-wrapper-89">
                         ANRE și ISCIR (RVT și RSL)
                         <br />
                       </span>
                     </p>
                   </div>
 
-                  <div className="element-11">
-                    <Check9 className="check-5" color="#F2B821" />
-                    <p className="div-7">
-                      <span className="text-wrapper-54">
+                  <div className="element-21">
+                    <Check9 className="check-instance" color="#F2B821" />
+                    <p className="div-13">
+                      <span className="text-wrapper-88">
                         Experiență vastă
                         <br />
                       </span>
 
-                      <span className="text-wrapper-55">
+                      <span className="text-wrapper-89">
                         Peste 27 de ani pe piață
                       </span>
                     </p>
                   </div>
                 </div>
 
-                <div className="frame-45">
-                  <div className="element-12">
-                    <Check9 className="check-5" color="#F2B821" />
-                    <p className="div-7">
-                      <span className="text-wrapper-54">
+                <div className="frame-56">
+                  <div className="element-22">
+                    <Check9 className="check-instance" color="#F2B821" />
+                    <p className="div-13">
+                      <span className="text-wrapper-88">
                         Siguranță garantată
                         <br />
                       </span>
 
-                      <span className="text-wrapper-55">
+                      <span className="text-wrapper-89">
                         Standarde europene
                       </span>
                     </p>
                   </div>
 
-                  <div className="element-11">
-                    <Check9 className="check-5" color="#F2B821" />
-                    <p className="div-7">
-                      <span className="text-wrapper-54">
+                  <div className="element-21">
+                    <Check9 className="check-instance" color="#F2B821" />
+                    <p className="div-13">
+                      <span className="text-wrapper-88">
                         Reduceri speciale
                         <br />
                       </span>
 
-                      <span className="text-wrapper-55">-25% pensionari</span>
+                      <span className="text-wrapper-89">-25% pensionari</span>
                     </p>
                   </div>
                 </div>
@@ -520,29 +521,29 @@ export const FrameScreen = () => {
             </div>
 
             <FeatureCardsYellow
-              divClassName="feature-cards-yellow-3"
+              divClassName="feature-cards-yellow-4"
               text="Ani de experiență"
               text1="3400+"
               text2="Conformitate ANRE / ISCIR"
             />
           </div>
 
-          <div className="frame-46">
-            <div className="tag-4">
-              <div className="text-wrapper-49">Aria operationala</div>
+          <div className="frame-57">
+            <div className="tag-9">
+              <div className="text-wrapper-83">Aria operationala</div>
             </div>
 
-            <p className="div-6">
+            <p className="div-12">
               Servicii complete în Constanța și la nivel național
             </p>
 
-            <p className="text-wrapper-45">
+            <p className="text-wrapper-79">
               Echipa CON EST deservește Constanța și regiunea Dobrogea cu
               intervenții rapide, precum și proiecte naționale de amploare.
             </p>
           </div>
 
-          <div className="frame-47">
+          <div className="frame-58">
             <div className="feature-cards-image-2">
               <div className="frame-icon-5">
                 <img
@@ -554,57 +555,57 @@ export const FrameScreen = () => {
 
               <div className="text-box-2">
                 <p className="constan-a-acoperire-3">
-                  <span className="text-wrapper-56">
+                  <span className="text-wrapper-90">
                     Constanța
                     <br />
                   </span>
 
-                  <span className="text-wrapper-57">Acoperire Primară</span>
+                  <span className="text-wrapper-91">Acoperire Primară</span>
                 </p>
 
-                <div className="rectangle-2" />
+                <div className="rectangle-4" />
 
                 <div className="mamaia-propriet-i-wrapper">
                   <p className="mamaia-propriet-i-2">
-                    <span className="text-wrapper-58">
+                    <span className="text-wrapper-92">
                       Mamaia
                       <br />
                     </span>
 
-                    <span className="text-wrapper-59">
+                    <span className="text-wrapper-93">
                       Proprietăți premium
                       <br />
                     </span>
 
-                    <span className="text-wrapper-58">
+                    <span className="text-wrapper-92">
                       <br />
                       Centrul Vechi
                       <br />
                     </span>
 
-                    <span className="text-wrapper-59">
+                    <span className="text-wrapper-93">
                       Modernizări
                       <br />
                     </span>
 
-                    <span className="text-wrapper-58">
+                    <span className="text-wrapper-92">
                       <br />
                       Km 4-5
                       <br />
                     </span>
 
-                    <span className="text-wrapper-59">
+                    <span className="text-wrapper-93">
                       Zone rezidențiale
                       <br />
                     </span>
 
-                    <span className="text-wrapper-58">
+                    <span className="text-wrapper-92">
                       <br />
                       Tomis
                       <br />
                     </span>
 
-                    <span className="text-wrapper-59">Apartamente noi</span>
+                    <span className="text-wrapper-93">Apartamente noi</span>
                   </p>
                 </div>
               </div>
@@ -622,49 +623,49 @@ export const FrameScreen = () => {
               <div className="text-box-2">
                 <div className="constan-a-acoperire-4">Proiecte Naționale</div>
 
-                <div className="rectangle-2" />
+                <div className="rectangle-4" />
 
                 <div className="mamaia-propriet-i-wrapper">
                   <p className="mamaia-propriet-i-2">
-                    <span className="text-wrapper-58">
+                    <span className="text-wrapper-92">
                       București
                       <br />
                     </span>
 
-                    <span className="text-wrapper-59">
+                    <span className="text-wrapper-93">
                       Proiecte mari
                       <br />
                       <br />
                     </span>
 
-                    <span className="text-wrapper-58">
+                    <span className="text-wrapper-92">
                       Cluj-Napoca
                       <br />
                     </span>
 
-                    <span className="text-wrapper-59">
+                    <span className="text-wrapper-93">
                       Dezvoltatori
                       <br />
                       <br />
                     </span>
 
-                    <span className="text-wrapper-58">
+                    <span className="text-wrapper-92">
                       Iași
                       <br />
                     </span>
 
-                    <span className="text-wrapper-59">
+                    <span className="text-wrapper-93">
                       Modernizări
                       <br />
                       <br />
                     </span>
 
-                    <span className="text-wrapper-58">
+                    <span className="text-wrapper-92">
                       Alte județe
                       <br />
                     </span>
 
-                    <span className="text-wrapper-59">
+                    <span className="text-wrapper-93">
                       La cerere
                       <br />
                     </span>
@@ -685,49 +686,49 @@ export const FrameScreen = () => {
               <div className="text-box-2">
                 <div className="constan-a-acoperire-4">Regiunea Dobrogea</div>
 
-                <div className="rectangle-2" />
+                <div className="rectangle-4" />
 
                 <div className="mamaia-propriet-i-wrapper">
                   <p className="mamaia-propriet-i-2">
-                    <span className="text-wrapper-58">
+                    <span className="text-wrapper-92">
                       Năvodari
                       <br />
                     </span>
 
-                    <span className="text-wrapper-59">
+                    <span className="text-wrapper-93">
                       Case și vilet
                       <br />
                     </span>
 
-                    <span className="text-wrapper-58">
+                    <span className="text-wrapper-92">
                       <br />
                       Medgidia
                       <br />
                     </span>
 
-                    <span className="text-wrapper-59">
+                    <span className="text-wrapper-93">
                       Service centrale
                       <br />
                       <br />
                     </span>
 
-                    <span className="text-wrapper-58">
+                    <span className="text-wrapper-92">
                       Mangalia
                       <br />
                     </span>
 
-                    <span className="text-wrapper-59">
+                    <span className="text-wrapper-93">
                       Instalații sezonale
                       <br />
                       <br />
                     </span>
 
-                    <span className="text-wrapper-58">
+                    <span className="text-wrapper-92">
                       Eforie
                       <br />
                     </span>
 
-                    <span className="text-wrapper-59">
+                    <span className="text-wrapper-93">
                       Hoteluri
                       <br />
                       <br />
@@ -738,30 +739,30 @@ export const FrameScreen = () => {
             </div>
           </div>
 
-          <div className="frame-48">
-            <div className="tag-4">
-              <div className="text-wrapper-49">URGENȚE</div>
+          <div className="frame-59">
+            <div className="tag-9">
+              <div className="text-wrapper-83">URGENȚE</div>
             </div>
 
-            <p className="div-6">
-              <span className="text-wrapper-60">
+            <p className="div-12">
+              <span className="text-wrapper-94">
                 Urgențe gaze și centrale termice{" "}
               </span>
 
-              <span className="text-wrapper-60">INTERVENȚII RAPIDE</span>
+              <span className="text-wrapper-94">INTERVENȚII RAPIDE</span>
 
-              <span className="text-wrapper-60"> 24/7</span>
+              <span className="text-wrapper-94"> 24/7</span>
             </p>
 
-            <p className="text-wrapper-61">
+            <p className="text-wrapper-95">
               Când aveți o urgență cu gazele sau centrala termică, fiecare minut
               contează. Echipa CON EST IMPEX SRL este disponibilă NON-STOP
               pentru intervenții urgente în Constanța.
             </p>
 
-            <div className="cards-2">
-              <div className="feature-cards-small-2">
-                <div className="div-8">
+            <div className="cards-3">
+              <div className="feature-cards-small-3">
+                <div className="div-14">
                   <div className="frame-icon-6">
                     <div className="icon-14">
                       <img
@@ -772,16 +773,16 @@ export const FrameScreen = () => {
                     </div>
                   </div>
 
-                  <div className="div-9">
-                    <div className="modernizare-smart-2">Scăpări De Gaze</div>
+                  <div className="div-15">
+                    <div className="modernizare-smart-3">Scăpări De Gaze</div>
 
-                    <div className="text-wrapper-62">Intervenție imediată</div>
+                    <div className="text-wrapper-96">Intervenție imediată</div>
                   </div>
                 </div>
               </div>
 
-              <div className="feature-cards-small-2">
-                <div className="div-8">
+              <div className="feature-cards-small-3">
+                <div className="div-14">
                   <div className="frame-icon-6">
                     <div className="icon-14">
                       <img
@@ -792,16 +793,16 @@ export const FrameScreen = () => {
                     </div>
                   </div>
 
-                  <div className="div-9">
-                    <div className="modernizare-smart-2">Centrale Oprite</div>
+                  <div className="div-15">
+                    <div className="modernizare-smart-3">Centrale Oprite</div>
 
-                    <div className="text-wrapper-62">Remediere rapidă</div>
+                    <div className="text-wrapper-96">Remediere rapidă</div>
                   </div>
                 </div>
               </div>
 
-              <div className="feature-cards-small-2">
-                <div className="div-8">
+              <div className="feature-cards-small-3">
+                <div className="div-14">
                   <div className="frame-icon-6">
                     <div className="icon-14">
                       <img
@@ -812,16 +813,16 @@ export const FrameScreen = () => {
                     </div>
                   </div>
 
-                  <div className="div-9">
-                    <div className="modernizare-smart-2">Presiune Scăzută</div>
+                  <div className="div-15">
+                    <div className="modernizare-smart-3">Presiune Scăzută</div>
 
-                    <div className="text-wrapper-62">Diagnosticare sistem</div>
+                    <div className="text-wrapper-96">Diagnosticare sistem</div>
                   </div>
                 </div>
               </div>
 
-              <div className="feature-cards-small-2">
-                <div className="div-8">
+              <div className="feature-cards-small-3">
+                <div className="div-14">
                   <div className="frame-icon-6">
                     <div className="icon-14">
                       <img
@@ -832,16 +833,16 @@ export const FrameScreen = () => {
                     </div>
                   </div>
 
-                  <div className="div-9">
-                    <div className="modernizare-smart-2">Detecție Probleme</div>
+                  <div className="div-15">
+                    <div className="modernizare-smart-3">Detecție Probleme</div>
 
-                    <div className="text-wrapper-62">Verificări siguranță</div>
+                    <div className="text-wrapper-96">Verificări siguranță</div>
                   </div>
                 </div>
               </div>
 
-              <div className="feature-cards-small-2">
-                <div className="div-8">
+              <div className="feature-cards-small-3">
+                <div className="div-14">
                   <div className="frame-icon-6">
                     <div className="icon-14">
                       <img
@@ -852,21 +853,21 @@ export const FrameScreen = () => {
                     </div>
                   </div>
 
-                  <div className="div-9">
-                    <div className="modernizare-smart-2">Remediere Avarii</div>
+                  <div className="div-15">
+                    <div className="modernizare-smart-3">Remediere Avarii</div>
 
-                    <div className="text-wrapper-62">Piese originale</div>
+                    <div className="text-wrapper-96">Piese originale</div>
                   </div>
                 </div>
               </div>
             </div>
 
-            <div className="title-2">
-              <div className="text-wrapper-63">URGENȚE 24/7: 0744-579-715</div>
+            <div className="title-8">
+              <div className="text-wrapper-97">URGENȚE 24/7: 0744-579-715</div>
 
               <div className="apela-i-acum-pentru-wrapper">
                 <p className="span-wrapper">
-                  <span className="text-wrapper-64">
+                  <span className="text-wrapper-98">
                     Apelați acum pentru urgențe.
                     <br />
                     Timp de răspuns rapid ore în Constanța
@@ -879,14 +880,14 @@ export const FrameScreen = () => {
 
           <footer className="footer-2">
             <div className="links-2">
-              <div className="element-13">
+              <div className="element-23">
                 <ConestLogoFull
                   className="instance-node"
                   flamedrop="/img/flamedrop-2.svg"
-                  overlapGroupClassName="conest-logo-full-5"
+                  overlapGroupClassName="conest-logo-full-7"
                 />
-                <div className="frame-49">
-                  <div className="element-14">
+                <div className="frame-60">
+                  <div className="element-24">
                     <p className="instala-ii-gaze-i-2">
                       Instalații gaze și centrale termice
                       <br />
@@ -898,21 +899,21 @@ export const FrameScreen = () => {
                 </div>
               </div>
 
-              <div className="element-15">
-                <div className="text-wrapper-65">Servicii</div>
+              <div className="element-25">
+                <div className="text-wrapper-99">Servicii</div>
 
-                <div className="frame-49">
-                  <div className="element-14">
-                    <div className="la-chevron-circle-2">
+                <div className="frame-60">
+                  <div className="element-24">
+                    <div className="la-chevron-circle-3">
                       <img
-                        className="vector-20"
+                        className="vector-29"
                         alt="Vector"
-                        src="/img/vector-5.svg"
+                        src="/img/vector-6.svg"
                       />
                     </div>
 
                     <a
-                      className="text-wrapper-66"
+                      className="text-wrapper-100"
                       href="instalatii-gaze-naturale.html"
                       rel="noopener noreferrer"
                       target="_blank"
@@ -921,258 +922,264 @@ export const FrameScreen = () => {
                     </a>
                   </div>
 
-                  <div className="element-14">
-                    <div className="la-chevron-circle-2">
+                  <div className="element-24">
+                    <div className="la-chevron-circle-3">
                       <img
-                        className="vector-20"
+                        className="vector-29"
                         alt="Vector"
-                        src="/img/vector-5.svg"
+                        src="/img/vector-6.svg"
                       />
                     </div>
 
-                    <div className="text-wrapper-66">Centrale Termice</div>
+                    <div className="text-wrapper-100">Centrale Termice</div>
                   </div>
 
-                  <div className="element-14">
-                    <div className="la-chevron-circle-2">
+                  <div className="element-24">
+                    <div className="la-chevron-circle-3">
                       <img
-                        className="vector-20"
+                        className="vector-29"
                         alt="Vector"
-                        src="/img/vector-5.svg"
+                        src="/img/vector-6.svg"
                       />
                     </div>
 
-                    <div className="text-wrapper-66">Urgențe 24/7</div>
+                    <div className="text-wrapper-100">Urgențe 24/7</div>
                   </div>
 
-                  <div className="element-14">
-                    <div className="la-chevron-circle-2">
+                  <div className="element-24">
+                    <div className="la-chevron-circle-3">
                       <img
-                        className="vector-20"
+                        className="vector-29"
                         alt="Vector"
-                        src="/img/vector-5.svg"
+                        src="/img/vector-6.svg"
                       />
                     </div>
 
-                    <div className="text-wrapper-66">Revizii Și Verificări</div>
+                    <div className="text-wrapper-100">
+                      Revizii Și Verificări
+                    </div>
                   </div>
 
-                  <div className="element-14">
-                    <div className="la-chevron-circle-2">
+                  <div className="element-24">
+                    <div className="la-chevron-circle-3">
                       <img
-                        className="vector-20"
+                        className="vector-29"
                         alt="Vector"
-                        src="/img/vector-5.svg"
+                        src="/img/vector-6.svg"
                       />
                     </div>
 
-                    <div className="text-wrapper-66">Revizii Și Verificări</div>
+                    <div className="text-wrapper-100">
+                      Revizii Și Verificări
+                    </div>
                   </div>
 
-                  <div className="element-14">
-                    <div className="la-chevron-circle-2">
+                  <div className="element-24">
+                    <div className="la-chevron-circle-3">
                       <img
-                        className="vector-20"
+                        className="vector-29"
                         alt="Vector"
-                        src="/img/vector-5.svg"
+                        src="/img/vector-6.svg"
                       />
                     </div>
 
-                    <div className="text-wrapper-66">
+                    <div className="text-wrapper-100">
                       Senzori Și Electrovalve
                     </div>
                   </div>
                 </div>
               </div>
 
-              <div className="element-16">
-                <div className="text-wrapper-67">Zone Deservite</div>
+              <div className="element-26">
+                <div className="text-wrapper-101">Zone Deservite</div>
 
-                <div className="frame-50">
-                  <div className="element-17">
-                    <div className="la-chevron-circle-2">
+                <div className="frame-61">
+                  <div className="element-27">
+                    <div className="la-chevron-circle-3">
                       <img
-                        className="vector-20"
+                        className="vector-29"
                         alt="Vector"
-                        src="/img/vector-9-2.svg"
+                        src="/img/vector-10-2.svg"
                       />
                     </div>
 
-                    <div className="text-wrapper-68">Constanța Și Mamaia</div>
+                    <div className="text-wrapper-102">Constanța Și Mamaia</div>
                   </div>
 
-                  <div className="element-17">
-                    <div className="la-chevron-circle-2">
+                  <div className="element-27">
+                    <div className="la-chevron-circle-3">
                       <img
-                        className="vector-20"
+                        className="vector-29"
                         alt="Vector"
-                        src="/img/vector-9-2.svg"
+                        src="/img/vector-10-2.svg"
                       />
                     </div>
 
-                    <div className="text-wrapper-68">Năvodari Și Medgidia</div>
+                    <div className="text-wrapper-102">Năvodari Și Medgidia</div>
                   </div>
 
-                  <div className="element-17">
-                    <div className="la-chevron-circle-2">
+                  <div className="element-27">
+                    <div className="la-chevron-circle-3">
                       <img
-                        className="vector-20"
+                        className="vector-29"
                         alt="Vector"
-                        src="/img/vector-9-2.svg"
+                        src="/img/vector-10-2.svg"
                       />
                     </div>
 
-                    <div className="text-wrapper-68">Mangalia Și Eforie</div>
+                    <div className="text-wrapper-102">Mangalia Și Eforie</div>
                   </div>
 
-                  <div className="element-17">
-                    <div className="la-chevron-circle-2">
+                  <div className="element-27">
+                    <div className="la-chevron-circle-3">
                       <img
-                        className="vector-20"
+                        className="vector-29"
                         alt="Vector"
-                        src="/img/vector-9-2.svg"
+                        src="/img/vector-10-2.svg"
                       />
                     </div>
 
-                    <div className="text-wrapper-68">Lucrări Naționale</div>
+                    <div className="text-wrapper-102">Lucrări Naționale</div>
                   </div>
                 </div>
               </div>
 
-              <div className="element-18">
-                <div className="text-wrapper-67">Contact &amp; Legal</div>
+              <div className="element-28">
+                <div className="text-wrapper-101">Contact &amp; Legal</div>
 
-                <div className="frame-49">
-                  <div className="element-14">
-                    <div className="div-10">
+                <div className="frame-60">
+                  <div className="element-24">
+                    <div className="div-16">
                       <img
-                        className="vector-21"
+                        className="vector-30"
                         alt="Vector"
-                        src="/img/vector-10.svg"
+                        src="/img/vector-11.svg"
                       />
                     </div>
 
-                    <div className="text-wrapper-66">Constanța, România</div>
+                    <div className="text-wrapper-100">Constanța, România</div>
                   </div>
 
-                  <div className="element-14">
-                    <div className="div-10">
+                  <div className="element-24">
+                    <div className="div-16">
                       <img
-                        className="vector-22"
+                        className="vector-31"
                         alt="Vector"
-                        src="/img/vector-11-2.svg"
+                        src="/img/vector-12.svg"
                       />
                     </div>
 
-                    <div className="text-wrapper-69">
+                    <div className="text-wrapper-103">
                       contact@conest-gaze-centrale.ro
                     </div>
                   </div>
 
-                  <div className="element-14">
-                    <div className="div-10">
-                      <div className="overlap-group-wrapper">
-                        <div className="overlap-group-3">
+                  <div className="element-24">
+                    <div className="div-16">
+                      <div className="group-6">
+                        <div className="overlap-group-5">
                           <img
-                            className="vector-23"
-                            alt="Vector"
-                            src="/img/vector-15-2.svg"
-                          />
-
-                          <img
-                            className="vector-24"
+                            className="vector-32"
                             alt="Vector"
                             src="/img/vector-16-2.svg"
                           />
 
                           <img
-                            className="vector-25"
+                            className="vector-33"
                             alt="Vector"
                             src="/img/vector-17-2.svg"
+                          />
+
+                          <img
+                            className="vector-34"
+                            alt="Vector"
+                            src="/img/vector-18-2.svg"
                           />
                         </div>
                       </div>
                     </div>
 
-                    <div className="text-wrapper-69">0xxx-xxx-xxx</div>
+                    <div className="text-wrapper-103">0xxx-xxx-xxx</div>
                   </div>
 
-                  <div className="element-14">
-                    <div className="div-10">
-                      <div className="overlap-group-wrapper">
-                        <div className="overlap-group-3">
+                  <div className="element-24">
+                    <div className="div-16">
+                      <div className="group-6">
+                        <div className="overlap-group-5">
                           <img
-                            className="vector-23"
-                            alt="Vector"
-                            src="/img/vector-15-2.svg"
-                          />
-
-                          <img
-                            className="vector-24"
+                            className="vector-32"
                             alt="Vector"
                             src="/img/vector-16-2.svg"
                           />
 
                           <img
-                            className="vector-25"
+                            className="vector-33"
                             alt="Vector"
                             src="/img/vector-17-2.svg"
+                          />
+
+                          <img
+                            className="vector-34"
+                            alt="Vector"
+                            src="/img/vector-18-2.svg"
                           />
                         </div>
                       </div>
                     </div>
 
-                    <div className="text-wrapper-69">Urgențe: 0xxx-xxx-xxx</div>
+                    <div className="text-wrapper-103">
+                      Urgențe: 0xxx-xxx-xxx
+                    </div>
                   </div>
 
-                  <div className="element-14">
-                    <div className="div-10">
+                  <div className="element-24">
+                    <div className="div-16">
                       <img
-                        className="vector-26"
+                        className="vector-35"
                         alt="Vector"
-                        src="/img/vector-18-2.svg"
+                        src="/img/vector-19-2.svg"
                       />
                     </div>
 
-                    <div className="text-wrapper-69">24/7</div>
+                    <div className="text-wrapper-103">24/7</div>
                   </div>
 
-                  <div className="element-14">
-                    <div className="la-chevron-circle-2">
+                  <div className="element-24">
+                    <div className="la-chevron-circle-3">
                       <img
-                        className="vector-20"
+                        className="vector-29"
                         alt="Vector"
-                        src="/img/vector-21-2.svg"
+                        src="/img/vector-22.svg"
                       />
                     </div>
 
-                    <div className="text-wrapper-66">
+                    <div className="text-wrapper-100">
                       Politica De Confidențialitate
                     </div>
                   </div>
 
-                  <div className="element-14">
-                    <div className="la-chevron-circle-2">
+                  <div className="element-24">
+                    <div className="la-chevron-circle-3">
                       <img
-                        className="vector-20"
+                        className="vector-29"
                         alt="Vector"
-                        src="/img/vector-21-2.svg"
+                        src="/img/vector-22.svg"
                       />
                     </div>
 
-                    <div className="text-wrapper-66">Termeni Și Condiții</div>
+                    <div className="text-wrapper-100">Termeni Și Condiții</div>
                   </div>
 
-                  <div className="element-14">
-                    <div className="la-chevron-circle-2">
+                  <div className="element-24">
+                    <div className="la-chevron-circle-3">
                       <img
-                        className="vector-20"
+                        className="vector-29"
                         alt="Vector"
-                        src="/img/vector-21-2.svg"
+                        src="/img/vector-22.svg"
                       />
                     </div>
 
-                    <div className="text-wrapper-66">
+                    <div className="text-wrapper-100">
                       Certificări Anre &amp; Iscir
                     </div>
                   </div>

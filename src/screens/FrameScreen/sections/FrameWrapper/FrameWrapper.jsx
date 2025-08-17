@@ -21,7 +21,7 @@ export const FrameWrapper = () => {
 
       <div className="frame-4">
         <div className="feature-cards-wrapper">
-          <div className="feature-cards">
+          <div className="feature-cards-2">
             <div className="frame-5">
               <div className="frame-6">
                 <div className="frame-icon">
@@ -55,7 +55,7 @@ export const FrameWrapper = () => {
 
       <div className="frame-9">
         <div className="feature-cards-wrapper">
-          <div className="feature-cards">
+          <div className="feature-cards-2">
             <div className="frame-5">
               <div className="frame-6">
                 <div className="frame-icon">
@@ -89,7 +89,7 @@ export const FrameWrapper = () => {
 
       <div className="frame-9">
         <div className="feature-cards-wrapper">
-          <div className="feature-cards">
+          <div className="feature-cards-2">
             <div className="frame-5">
               <div className="frame-6">
                 <div className="frame-icon">

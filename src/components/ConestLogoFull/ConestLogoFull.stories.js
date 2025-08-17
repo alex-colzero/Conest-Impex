@@ -9,6 +9,6 @@ export const Default = {
   args: {
     className: {},
     overlapGroupClassName: {},
-    flamedrop: "/img/flamedrop-4.svg",
+    flamedrop: "/img/flamedrop-5.svg",
   },
 };

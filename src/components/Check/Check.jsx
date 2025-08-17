@@ -10,5 +10,5 @@ import { Check9 } from "../../icons/Check9";
 import "./style.css";
 
 export const Check = () => {
-  return <Check9 className="check-2" color="white" />;
+  return <Check9 className="check-9-instance" color="white" />;
 };

@@ -11,7 +11,7 @@ export const Footer = () => {
         <div className="element-4">
           <ConestLogoFull
             className="conest-logo-full-2"
-            flamedrop="/img/flamedrop-3.svg"
+            flamedrop="/img/flamedrop-4.svg"
             overlapGroupClassName="conest-logo-full-3"
           />
           <div className="frame-20">
@@ -33,7 +33,7 @@ export const Footer = () => {
           <div className="frame-20">
             <div className="element-5">
               <div className="la-chevron-circle">
-                <img className="vector" alt="Vector" src="/img/vector.svg" />
+                <img className="vector" alt="Vector" src="/img/image.svg" />
               </div>
 
               <a
@@ -48,7 +48,11 @@ export const Footer = () => {
 
             <div className="element-5">
               <div className="la-chevron-circle">
-                <img className="vector-2" alt="Vector" src="/img/image.svg" />
+                <img
+                  className="vector-2"
+                  alt="Vector"
+                  src="/img/vector-2.svg"
+                />
               </div>
 
               <div className="text-wrapper-33">Centrale Termice</div>
@@ -59,7 +63,7 @@ export const Footer = () => {
                 <img
                   className="vector-3"
                   alt="Vector"
-                  src="/img/vector-2.svg"
+                  src="/img/vector-3.svg"
                 />
               </div>
 
@@ -71,7 +75,7 @@ export const Footer = () => {
                 <img
                   className="vector-4"
                   alt="Vector"
-                  src="/img/vector-3.svg"
+                  src="/img/vector-4.svg"
                 />
               </div>
 
@@ -83,7 +87,7 @@ export const Footer = () => {
                 <img
                   className="vector-5"
                   alt="Vector"
-                  src="/img/vector-4.svg"
+                  src="/img/vector-5.svg"
                 />
               </div>
 
@@ -95,7 +99,7 @@ export const Footer = () => {
                 <img
                   className="vector-6"
                   alt="Vector"
-                  src="/img/vector-6.svg"
+                  src="/img/vector-7.svg"
                 />
               </div>
 
@@ -113,7 +117,7 @@ export const Footer = () => {
                 <img
                   className="vector-7"
                   alt="Vector"
-                  src="/img/vector-7.svg"
+                  src="/img/vector-8.svg"
                 />
               </div>
 
@@ -125,7 +129,7 @@ export const Footer = () => {
                 <img
                   className="vector-8"
                   alt="Vector"
-                  src="/img/vector-8.svg"
+                  src="/img/vector-9.svg"
                 />
               </div>
 
@@ -137,7 +141,7 @@ export const Footer = () => {
                 <img
                   className="vector-9"
                   alt="Vector"
-                  src="/img/vector-9.svg"
+                  src="/img/vector-10.svg"
                 />
               </div>
 
@@ -149,7 +153,7 @@ export const Footer = () => {
                 <img
                   className="vector-10"
                   alt="Vector"
-                  src="/img/vector-11.svg"
+                  src="/img/vector-13.svg"
                 />
               </div>
 
@@ -167,7 +171,7 @@ export const Footer = () => {
                 <img
                   className="vector-11"
                   alt="Vector"
-                  src="/img/vector-12.svg"
+                  src="/img/vector-14.svg"
                 />
               </div>
 
@@ -179,7 +183,7 @@ export const Footer = () => {
                 <img
                   className="vector-12"
                   alt="Vector"
-                  src="/img/vector-13.svg"
+                  src="/img/vector-15.svg"
                 />
               </div>
 
@@ -195,19 +199,19 @@ export const Footer = () => {
                     <img
                       className="vector-13"
                       alt="Vector"
-                      src="/img/vector-14.svg"
+                      src="/img/vector-16.svg"
                     />
 
                     <img
                       className="vector-14"
                       alt="Vector"
-                      src="/img/vector-15.svg"
+                      src="/img/vector-17.svg"
                     />
 
                     <img
                       className="vector-15"
                       alt="Vector"
-                      src="/img/vector-16.svg"
+                      src="/img/vector-18.svg"
                     />
                   </div>
                 </div>
@@ -223,19 +227,19 @@ export const Footer = () => {
                     <img
                       className="vector-13"
                       alt="Vector"
-                      src="/img/vector-17.svg"
+                      src="/img/vector-19.svg"
                     />
 
                     <img
                       className="vector-14"
                       alt="Vector"
-                      src="/img/vector-18.svg"
+                      src="/img/vector-20.svg"
                     />
 
                     <img
                       className="vector-15"
                       alt="Vector"
-                      src="/img/vector-19.svg"
+                      src="/img/vector-21.svg"
                     />
                   </div>
                 </div>
@@ -249,7 +253,7 @@ export const Footer = () => {
                 <img
                   className="vector-16"
                   alt="Vector"
-                  src="/img/vector-20.svg"
+                  src="/img/vector-24.svg"
                 />
               </div>
 
@@ -261,7 +265,7 @@ export const Footer = () => {
                 <img
                   className="vector-17"
                   alt="Vector"
-                  src="/img/vector-21.svg"
+                  src="/img/vector-25.svg"
                 />
               </div>
 
@@ -275,7 +279,7 @@ export const Footer = () => {
                 <img
                   className="vector-18"
                   alt="Vector"
-                  src="/img/vector-22.svg"
+                  src="/img/vector-26.svg"
                 />
               </div>
 
@@ -287,7 +291,7 @@ export const Footer = () => {
                 <img
                   className="vector-19"
                   alt="Vector"
-                  src="/img/vector-23.svg"
+                  src="/img/vector-27.svg"
                 />
               </div>
 
