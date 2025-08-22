@@ -4,6 +4,7 @@ import React from "react";
 import Link from "next/link";
 import { useWindowWidth } from "../../breakpoints";
 import { ConestLogoFull } from "../../components/ConestLogoFull";
+import { Check9 } from "../../icons/Check9";
 import { TopBar } from "../FrameScreen/sections/TopBar";
 import { BillboardHighlightRevizie } from "./sections/BillboardHighlightRevizie";
 import { BillboardHighlightWrapper } from "../Servicii/sections/BillboardHighlightWrapper";
@@ -48,6 +49,58 @@ export const Revizie = () => {
                 src="/img/phoneicon-1.svg"
               />
               <div className="copy-2">0722 619 097</div>
+            </div>
+          </div>
+        </div>
+      )}
+
+      {/* Gradient Header Section */}
+      {screenWidth >= 1600 && (
+        <div className="frame-35">
+          <div className="frame-36">
+            <p className="text-wrapper-76">
+              Revizii și verificări ANRE pentru centrale termice
+            </p>
+
+            <p className="autoriza-i-ANRE-2">
+              Autorizați ANRE &amp; ISCIR din 1996
+            </p>
+
+            <div className="text-13">
+              <div className="why-choose-4">
+                <div className="element-21">
+                  <Check9 className="check-instance" color="#F2B821" />
+                  <div className="text-wrapper-77">Revizii Obligatorii</div>
+                </div>
+
+                <div className="element-21">
+                  <Check9 className="check-instance" color="#F2B821" />
+                  <div className="text-wrapper-77">Certificate Oficiale</div>
+                </div>
+
+                <div className="element-21">
+                  <Check9 className="check-instance" color="#F2B821" />
+                  <div className="text-wrapper-77">Experiență 27+ Ani</div>
+                </div>
+              </div>
+            </div>
+
+            <div className="text-14">
+              <div className="CTA-buttons-2">
+                <button className="btn-8">
+                  <div className="icon-10" />
+                  <div className="text-wrapper-78">Programează Revizia</div>
+                </button>
+
+                <button className="button-4">
+                  <img
+                    className="phoneicon-2"
+                    alt="Phoneicon"
+                    src="/img/phoneicon-2.svg"
+                  />
+                  <div className="copy-2">0722 619 097</div>
+                </button>
+              </div>
             </div>
           </div>
         </div>
