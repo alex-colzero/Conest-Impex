@@ -1,0 +1,21 @@
+{
+  "routes": [
+    "/instalatii-gaze-naturale",
+    "/centrale-termice", 
+    "/revizii-anre",
+    "/sisteme-siguranta",
+    "/modernizare-smart-home",
+    "/intrebari-frecvente",
+    "/certificari-anre-iscir",
+    "/politica-confidentialitate",
+    "/termeni-conditii",
+    "/constanta-mamaia",
+    "/navodari-medgidia", 
+    "/mangalia-eforie",
+    "/lucrari-nationale",
+    "/content"
+  ],
+  "mustLinkFrom": {
+    "/": ["all"]
+  }
+}

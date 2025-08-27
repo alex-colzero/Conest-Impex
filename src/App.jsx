@@ -1,22 +1,25 @@
-"use client";
-
 import React from "react";
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
-import { FrameScreen } from "./screens/FrameScreen";
-import { Servicii } from "./screens/Servicii";
+import { ElementContentPage } from "./screens/ElementContentPage";
+import { ElementHomepage } from "./screens/ElementHomepage/ElementHomepage";
+import { ElementHomepageMenu } from "./screens/ElementHomepageMenu";
 
 const router = createBrowserRouter([
   {
     path: "/*",
-    element: <FrameScreen />,
+    element: <ElementHomepage />,
   },
   {
-    path: "/frame-3543",
-    element: <FrameScreen />,
+    path: "/x440-u45-homepage",
+    element: <ElementHomepage />,
   },
   {
-    path: "/servicii",
-    element: <Servicii />,
+    path: "/x1440-u45-content-page",
+    element: <ElementContentPage />,
+  },
+  {
+    path: "/x440-u45-homepage-u45-menu-open",
+    element: <ElementHomepageMenu />,
   },
 ]);
 

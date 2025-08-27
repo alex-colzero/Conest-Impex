@@ -1,0 +1,1 @@
+export { HeadlineBoxWrapperSection } from "./HeadlineBoxWrapperSection";

@@ -1,1 +1,0 @@
-export { ImageTextWrapper } from "./ImageTextWrapper";

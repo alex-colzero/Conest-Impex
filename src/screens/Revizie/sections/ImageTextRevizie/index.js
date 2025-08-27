@@ -1,1 +1,0 @@
-export { ImageTextRevizie } from "./ImageTextRevizie";

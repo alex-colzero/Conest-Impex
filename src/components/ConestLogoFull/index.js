@@ -1,1 +1,0 @@
-export { ConestLogoFull } from "./ConestLogoFull";

@@ -1,0 +1,1 @@
+export { ServiceBoxDetailSection } from "./ServiceBoxDetailSection";

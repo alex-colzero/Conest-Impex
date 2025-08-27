@@ -1,1 +1,0 @@
-export { FaqsRevizie } from "./FaqsRevizie";

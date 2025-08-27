@@ -1,1 +1,0 @@
-export { FeatureCardsSmall } from "./FeatureCardsSmall";
