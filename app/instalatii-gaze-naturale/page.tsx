@@ -82,54 +82,14 @@ export default function InstallatiiGazeNaturale() {
             </p>
           </div>
 
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-            <div className="bg-[#f9f9f9] p-8 rounded-xl">
-              <div className="w-16 h-16 bg-[#f2b721] rounded-full flex items-center justify-center mb-6">
+          <div className="max-w-2xl mx-auto">
+            <div className="bg-[#f9f9f9] p-8 rounded-xl text-center">
+              <div className="w-16 h-16 bg-[#f2b721] rounded-full flex items-center justify-center mb-6 mx-auto">
                 <img src="/img/icon-29.png" alt="Executarea instalației de utilizare" className="w-8 h-8" />
               </div>
               <h3 className="text-xl font-semibold text-[#05213c] mb-4">Executarea instalației de utilizare</h3>
               <p className="text-gray-600">
                 Montarea conductei între branșament și aparatele consumatoare de gaz inclusiv instalarea <Link href="/sisteme-siguranta" className="text-[#f2b721] hover:underline">dispozitivelor de detecție și siguranță</Link>.
-              </p>
-            </div>
-
-            <div className="bg-[#f9f9f9] p-8 rounded-xl">
-              <div className="w-16 h-16 bg-[#f2b721] rounded-full flex items-center justify-center mb-6">
-                <img src="/img/icon-29.png" alt="Aparate" className="w-8 h-8" />
-              </div>
-              <h3 className="text-xl font-semibold text-[#05213c] mb-4">Conectare Aparate</h3>
-              <p className="text-gray-600">
-                Conectarea și punerea în funcțiune a aparatelor consumatoare: <Link href="/centrale-termice" className="text-[#f2b721] hover:underline">centrale termice</Link>, aragaze, cuptoare.
-              </p>
-            </div>
-
-            <div className="bg-[#f9f9f9] p-8 rounded-xl">
-              <div className="w-16 h-16 bg-[#f2b721] rounded-full flex items-center justify-center mb-6">
-                <img src="/img/icon-29.png" alt="Proiectare" className="w-8 h-8" />
-              </div>
-              <h3 className="text-xl font-semibold text-[#05213c] mb-4">Proiectare Tehnică</h3>
-              <p className="text-gray-600">
-                Elaborarea proiectului tehnic conform normelor ANRE. Calcule de dimensionare și planuri de execuție.
-              </p>
-            </div>
-
-            <div className="bg-[#f9f9f9] p-8 rounded-xl">
-              <div className="w-16 h-16 bg-[#f2b721] rounded-full flex items-center justify-center mb-6">
-                <img src="/img/icon-29.png" alt="Avizare" className="w-8 h-8" />
-              </div>
-              <h3 className="text-xl font-semibold text-[#05213c] mb-4">Avizare ANRE</h3>
-              <p className="text-gray-600">
-                Obținerea tuturor avizelor și autorizațiilor necesare de la ANRE pentru punerea în funcțiune.
-              </p>
-            </div>
-
-            <div className="bg-[#f9f9f9] p-8 rounded-xl">
-              <div className="w-16 h-16 bg-[#f2b721] rounded-full flex items-center justify-center mb-6">
-                <img src="/img/icon-29.png" alt="Garanție" className="w-8 h-8" />
-              </div>
-              <h3 className="text-xl font-semibold text-[#05213c] mb-4">Garanție & Service</h3>
-              <p className="text-gray-600">
-                Garanție completă 2 ani pentru toate lucrările executate. Service post-garanție și mentenanță periodică.
               </p>
             </div>
           </div>
