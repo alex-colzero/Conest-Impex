@@ -85,21 +85,11 @@ export default function InstallatiiGazeNaturale() {
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             <div className="bg-[#f9f9f9] p-8 rounded-xl">
               <div className="w-16 h-16 bg-[#f2b721] rounded-full flex items-center justify-center mb-6">
-                <img src="/img/icon-29.png" alt="Branșament" className="w-8 h-8" />
+                <img src="/img/icon-29.png" alt="Executarea instalației de utilizare" className="w-8 h-8" />
               </div>
-              <h3 className="text-xl font-semibold text-[#05213c] mb-4">Branșament Gaze</h3>
+              <h3 className="text-xl font-semibold text-[#05213c] mb-4">Executarea instalației de utilizare</h3>
               <p className="text-gray-600">
-                Conectarea proprietății la rețeaua publică de gaze naturale. Ne ocupăm de toate documentele și avizele necesare. Pentru o protecție suplimentară, puteți opta și pentru <Link href="/sisteme-siguranta" className="text-[#f2b721] hover:underline">sisteme de detectie și siguranță</Link>.
-              </p>
-            </div>
-
-            <div className="bg-[#f9f9f9] p-8 rounded-xl">
-              <div className="w-16 h-16 bg-[#f2b721] rounded-full flex items-center justify-center mb-6">
-                <img src="/img/icon-29.png" alt="Conducte" className="w-8 h-8" />
-              </div>
-              <h3 className="text-xl font-semibold text-[#05213c] mb-4">Conducte Distribuție</h3>
-              <p className="text-gray-600">
-                Instalarea conductelor de distribuție gaze în interior și exterior. Materiale certificate și execuție conform normativelor.
+                Montarea conductei între branșament și aparatele consumatoare de gaz inclusiv instalarea <Link href="/sisteme-siguranta" className="text-[#f2b721] hover:underline">dispozitivelor de detecție și siguranță</Link>.
               </p>
             </div>
 
