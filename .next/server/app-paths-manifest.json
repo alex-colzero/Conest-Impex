@@ -1,1 +1,21 @@
-{}
+{
+  "/_not-found/page": "app/_not-found/page.js",
+  "/sitemap.xml/route": "app/sitemap.xml/route.js",
+  "/robots.txt/route": "app/robots.txt/route.js",
+  "/content/page": "app/content/page.js",
+  "/constanta-mamaia/page": "app/constanta-mamaia/page.js",
+  "/page": "app/page.js",
+  "/centrale-termice/page": "app/centrale-termice/page.js",
+  "/certificari-anre-iscir/page": "app/certificari-anre-iscir/page.js",
+  "/lucrari-nationale/page": "app/lucrari-nationale/page.js",
+  "/mangalia-eforie/page": "app/mangalia-eforie/page.js",
+  "/instalatii-gaze-naturale/page": "app/instalatii-gaze-naturale/page.js",
+  "/navodari-medgidia/page": "app/navodari-medgidia/page.js",
+  "/politica-confidentialitate/page": "app/politica-confidentialitate/page.js",
+  "/modernizare-smart-home/page": "app/modernizare-smart-home/page.js",
+  "/termeni-conditii/page": "app/termeni-conditii/page.js",
+  "/urgente/page": "app/urgente/page.js",
+  "/sisteme-siguranta/page": "app/sisteme-siguranta/page.js",
+  "/intrebari-frecvente/page": "app/intrebari-frecvente/page.js",
+  "/revizii-anre/page": "app/revizii-anre/page.js"
+}

@@ -1,0 +1,30 @@
+User-agent: *
+Allow: /
+
+# Main pages
+Allow: /instalatii-gaze-naturale
+Allow: /centrale-termice
+Allow: /urgente
+Allow: /revizii-anre
+Allow: /sisteme-siguranta
+Allow: /intrebari-frecvente
+Allow: /modernizare-smart-home
+
+# Zone pages
+Allow: /constanta-mamaia
+Allow: /navodari-medgidia
+Allow: /mangalia-eforie
+Allow: /lucrari-nationale
+
+# Legal pages
+Allow: /politica-confidentialitate
+Allow: /termeni-conditii
+Allow: /certificari-anre-iscir
+
+# Block development files
+Disallow: /_next/
+Disallow: /api/
+Disallow: /*.json$
+
+# Sitemap
+Sitemap: https://conest-gaze-centrale.ro/sitemap.xml

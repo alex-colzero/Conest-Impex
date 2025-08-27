@@ -1,1 +1,155 @@
-{"version":3,"caseSensitive":false,"basePath":"","rewrites":{"beforeFiles":[],"afterFiles":[],"fallback":[]},"redirects":[{"source":"/:path+/","destination":"/:path+","permanent":true,"internal":true,"regex":"^(?:\\/((?:[^\\/]+?)(?:\\/(?:[^\\/]+?))*))\\/$"}],"headers":[]}
+{
+  "version": 3,
+  "pages404": true,
+  "caseSensitive": false,
+  "basePath": "",
+  "redirects": [
+    {
+      "source": "/:path+/",
+      "destination": "/:path+",
+      "internal": true,
+      "statusCode": 308,
+      "regex": "^(?:/((?:[^/]+?)(?:/(?:[^/]+?))*))/$"
+    }
+  ],
+  "headers": [],
+  "rewrites": {
+    "beforeFiles": [],
+    "afterFiles": [],
+    "fallback": []
+  },
+  "dynamicRoutes": [],
+  "staticRoutes": [
+    {
+      "page": "/",
+      "regex": "^/(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/(?:/)?$"
+    },
+    {
+      "page": "/_not-found",
+      "regex": "^/_not\\-found(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/_not\\-found(?:/)?$"
+    },
+    {
+      "page": "/centrale-termice",
+      "regex": "^/centrale\\-termice(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/centrale\\-termice(?:/)?$"
+    },
+    {
+      "page": "/certificari-anre-iscir",
+      "regex": "^/certificari\\-anre\\-iscir(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/certificari\\-anre\\-iscir(?:/)?$"
+    },
+    {
+      "page": "/constanta-mamaia",
+      "regex": "^/constanta\\-mamaia(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/constanta\\-mamaia(?:/)?$"
+    },
+    {
+      "page": "/content",
+      "regex": "^/content(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/content(?:/)?$"
+    },
+    {
+      "page": "/instalatii-gaze-naturale",
+      "regex": "^/instalatii\\-gaze\\-naturale(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/instalatii\\-gaze\\-naturale(?:/)?$"
+    },
+    {
+      "page": "/intrebari-frecvente",
+      "regex": "^/intrebari\\-frecvente(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/intrebari\\-frecvente(?:/)?$"
+    },
+    {
+      "page": "/lucrari-nationale",
+      "regex": "^/lucrari\\-nationale(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/lucrari\\-nationale(?:/)?$"
+    },
+    {
+      "page": "/mangalia-eforie",
+      "regex": "^/mangalia\\-eforie(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/mangalia\\-eforie(?:/)?$"
+    },
+    {
+      "page": "/modernizare-smart-home",
+      "regex": "^/modernizare\\-smart\\-home(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/modernizare\\-smart\\-home(?:/)?$"
+    },
+    {
+      "page": "/navodari-medgidia",
+      "regex": "^/navodari\\-medgidia(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/navodari\\-medgidia(?:/)?$"
+    },
+    {
+      "page": "/politica-confidentialitate",
+      "regex": "^/politica\\-confidentialitate(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/politica\\-confidentialitate(?:/)?$"
+    },
+    {
+      "page": "/revizii-anre",
+      "regex": "^/revizii\\-anre(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/revizii\\-anre(?:/)?$"
+    },
+    {
+      "page": "/robots.txt",
+      "regex": "^/robots\\.txt(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/robots\\.txt(?:/)?$"
+    },
+    {
+      "page": "/sisteme-siguranta",
+      "regex": "^/sisteme\\-siguranta(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/sisteme\\-siguranta(?:/)?$"
+    },
+    {
+      "page": "/sitemap.xml",
+      "regex": "^/sitemap\\.xml(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/sitemap\\.xml(?:/)?$"
+    },
+    {
+      "page": "/termeni-conditii",
+      "regex": "^/termeni\\-conditii(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/termeni\\-conditii(?:/)?$"
+    },
+    {
+      "page": "/urgente",
+      "regex": "^/urgente(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/urgente(?:/)?$"
+    }
+  ],
+  "dataRoutes": [],
+  "rsc": {
+    "header": "rsc",
+    "varyHeader": "rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch",
+    "prefetchHeader": "next-router-prefetch",
+    "didPostponeHeader": "x-nextjs-postponed",
+    "contentTypeHeader": "text/x-component",
+    "suffix": ".rsc",
+    "prefetchSuffix": ".prefetch.rsc",
+    "prefetchSegmentHeader": "next-router-segment-prefetch",
+    "prefetchSegmentSuffix": ".segment.rsc",
+    "prefetchSegmentDirSuffix": ".segments"
+  },
+  "rewriteHeaders": {
+    "pathHeader": "x-nextjs-rewritten-path",
+    "queryHeader": "x-nextjs-rewritten-query"
+  }
+}

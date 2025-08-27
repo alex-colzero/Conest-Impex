@@ -1,0 +1,21 @@
+{
+  "/_not-found/page": "/_not-found",
+  "/sitemap.xml/route": "/sitemap.xml",
+  "/robots.txt/route": "/robots.txt",
+  "/content/page": "/content",
+  "/constanta-mamaia/page": "/constanta-mamaia",
+  "/page": "/",
+  "/centrale-termice/page": "/centrale-termice",
+  "/certificari-anre-iscir/page": "/certificari-anre-iscir",
+  "/lucrari-nationale/page": "/lucrari-nationale",
+  "/mangalia-eforie/page": "/mangalia-eforie",
+  "/instalatii-gaze-naturale/page": "/instalatii-gaze-naturale",
+  "/navodari-medgidia/page": "/navodari-medgidia",
+  "/politica-confidentialitate/page": "/politica-confidentialitate",
+  "/modernizare-smart-home/page": "/modernizare-smart-home",
+  "/termeni-conditii/page": "/termeni-conditii",
+  "/urgente/page": "/urgente",
+  "/sisteme-siguranta/page": "/sisteme-siguranta",
+  "/intrebari-frecvente/page": "/intrebari-frecvente",
+  "/revizii-anre/page": "/revizii-anre"
+}

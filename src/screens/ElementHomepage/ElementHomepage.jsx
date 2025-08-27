@@ -940,6 +940,11 @@ export const ElementHomepage = () => {
 
       {/* Footer */}
       {(screenWidth >= 1440 || (screenWidth >= 977 && screenWidth < 1440)) && (
+        <FooterSection />
+      )}
+
+      {/* TEMP - OLD FOOTER CODE - REMOVE ALL OF THIS */}
+      {false && (
         <footer
           className={`w-full flex self-stretch flex-col items-center justify-center bg-white relative ${screenWidth >= 977 && screenWidth < 1440 ? "gap-10" : (screenWidth >= 1440) ? "gap-2.5" : ""} ${screenWidth >= 977 && screenWidth < 1440 ? "px-[60px] py-[200px]" : (screenWidth >= 1440) ? "px-[100px] py-0" : ""} ${screenWidth >= 977 && screenWidth < 1440 ? "h-[1310px]" : (screenWidth >= 1440) ? "h-[633px]" : ""}`}
         >
