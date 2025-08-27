@@ -89,9 +89,8 @@ export default function TermeniConditii() {
               <div>
                 <h3 className="font-semibold text-[#05213c] mb-2">Instalații Gaze Naturale:</h3>
                 <ul className="list-disc list-inside text-gray-700 text-sm space-y-1 ml-4">
-                  <li>Proiectare și execuție</li>
-                  <li>Branșamente și conducte</li>
-                  <li>Conectare aparate</li>
+                  <li><strong>Executarea instalației de utilizare:</strong> Montarea conductei între branșament și aparatele consumatoare de gaz inclusiv instalarea <a href="/sisteme-siguranta" className="text-[#f2b721] hover:underline">dispozitivelor de detecție și siguranță</a></li>
+                  <li>Conectare aparate consumatoare</li>
                   <li>Autorizări ANRE</li>
                 </ul>
               </div>

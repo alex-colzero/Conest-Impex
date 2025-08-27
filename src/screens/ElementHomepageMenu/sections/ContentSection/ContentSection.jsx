@@ -15,7 +15,7 @@ export const ContentSection = () => {
       iconAspect: "aspect-[0.75]",
       title: "Instalații gaze naturale",
       description:
-        "Proiectare și execuție instalații gaze naturale conforme ANRE. Branșamente, conducte de distribuție și aparate consumatoare cu garanție completă.",
+        "Executarea instalației de utilizare. Montarea conductei între branșament și aparatele consumatoare, inclusiv instalarea dispozitivelor de detecție și siguranță.",
       buttonText: "Detalii Instalații Gaze ➔",
     },
     {

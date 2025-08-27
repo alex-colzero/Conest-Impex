@@ -16,7 +16,7 @@ export const ServicesSection = () => {
       iconAspect: "aspect-[0.75]",
       title: "Instalații gaze naturale",
       description:
-        "Proiectare și execuție instalații gaze naturale conforme ANRE. Branșamente, conducte de distribuție și aparate consumatoare cu garanție completă.",
+        "Executarea instalației de utilizare. Montarea conductei între branșament și aparatele consumatoare, inclusiv instalarea dispozitivelor de detecție și siguranță.",
       buttonText: "Detalii Instalații Gaze ➔",
       link: "/instalatii-gaze-naturale",
     },
@@ -79,7 +79,7 @@ export const ServicesSection = () => {
               <div className="flex flex-col h-[508px] items-center pt-[60px] pb-[50px] px-10 relative flex-1 grow bg-white rounded-[40px]">
                 <div className="flex flex-col items-center gap-2.5 relative self-stretch w-full flex-[0_0_auto]">
                   <div className="flex flex-col items-center gap-[30px] relative self-stretch w-full flex-[0_0_auto]">
-                    <div className="flex flex-col w-[100px] h-[100px] items-center justify-center px-0 py-[30px] relative bg-[#05213c1a] rounded-[20px] overflow-hidden aspect-[1]">
+                    <div className="flex flex-col w-[100px] h-[100px] items-center justify-center px-0 py-[30px] relative bg-[#f2b721] rounded-[20px] overflow-hidden aspect-[1]">
                       <img
                         className={`relative ${service.iconWidth} ${service.iconHeight} ${service.iconMarginTop} ${service.iconMarginBottom} ${service.iconAspect} object-cover`}
                         alt={service.iconAlt}
