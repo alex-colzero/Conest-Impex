@@ -249,19 +249,6 @@ export const PricingSection = ({
                   </h3>
                   <p className="text-gray-600 mb-6">{plan.subtitle}</p>
                   
-                  <div className="mb-6">
-                    <div className="flex items-center justify-center gap-2 mb-2">
-                      <span className="text-4xl font-bold text-[#f2b721]">
-                        {plan.price}
-                      </span>
-                      <span className="text-gray-600">lei</span>
-                    </div>
-                    {plan.originalPrice && (
-                      <div className="text-gray-400 line-through text-lg">
-                        {plan.originalPrice} lei
-                      </div>
-                    )}
-                  </div>
                 </div>
 
                 {/* Features */}
@@ -285,14 +272,14 @@ export const PricingSection = ({
         <div className="mt-12 text-center">
           <div className="bg-blue-50 border border-blue-200 rounded-lg p-6 max-w-4xl mx-auto">
             <h3 className="text-lg font-semibold text-blue-800 mb-4">
-              Informații Importante despre Prețuri
+              Informații Importante despre Servicii
             </h3>
             <div className="text-blue-700 text-left space-y-2">
-              <p>• Toate prețurile includ TVA și sunt valabile pentru anul 2025</p>
+              <p>• Toate serviciile includ TVA și sunt disponibile în 2025</p>
               <p>• Consultarea și devizul sunt gratuite, fără obligații</p>
-              <p>• Prețurile pot varia în funcție de specificul fiecărui proiect</p>
-              <p>• Oferim reduceri speciale pentru pensionari și familii numeroase</p>
-              <p>• Plata poate fi făcută în rate, fără dobânzi</p>
+              <p>• Serviciile sunt personalizate în funcție de specificul fiecărui proiect</p>
+              <p>• Oferim condiții speciale pentru pensionari și familii numeroase</p>
+              <p>• Disponibilitate flexibilă de programare</p>
             </div>
           </div>
 
@@ -304,10 +291,10 @@ export const PricingSection = ({
               <span>Sună acum: 0722.619.097</span>
             </a>
             <a 
-              href="mailto:contact@conest-gaze-centrale.ro?subject=Cerere%20Deviz%20Personalizat%20Constanța&body=Bună%20ziua,%0D%0A%0D%0AVă%20rog%20să%20îmi%20trimiteți%20un%20deviz%20personalizat%20pentru%20serviciile%20dumneavoastră%20în%20zona%20Constanța.%0D%0A%0D%0ADetalii%20proiect:%0D%0A-%20Tip%20proprietate:%0D%0A-%20Serviciul%20necesar:%0D%0A-%20Locația:%0D%0A-%20Telefon%20contact:%0D%0A%0D%0AMulțumesc!"
+              href="mailto:contact@conest-gaze-centrale.ro?subject=Cerere%20Informații%20Servicii%20Constanța&body=Bună%20ziua,%0D%0A%0D%0AVă%20rog%20să%20îmi%20trimiteți%20informații%20despre%20serviciile%20dumneavoastră%20în%20zona%20Constanța.%0D%0A%0D%0ADetalii%20necesare:%0D%0A-%20Tip%20proprietate:%0D%0A-%20Serviciul%20necesar:%0D%0A-%20Locația:%0D%0A-%20Telefon%20contact:%0D%0A%0D%0AMulțumesc!"
               className="inline-flex items-center gap-3 px-8 py-4 border-2 border-[#05213c] text-[#05213c] rounded-lg font-semibold hover:bg-[#05213c] hover:text-white transition-colors"
             >
-              <span>Trimite email pentru deviz</span>
+              <span>Trimite email pentru informații</span>
             </a>
           </div>
         </div>

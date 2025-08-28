@@ -33,10 +33,22 @@
       "namedRegex": "^/_not\\-found(?:/)?$"
     },
     {
+      "page": "/centrala-nu-porneste-iarna",
+      "regex": "^/centrala\\-nu\\-porneste\\-iarna(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/centrala\\-nu\\-porneste\\-iarna(?:/)?$"
+    },
+    {
       "page": "/centrale-termice",
       "regex": "^/centrale\\-termice(?:/)?$",
       "routeKeys": {},
       "namedRegex": "^/centrale\\-termice(?:/)?$"
+    },
+    {
+      "page": "/centrale-termice-constanta-nord",
+      "regex": "^/centrale\\-termice\\-constanta\\-nord(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/centrale\\-termice\\-constanta\\-nord(?:/)?$"
     },
     {
       "page": "/certificari-anre-iscir",
@@ -57,10 +69,28 @@
       "namedRegex": "^/content(?:/)?$"
     },
     {
+      "page": "/gaz-scurs-ce-fac",
+      "regex": "^/gaz\\-scurs\\-ce\\-fac(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/gaz\\-scurs\\-ce\\-fac(?:/)?$"
+    },
+    {
+      "page": "/instalatii-gaze-constanta-sud",
+      "regex": "^/instalatii\\-gaze\\-constanta\\-sud(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/instalatii\\-gaze\\-constanta\\-sud(?:/)?$"
+    },
+    {
       "page": "/instalatii-gaze-naturale",
       "regex": "^/instalatii\\-gaze\\-naturale(?:/)?$",
       "routeKeys": {},
       "namedRegex": "^/instalatii\\-gaze\\-naturale(?:/)?$"
+    },
+    {
+      "page": "/instalator-gaze-autorizat-anre-constanta",
+      "regex": "^/instalator\\-gaze\\-autorizat\\-anre\\-constanta(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/instalator\\-gaze\\-autorizat\\-anre\\-constanta(?:/)?$"
     },
     {
       "page": "/intrebari-frecvente",
@@ -81,6 +111,12 @@
       "namedRegex": "^/mangalia\\-eforie(?:/)?$"
     },
     {
+      "page": "/miros-gaz-apartament",
+      "regex": "^/miros\\-gaz\\-apartament(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/miros\\-gaz\\-apartament(?:/)?$"
+    },
+    {
       "page": "/modernizare-smart-home",
       "regex": "^/modernizare\\-smart\\-home(?:/)?$",
       "routeKeys": {},
@@ -99,6 +135,12 @@
       "namedRegex": "^/politica\\-confidentialitate(?:/)?$"
     },
     {
+      "page": "/presiune-scazuta-gaze",
+      "regex": "^/presiune\\-scazuta\\-gaze(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/presiune\\-scazuta\\-gaze(?:/)?$"
+    },
+    {
       "page": "/revizii-anre",
       "regex": "^/revizii\\-anre(?:/)?$",
       "routeKeys": {},
@@ -109,6 +151,12 @@
       "regex": "^/robots\\.txt(?:/)?$",
       "routeKeys": {},
       "namedRegex": "^/robots\\.txt(?:/)?$"
+    },
+    {
+      "page": "/service-iscir-constanta",
+      "regex": "^/service\\-iscir\\-constanta(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/service\\-iscir\\-constanta(?:/)?$"
     },
     {
       "page": "/sisteme-siguranta",

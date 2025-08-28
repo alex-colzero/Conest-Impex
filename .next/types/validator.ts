@@ -36,6 +36,18 @@ type LayoutConfig<Route extends LayoutRoutes = LayoutRoutes> = {
 }
 
 
+// Validate ../../app/centrala-nu-porneste-iarna/page.tsx
+{
+  const handler = {} as typeof import("../../app/centrala-nu-porneste-iarna/page.js")
+  handler satisfies AppPageConfig<"/centrala-nu-porneste-iarna">
+}
+
+// Validate ../../app/centrale-termice-constanta-nord/page.tsx
+{
+  const handler = {} as typeof import("../../app/centrale-termice-constanta-nord/page.js")
+  handler satisfies AppPageConfig<"/centrale-termice-constanta-nord">
+}
+
 // Validate ../../app/centrale-termice/page.tsx
 {
   const handler = {} as typeof import("../../app/centrale-termice/page.js")
@@ -60,10 +72,28 @@ type LayoutConfig<Route extends LayoutRoutes = LayoutRoutes> = {
   handler satisfies AppPageConfig<"/content">
 }
 
+// Validate ../../app/gaz-scurs-ce-fac/page.tsx
+{
+  const handler = {} as typeof import("../../app/gaz-scurs-ce-fac/page.js")
+  handler satisfies AppPageConfig<"/gaz-scurs-ce-fac">
+}
+
+// Validate ../../app/instalatii-gaze-constanta-sud/page.tsx
+{
+  const handler = {} as typeof import("../../app/instalatii-gaze-constanta-sud/page.js")
+  handler satisfies AppPageConfig<"/instalatii-gaze-constanta-sud">
+}
+
 // Validate ../../app/instalatii-gaze-naturale/page.tsx
 {
   const handler = {} as typeof import("../../app/instalatii-gaze-naturale/page.js")
   handler satisfies AppPageConfig<"/instalatii-gaze-naturale">
+}
+
+// Validate ../../app/instalator-gaze-autorizat-anre-constanta/page.tsx
+{
+  const handler = {} as typeof import("../../app/instalator-gaze-autorizat-anre-constanta/page.js")
+  handler satisfies AppPageConfig<"/instalator-gaze-autorizat-anre-constanta">
 }
 
 // Validate ../../app/intrebari-frecvente/page.tsx
@@ -82,6 +112,12 @@ type LayoutConfig<Route extends LayoutRoutes = LayoutRoutes> = {
 {
   const handler = {} as typeof import("../../app/mangalia-eforie/page.js")
   handler satisfies AppPageConfig<"/mangalia-eforie">
+}
+
+// Validate ../../app/miros-gaz-apartament/page.tsx
+{
+  const handler = {} as typeof import("../../app/miros-gaz-apartament/page.js")
+  handler satisfies AppPageConfig<"/miros-gaz-apartament">
 }
 
 // Validate ../../app/modernizare-smart-home/page.tsx
@@ -108,10 +144,22 @@ type LayoutConfig<Route extends LayoutRoutes = LayoutRoutes> = {
   handler satisfies AppPageConfig<"/politica-confidentialitate">
 }
 
+// Validate ../../app/presiune-scazuta-gaze/page.tsx
+{
+  const handler = {} as typeof import("../../app/presiune-scazuta-gaze/page.js")
+  handler satisfies AppPageConfig<"/presiune-scazuta-gaze">
+}
+
 // Validate ../../app/revizii-anre/page.tsx
 {
   const handler = {} as typeof import("../../app/revizii-anre/page.js")
   handler satisfies AppPageConfig<"/revizii-anre">
+}
+
+// Validate ../../app/service-iscir-constanta/page.tsx
+{
+  const handler = {} as typeof import("../../app/service-iscir-constanta/page.js")
+  handler satisfies AppPageConfig<"/service-iscir-constanta">
 }
 
 // Validate ../../app/sisteme-siguranta/page.tsx

@@ -225,6 +225,167 @@ export default function InstallatiiGazeNaturale() {
         </div>
       </section>
 
+      {/* Location-Specific Services */}
+      <section className="py-16 bg-gray-50">
+        <div className="max-w-6xl mx-auto px-6">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl md:text-4xl font-bold text-[#05213c] mb-4 [font-family:'Poppins',Helvetica]">
+              🗺️ Servicii Specializate pe Zone
+            </h2>
+            <p className="text-xl text-gray-600">
+              Echipe specializate pentru fiecare zonă din Constanța cu intervenții rapide
+            </p>
+          </div>
+          
+          <div className="grid md:grid-cols-2 gap-8 mb-12">
+            <div className="bg-white p-8 rounded-lg shadow-lg border-t-4 border-[#f2b721]">
+              <h3 className="text-2xl font-bold text-[#05213c] mb-4 flex items-center">
+                <span className="text-3xl mr-3">🏠</span>
+                Instalații Gaze Constanța Sud
+              </h3>
+              <p className="text-gray-600 mb-6">
+                Servicii specializate pentru cartierele Tomis, CET și Campus. Echipă locală cu depozit în zonă pentru intervenții în 30 minute.
+              </p>
+              <ul className="text-sm text-gray-700 mb-6 space-y-2">
+                <li>• Tomis Mall și zona comercială</li>
+                <li>• Blocuri și ansambluuri din CET</li>
+                <li>• Campus Universitar Ovidius</li>
+              </ul>
+              <Link 
+                href="/instalatii-gaze-constanta-sud"
+                className="inline-flex items-center gap-2 bg-[#f2b721] text-[#05213c] px-6 py-3 rounded-lg font-semibold hover:bg-[#e0a61d] transition-colors"
+              >
+                Vezi Servicii Zona Sud →
+              </Link>
+            </div>
+
+            <div className="bg-white p-8 rounded-lg shadow-lg border-t-4 border-blue-600">
+              <h3 className="text-2xl font-bold text-[#05213c] mb-4 flex items-center">
+                <span className="text-3xl mr-3">🔥</span>
+                Centrale Termice Constanța Nord
+              </h3>
+              <p className="text-gray-600 mb-6">
+                Service specializat pentru zona de nord: Inel 1, Inel 2 și Zona Industrială. Certificat ISCIR cu urgențe 24/7.
+              </p>
+              <ul className="text-sm text-gray-700 mb-6 space-y-2">
+                <li>• Cartiere Inel 1 și Inel 2</li>
+                <li>• Zona industrială nord</li>
+                <li>• Service pentru toate mărcile</li>
+              </ul>
+              <Link 
+                href="/centrale-termice-constanta-nord"
+                className="inline-flex items-center gap-2 bg-blue-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-blue-700 transition-colors"
+              >
+                Vezi Service Zona Nord →
+              </Link>
+            </div>
+          </div>
+
+          <div className="bg-green-600 text-white p-8 rounded-lg text-center">
+            <h3 className="text-2xl font-bold mb-4">
+              🏆 De Ce să Alegi o Firmă Autorizată ANRE?
+            </h3>
+            <p className="text-lg mb-6">
+              Verifică toate certificările noastre și află de ce autorizarea ANRE este obligatorie pentru siguranța ta
+            </p>
+            <div className="flex flex-col sm:flex-row gap-4 justify-center">
+              <Link 
+                href="/instalator-gaze-autorizat-anre-constanta"
+                className="bg-white text-green-600 px-6 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors"
+              >
+                📜 Vezi Autorizația ANRE
+              </Link>
+              <Link 
+                href="/certificari-anre-iscir"
+                className="border-2 border-white text-white px-6 py-3 rounded-lg font-semibold hover:bg-white hover:text-green-600 transition-colors"
+              >
+                🔍 Toate Certificările
+              </Link>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Emergency Help Section */}
+      <section className="py-16 bg-red-50">
+        <div className="max-w-6xl mx-auto px-6">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl md:text-4xl font-bold text-red-700 mb-4 [font-family:'Poppins',Helvetica]">
+              🚨 Probleme cu Gazele? Ajutor Imediat!
+            </h2>
+            <p className="text-xl text-gray-700">
+              Ghiduri de siguranță și soluții pentru cele mai frecvente probleme
+            </p>
+          </div>
+          
+          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+            <div className="bg-white p-6 rounded-lg shadow-lg border-t-4 border-red-600">
+              <h3 className="text-lg font-bold text-red-700 mb-3">⚠️ Gaz Scurs</h3>
+              <p className="text-gray-600 text-sm mb-4">
+                Ce să faci imediat dacă simți miros de gaz în casă
+              </p>
+              <Link 
+                href="/gaz-scurs-ce-fac"
+                className="text-red-600 font-semibold hover:text-red-800 text-sm transition-colors"
+              >
+                Vezi Ghidul →
+              </Link>
+            </div>
+
+            <div className="bg-white p-6 rounded-lg shadow-lg border-t-4 border-orange-600">
+              <h3 className="text-lg font-bold text-orange-700 mb-3">❄️ Centrala Nu Pornește</h3>
+              <p className="text-gray-600 text-sm mb-4">
+                Soluții rapide pentru când centrala nu funcționează iarna
+              </p>
+              <Link 
+                href="/centrala-nu-porneste-iarna"
+                className="text-orange-600 font-semibold hover:text-orange-800 text-sm transition-colors"
+              >
+                Rezolvă Acum →
+              </Link>
+            </div>
+
+            <div className="bg-white p-6 rounded-lg shadow-lg border-t-4 border-yellow-600">
+              <h3 className="text-lg font-bold text-yellow-700 mb-3">🏢 Miros Gaz Apartament</h3>
+              <p className="text-gray-600 text-sm mb-4">
+                Protocol special pentru problemele de gaze în blocuri
+              </p>
+              <Link 
+                href="/miros-gaz-apartament"
+                className="text-yellow-600 font-semibold hover:text-yellow-800 text-sm transition-colors"
+              >
+                Vezi Protocoale →
+              </Link>
+            </div>
+
+            <div className="bg-white p-6 rounded-lg shadow-lg border-t-4 border-purple-600">
+              <h3 className="text-lg font-bold text-purple-700 mb-3">📉 Presiune Scăzută</h3>
+              <p className="text-gray-600 text-sm mb-4">
+                Diagnosticare și soluții pentru presiunea scăzută la gaze
+              </p>
+              <Link 
+                href="/presiune-scazuta-gaze"
+                className="text-purple-600 font-semibold hover:text-purple-800 text-sm transition-colors"
+              >
+                Diagnostică →
+              </Link>
+            </div>
+          </div>
+
+          <div className="text-center mt-8">
+            <p className="text-gray-700 mb-4">
+              <strong>Urgențe gaze 24/7:</strong> Sună imediat pentru probleme grave de siguranță
+            </p>
+            <a 
+              href="tel:0744579715"
+              className="inline-flex items-center gap-2 bg-red-600 text-white px-8 py-4 rounded-lg font-bold text-lg hover:bg-red-700 transition-colors"
+            >
+              🚨 0744.579.715 - Urgențe Gaze
+            </a>
+          </div>
+        </div>
+      </section>
+
       {/* Related Services Section */}
       <section className="py-16 bg-white">
         <div className="max-w-4xl mx-auto px-6">

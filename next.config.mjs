@@ -1,7 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   images: {
-    unoptimized: true,
+    domains: ['conest-gaze-centrale.ro'],
+    formats: ['image/webp', 'image/avif'],
   },
 };
 

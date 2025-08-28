@@ -246,11 +246,11 @@ export default function CentraleTermice() {
         </div>
       </section>
 
-      {/* Pricing Section */}
+      {/* Services Section */}
       <PricingSection 
         type="centrale"
-        title="Tarife Service Centrale Termice"
-        subtitle="Prețuri competitive cu servicii complete incluse"
+        title="Pachete Service Centrale Termice"
+        subtitle="Servicii complete pentru toate nevoile dvs."
       />
 
       {/* Testimonials Section */}

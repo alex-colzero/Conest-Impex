@@ -50,17 +50,20 @@
       "path": "/_next/image",
       "loader": "default",
       "loaderFile": "",
-      "domains": [],
+      "domains": [
+        "conest-gaze-centrale.ro"
+      ],
       "disableStaticImages": false,
       "minimumCacheTTL": 60,
       "formats": [
-        "image/webp"
+        "image/webp",
+        "image/avif"
       ],
       "dangerouslyAllowSVG": false,
       "contentSecurityPolicy": "script-src 'none'; frame-src 'none'; sandbox;",
       "contentDispositionType": "attachment",
       "remotePatterns": [],
-      "unoptimized": true
+      "unoptimized": false
     },
     "devIndicators": {
       "position": "bottom-left"

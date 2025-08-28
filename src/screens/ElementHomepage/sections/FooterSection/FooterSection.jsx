@@ -13,11 +13,26 @@ export const FooterSection = () => {
     { text: "Întrebări frecvente", href: "/intrebari-frecvente" },
   ];
 
+  const emergencyPages = [
+    { text: "Gaz Scurs - Ce Fac?", href: "/gaz-scurs-ce-fac" },
+    { text: "Centrala Nu Pornește", href: "/centrala-nu-porneste-iarna" },
+    { text: "Miros Gaz în Apartament", href: "/miros-gaz-apartament" },
+    { text: "Presiune Scăzută Gaze", href: "/presiune-scazuta-gaze" },
+  ];
+
+  const certificationPages = [
+    { text: "Instalator Autorizat ANRE", href: "/instalator-gaze-autorizat-anre-constanta" },
+    { text: "Service ISCIR Constanța", href: "/service-iscir-constanta" },
+    { text: "Certificări ANRE & ISCIR", href: "/certificari-anre-iscir" },
+  ];
+
   const zones = [
     { text: "Constanța și Mamaia", href: "/constanta-mamaia" },
     { text: "Năvodari și Medgidia", href: "/navodari-medgidia" },
     { text: "Mangalia și Eforie", href: "/mangalia-eforie" },
     { text: "Lucrări naționale", href: "/lucrari-nationale" },
+    { text: "Instalații Gaze Sud", href: "/instalatii-gaze-constanta-sud" },
+    { text: "Centrale Termice Nord", href: "/centrale-termice-constanta-nord" },
   ];
 
   const contactItems = [
@@ -110,7 +125,7 @@ export const FooterSection = () => {
         {/* Services */}
         <div className="flex flex-col items-start gap-5 flex-1">
           <div className="[font-family:'Poppins',Helvetica] font-semibold text-[#05213c] text-[22px] tracking-[0] leading-[28.6px]">
-            Servicii
+            Servicii Principale
           </div>
 
           <div className="flex flex-col gap-3">
@@ -152,11 +167,41 @@ export const FooterSection = () => {
               </div>
             ))}
           </div>
+
+          {/* Probleme Frecvente - Sub Servicii */}
+          <div className="mt-6 w-full">
+            <div className="[font-family:'Poppins',Helvetica] font-semibold text-[#05213c] text-[18px] tracking-[0] leading-[23.4px] mb-3">
+              Probleme Frecvente
+            </div>
+            <div className="flex flex-col gap-2">
+              {emergencyPages.map((page, index) => (
+                <div
+                  key={index}
+                  className="flex items-center gap-1.5"
+                >
+                  <div className="relative w-[16px] h-[16px] flex-shrink-0">
+                    <img
+                      className="absolute w-[13px] h-[13px] top-0.5 left-0.5"
+                      alt="Vector"
+                      src="/img/vector-22.svg"
+                    />
+                  </div>
+
+                  <Link
+                    className="[font-family:'Poppins',Helvetica] font-medium text-[#05213c] text-sm tracking-[0.28px] leading-[normal] hover:text-[#f2b721] transition-colors"
+                    href={page.href}
+                  >
+                    {page.text}
+                  </Link>
+                </div>
+              ))}
+            </div>
+          </div>
         </div>
 
         {/* Zones */}
         <div className="flex flex-col items-start gap-5 flex-1">
-          <div className="[font-family:'Poppins',Helvetica] font-semibold text-[#303030] text-[22px] tracking-[0] leading-[28.6px]">
+          <div className="[font-family:'Poppins',Helvetica] font-semibold text-[#05213c] text-[22px] tracking-[0] leading-[28.6px]">
             Zone Deservite
           </div>
 
@@ -176,12 +221,42 @@ export const FooterSection = () => {
 
                 <Link
                   href={zone.href}
-                  className="[font-family:'Poppins',Helvetica] font-medium text-[#303030] text-base tracking-[0.32px] leading-[normal] hover:text-[#f2b721] transition-colors"
+                  className="[font-family:'Poppins',Helvetica] font-medium text-[#05213c] text-base tracking-[0.32px] leading-[normal] hover:text-[#f2b721] transition-colors"
                 >
                   {zone.text}
                 </Link>
               </div>
             ))}
+          </div>
+
+          {/* Certificări - Sub Zone */}
+          <div className="mt-6 w-full">
+            <div className="[font-family:'Poppins',Helvetica] font-semibold text-[#05213c] text-[18px] tracking-[0] leading-[23.4px] mb-3">
+              Certificări
+            </div>
+            <div className="flex flex-col gap-2">
+              {certificationPages.map((page, index) => (
+                <div
+                  key={index}
+                  className="flex items-center gap-1.5"
+                >
+                  <div className="relative w-[16px] h-[16px] flex-shrink-0">
+                    <img
+                      className="absolute w-[13px] h-[13px] top-0.5 left-0.5"
+                      alt="Vector"
+                      src="/img/vector-22.svg"
+                    />
+                  </div>
+
+                  <Link
+                    className="[font-family:'Poppins',Helvetica] font-medium text-[#05213c] text-sm tracking-[0.28px] leading-[normal] hover:text-[#f2b721] transition-colors"
+                    href={page.href}
+                  >
+                    {page.text}
+                  </Link>
+                </div>
+              ))}
+            </div>
           </div>
         </div>
 

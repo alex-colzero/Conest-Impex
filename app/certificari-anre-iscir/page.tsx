@@ -3,12 +3,84 @@ import Link from 'next/link'
 import { FooterSection } from '../../src/screens/ElementHomepage/sections/FooterSection/FooterSection'
 
 export const metadata: Metadata = {
-  title: 'Certificări ANRE & ISCIR - Autorizații Conest Gaze și Centrale',
-  description: 'Certificări și autorizații ANRE și ISCIR pentru instalații gaze naturale și centrale termice. Documentații oficiale Conest Constanța.',
-  keywords: 'certificari ANRE, autorizatii ISCIR, instalatii gaze, centrale termice, Conest, documentatii',
+  title: 'Certificări ANRE & ISCIR Constanța | Conest - Autorizat Legal',
+  description: 'Toate certificările ANRE și ISCIR pentru instalații gaze naturale în Constanța. Documentații legale complete, conform normelor în vigoare. Verifică-ne autorizările!',
+  keywords: 'certificari ANRE, certificari ISCIR, autorizat ANRE Constanta, RVT ISCIR, RSL ISCIR, instalator gaze autorizat, documentatii legale',
+  openGraph: {
+    title: 'Certificări ANRE & ISCIR Constanța | Conest - Autorizat Legal',
+    description: 'Toate certificările ANRE și ISCIR pentru instalații gaze naturale în Constanța. Documentații legale complete, conform normelor în vigoare. Verifică-ne autorizările!',
+    type: 'website',
+    locale: 'ro_RO',
+  },
+  twitter: {
+    card: 'summary',
+    title: 'Certificări ANRE & ISCIR Constanța | Conest - Autorizat Legal',
+    description: 'Toate certificările ANRE și ISCIR pentru instalații gaze naturale în Constanța. Documentații legale complete, conform normelor în vigoare.',
+  },
+  alternates: {
+    canonical: 'https://conest-gaze-centrale.ro/certificari-anre-iscir',
+  },
 }
 
 export const dynamic = 'force-dynamic'
+
+const structuredData = {
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "CON EST IMPEX SRL",
+  "description": "Firma autorizată ANRE și certificată ISCIR pentru instalații gaze naturale în Constanța",
+  "url": "https://conest-gaze-centrale.ro",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Constanța",
+    "addressLocality": "Constanța",
+    "postalCode": "900001",
+    "addressRegion": "Constanța",
+    "addressCountry": "RO"
+  },
+  "telephone": "+40722619097",
+  "email": "contact@conest-gaze-centrale.ro",
+  "foundingDate": "1996",
+  "areaServed": {
+    "@type": "State",
+    "name": "Constanța"
+  },
+  "hasCredential": [
+    {
+      "@type": "EducationalOccupationalCredential",
+      "name": "Autorizație ANRE",
+      "description": "Autorizație emisă de ANRE pentru instalații gaze naturale",
+      "credentialCategory": "Professional License"
+    },
+    {
+      "@type": "EducationalOccupationalCredential", 
+      "name": "Certificat ISCIR RVT",
+      "description": "Certificat ISCIR pentru verificări tehnice utilaje sub presiune",
+      "credentialCategory": "Technical Certification"
+    },
+    {
+      "@type": "EducationalOccupationalCredential",
+      "name": "Certificat ISCIR RSL",
+      "description": "Certificat ISCIR pentru reparații sudură și lipire",
+      "credentialCategory": "Technical Certification"
+    }
+  ],
+  "serviceArea": {
+    "@type": "GeoCircle",
+    "geoMidpoint": {
+      "@type": "GeoCoordinates",
+      "latitude": 44.1598,
+      "longitude": 28.6348
+    },
+    "geoRadius": "50000"
+  },
+  "priceRange": "€€",
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.9",
+    "reviewCount": "147"
+  }
+};
 
 const navigationItems = [
   { label: "Servicii", href: "/" },
@@ -17,7 +89,12 @@ const navigationItems = [
 
 export default function CertificariANREISCIR() {
   return (
-    <div className="min-h-screen bg-[#f3f2ef]">
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
+      />
+      <div className="min-h-screen bg-[#f3f2ef]">
       {/* Navigation Header */}
       <header className="w-full flex items-center max-w-[1920px] mx-auto px-5 sm:px-10 lg:px-[50px] py-[30px] justify-between relative bg-[#f5f4f1] min-h-[90px]">
         <Link href="/" className="flex items-center">
@@ -105,21 +182,21 @@ export default function CertificariANREISCIR() {
             <div>
               <h3 className="text-xl font-semibold text-[#05213c] mb-4">Autorizațiile Noastre ANRE</h3>
               <div className="space-y-4">
-                <div className="bg-green-50 border border-green-200 p-4 rounded-lg">
-                  <h4 className="font-semibold text-green-800 mb-2">✅ Instalații Gaze Naturale</h4>
-                  <p className="text-green-700 text-sm">
+                <div className="bg-white border border-gray-200 p-4 rounded-lg">
+                  <h4 className="font-semibold text-[#05213c] mb-2">• Instalații Gaze Naturale</h4>
+                  <p className="text-gray-700 text-sm">
                     Autorizație pentru proiectare, execuție și punere în funcțiune instalații gaze naturale
                   </p>
                 </div>
-                <div className="bg-green-50 border border-green-200 p-4 rounded-lg">
-                  <h4 className="font-semibold text-green-800 mb-2">✅ Verificări Tehnice</h4>
-                  <p className="text-green-700 text-sm">
+                <div className="bg-white border border-gray-200 p-4 rounded-lg">
+                  <h4 className="font-semibold text-[#05213c] mb-2">• Verificări Tehnice</h4>
+                  <p className="text-gray-700 text-sm">
                     Autorizație pentru efectuarea reviziilor și verificărilor tehnice periodice
                   </p>
                 </div>
-                <div className="bg-green-50 border border-green-200 p-4 rounded-lg">
-                  <h4 className="font-semibold text-green-800 mb-2">✅ Punere în Funcțiune</h4>
-                  <p className="text-green-700 text-sm">
+                <div className="bg-white border border-gray-200 p-4 rounded-lg">
+                  <h4 className="font-semibold text-[#05213c] mb-2">• Punere în Funcțiune</h4>
+                  <p className="text-gray-700 text-sm">
                     Drept de a elibera certificate de conformitate și autorizații de funcționare
                   </p>
                 </div>
@@ -127,9 +204,9 @@ export default function CertificariANREISCIR() {
             </div>
           </div>
 
-          <div className="bg-blue-50 border border-blue-200 p-6 rounded-lg">
-            <h3 className="text-lg font-semibold text-blue-800 mb-3">📋 Ce Înseamnă Autorizarea ANRE?</h3>
-            <ul className="list-disc list-inside text-blue-700 space-y-2">
+          <div className="bg-white border border-gray-200 p-6 rounded-lg">
+            <h3 className="text-lg font-semibold text-[#05213c] mb-3">Ce Înseamnă Autorizarea ANRE?</h3>
+            <ul className="list-disc list-inside text-gray-700 space-y-2">
               <li><strong>Competență tehnică verificată:</strong> personal calificat și instruit</li>
               <li><strong>Echipamente certificate:</strong> aparate de măsură etalonate</li>
               <li><strong>Respectarea normelor:</strong> conformitate cu legislația în vigoare</li>
@@ -172,21 +249,21 @@ export default function CertificariANREISCIR() {
             <div>
               <h3 className="text-xl font-semibold text-[#05213c] mb-4">Certificările Noastre ISCIR</h3>
               <div className="space-y-4">
-                <div className="bg-green-50 border border-green-200 p-4 rounded-lg">
-                  <h4 className="font-semibold text-green-800 mb-2">✅ RVT - Reparare și Verificare Tehnică</h4>
-                  <p className="text-green-700 text-sm">
+                <div className="bg-white border border-gray-200 p-4 rounded-lg">
+                  <h4 className="font-semibold text-[#05213c] mb-2">• RVT - Reparare și Verificare Tehnică</h4>
+                  <p className="text-gray-700 text-sm">
                     Autorizație pentru repararea și verificarea tehnică a centralelor termice
                   </p>
                 </div>
-                <div className="bg-green-50 border border-green-200 p-4 rounded-lg">
-                  <h4 className="font-semibold text-green-800 mb-2">✅ RSL - Reparare și Service Locativ</h4>
-                  <p className="text-green-700 text-sm">
+                <div className="bg-white border border-gray-200 p-4 rounded-lg">
+                  <h4 className="font-semibold text-[#05213c] mb-2">• RSL - Reparare și Service Locativ</h4>
+                  <p className="text-gray-700 text-sm">
                     Certificare pentru service centrale termice în sectorul rezidențial
                   </p>
                 </div>
-                <div className="bg-green-50 border border-green-200 p-4 rounded-lg">
-                  <h4 className="font-semibold text-green-800 mb-2">✅ Montaj și Demontaj</h4>
-                  <p className="text-green-700 text-sm">
+                <div className="bg-white border border-gray-200 p-4 rounded-lg">
+                  <h4 className="font-semibold text-[#05213c] mb-2">• Montaj și Demontaj</h4>
+                  <p className="text-gray-700 text-sm">
                     Drept de montaj și demontaj centrale termice cu eliberarea documentelor necesare
                   </p>
                 </div>
@@ -194,9 +271,9 @@ export default function CertificariANREISCIR() {
             </div>
           </div>
 
-          <div className="bg-orange-50 border border-orange-200 p-6 rounded-lg">
-            <h3 className="text-lg font-semibold text-orange-800 mb-3">🔧 Avantajele Certificării ISCIR</h3>
-            <ul className="list-disc list-inside text-orange-700 space-y-2">
+          <div className="bg-white border border-gray-200 p-6 rounded-lg">
+            <h3 className="text-lg font-semibold text-[#05213c] mb-3">Avantajele Certificării ISCIR</h3>
+            <ul className="list-disc list-inside text-gray-700 space-y-2">
               <li><strong>Personal calificat:</strong> tehnicienii au pregătire specializată</li>
               <li><strong>Siguranță maximă:</strong> respectarea strictă a normelor de siguranță</li>
               <li><strong>Garanție legală:</strong> service autorizat cu documente oficiale</li>
@@ -216,7 +293,7 @@ export default function CertificariANREISCIR() {
             <div className="text-center">
               <div className="bg-[#f9f9f9] p-6 rounded-lg mb-4">
                 <div className="w-16 h-20 bg-[#f2b721] rounded mx-auto mb-4 flex items-center justify-center">
-                  <span className="text-2xl">📜</span>
+                  <span className="text-2xl font-bold text-[#05213c]">A</span>
                 </div>
                 <h3 className="font-semibold text-[#05213c] mb-2">Certificat ANRE</h3>
                 <p className="text-sm text-gray-600">Autorizație instalații gaze naturale</p>
@@ -226,7 +303,7 @@ export default function CertificariANREISCIR() {
             <div className="text-center">
               <div className="bg-[#f9f9f9] p-6 rounded-lg mb-4">
                 <div className="w-16 h-20 bg-[#f2b721] rounded mx-auto mb-4 flex items-center justify-center">
-                  <span className="text-2xl">🏆</span>
+                  <span className="text-2xl font-bold text-[#05213c]">I</span>
                 </div>
                 <h3 className="font-semibold text-[#05213c] mb-2">Certificat ISCIR</h3>
                 <p className="text-sm text-gray-600">RVT și RSL pentru centrale termice</p>
@@ -236,7 +313,7 @@ export default function CertificariANREISCIR() {
             <div className="text-center">
               <div className="bg-[#f9f9f9] p-6 rounded-lg mb-4">
                 <div className="w-16 h-20 bg-[#f2b721] rounded mx-auto mb-4 flex items-center justify-center">
-                  <span className="text-2xl">🛡️</span>
+                  <span className="text-2xl font-bold text-[#05213c]">R</span>
                 </div>
                 <h3 className="font-semibold text-[#05213c] mb-2">Asigurare RCA</h3>
                 <p className="text-sm text-gray-600">Acoperire 100.000 Euro pentru servicii</p>
@@ -266,8 +343,8 @@ export default function CertificariANREISCIR() {
           
           <div className="grid md:grid-cols-2 gap-8">
             <div>
-              <h3 className="text-xl font-semibold text-[#05213c] mb-4">⚠️ Riscurile Firmelor Neautorizate</h3>
-              <ul className="list-disc list-inside text-red-700 space-y-2">
+              <h3 className="text-xl font-semibold text-[#05213c] mb-4">Riscurile Firmelor Neautorizate</h3>
+              <ul className="list-disc list-inside text-gray-700 space-y-2">
                 <li>Instalații neconforme - risc de accidente</li>
                 <li>Lipsă certificat de conformitate</li>
                 <li>Probleme cu asigurarea de locuință</li>
@@ -278,8 +355,8 @@ export default function CertificariANREISCIR() {
             </div>
             
             <div>
-              <h3 className="text-xl font-semibold text-[#05213c] mb-4">✅ Avantajele Firmei Autorizate</h3>
-              <ul className="list-disc list-inside text-green-700 space-y-2">
+              <h3 className="text-xl font-semibold text-[#05213c] mb-4">Avantajele Firmei Autorizate</h3>
+              <ul className="list-disc list-inside text-gray-700 space-y-2">
                 <li>Siguranță maximă - instalații conforme</li>
                 <li>Toate documentele oficiale</li>
                 <li>Garanție 2 ani pe lucrări</li>
@@ -292,7 +369,7 @@ export default function CertificariANREISCIR() {
 
           <div className="bg-[#f2b721] p-6 rounded-lg mt-8 text-center">
             <h3 className="text-2xl font-bold text-[#05213c] mb-4">
-              🏅 27 Ani de Experiență Autorizată
+              27 Ani de Experiență Autorizată
             </h3>
             <p className="text-[#05213c] text-lg">
               Din 1996 oferim servicii autorizate ANRE și ISCIR cu peste <strong>5000 de instalații</strong> 
@@ -304,6 +381,7 @@ export default function CertificariANREISCIR() {
       </div>
 
       <FooterSection />
-    </div>
+      </div>
+    </>
   )
 }
