@@ -466,11 +466,14 @@ export const ElementHomepage = () => {
                     </p>
                   </div>
 
-                  <button className="all-[unset] box-border inline-flex items-end flex-[0_0_auto] px-9 py-[18px] overflow-hidden rounded-[10px] justify-center bg-[#05213c] relative">
+                  <Link 
+                    href={service.link}
+                    className="all-[unset] box-border inline-flex items-end flex-[0_0_auto] px-9 py-[18px] overflow-hidden rounded-[10px] justify-center bg-[#05213c] relative hover:bg-opacity-90 transition-all cursor-pointer no-underline"
+                  >
                     <div className="[font-family:'Poppins',Helvetica] w-fit mt-[-1.00px] tracking-[1.28px] text-base text-white font-semibold text-center leading-[normal] relative">
                       {service.buttonText}
                     </div>
-                  </button>
+                  </Link>
                 </div>
               </div>
             ))}
