@@ -57,6 +57,18 @@ export default function sitemap() {
       priority: 0.6,
     },
     {
+      url: `${baseUrl}/montaj-senzori-electrovalve`,
+      lastModified: new Date(),
+      changeFrequency: 'monthly',
+      priority: 0.7,
+    },
+    {
+      url: `${baseUrl}/pregatire-centrala-iarna`,
+      lastModified: new Date(),
+      changeFrequency: 'monthly',
+      priority: 0.7,
+    },
+    {
       url: `${baseUrl}/constanta-mamaia`,
       lastModified: new Date(),
       changeFrequency: 'monthly',
@@ -79,6 +91,12 @@ export default function sitemap() {
       lastModified: new Date(),
       changeFrequency: 'monthly',
       priority: 0.5,
+    },
+    {
+      url: `${baseUrl}/instalatii-gaze-mamaia`,
+      lastModified: new Date(),
+      changeFrequency: 'monthly',
+      priority: 0.6,
     },
     {
       url: `${baseUrl}/politica-confidentialitate`,
