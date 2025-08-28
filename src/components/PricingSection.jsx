@@ -193,7 +193,7 @@ const sigurantaPricing = [
 
 export const PricingSection = ({ 
   type = "gas",
-  title = "Prețuri Transparente",
+  title = "Prețuri transparente",
   subtitle = "Fără costuri ascunse, cu toate serviciile incluse"
 }) => {
   const getPricingData = () => {
@@ -272,7 +272,7 @@ export const PricingSection = ({
         <div className="mt-12 text-center">
           <div className="bg-blue-50 border border-blue-200 rounded-lg p-6 max-w-4xl mx-auto">
             <h3 className="text-lg font-semibold text-blue-800 mb-4">
-              Informații Importante despre Servicii
+              Informații importante despre servicii
             </h3>
             <div className="text-blue-700 text-left space-y-2">
               <p>• Toate serviciile includ TVA și sunt disponibile în 2025</p>

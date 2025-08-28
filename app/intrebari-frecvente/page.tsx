@@ -192,7 +192,7 @@ export default function IntrebariFrecvente() {
         <div className="max-w-4xl mx-auto px-4 md:px-6">
           <div className="text-center mb-8">
             <h2 className="text-3xl font-bold text-red-800 mb-4 [font-family:'Poppins',Helvetica]">
-              🚨 URGENȚĂ GAZE - Ce să faceți?
+              🚨 URGENȚĂ GAZE - ce să faceți?
             </h2>
             <p className="text-red-700 text-lg">
               În caz de suspiciune de scurgere de gaze sau defecțiune gravă
@@ -201,7 +201,7 @@ export default function IntrebariFrecvente() {
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8">
             <div className="bg-white p-4 md:p-6 rounded-lg border-l-4 border-red-500">
-              <h3 className="text-lg md:text-xl font-semibold text-red-800 mb-4">Pași Imediati:</h3>
+              <h3 className="text-lg md:text-xl font-semibold text-red-800 mb-4">Pași imediati:</h3>
               <ol className="text-red-700 space-y-2">
                 <li>1. <strong>Opriți gazele</strong> de la robinetul general</li>
                 <li>2. <strong>Nu aprindeți</strong> becuri, chibrituri, țigări</li>
@@ -213,7 +213,7 @@ export default function IntrebariFrecvente() {
             </div>
 
             <div className="bg-white p-4 md:p-6 rounded-lg border-l-4 border-[#f2b721]">
-              <h3 className="text-lg md:text-xl font-semibold text-[#05213c] mb-4">Contactați-ne Urgent:</h3>
+              <h3 className="text-lg md:text-xl font-semibold text-[#05213c] mb-4">Contactați-ne urgent:</h3>
               <div className="space-y-4">
                 <a 
                   href="tel:0722619097" 

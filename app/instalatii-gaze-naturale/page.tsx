@@ -75,7 +75,7 @@ export default function InstallatiiGazeNaturale() {
         <div className="max-w-7xl mx-auto px-6">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold text-[#05213c] mb-4 [font-family:'Poppins',Helvetica]">
-              Servicii Instalații Gaze Naturale
+              Servicii instalații gaze naturale
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
               Execuția completă a instalațiilor de gaze naturale - de la documentațiile inițiale până la punerea în funcțiune
@@ -97,7 +97,7 @@ export default function InstallatiiGazeNaturale() {
               <div className="w-16 h-16 bg-[#f2b721] rounded-full flex items-center justify-center mb-6">
                 <img src="/img/icon-29.png" alt="Aparate" className="w-8 h-8" />
               </div>
-              <h3 className="text-xl font-semibold text-[#05213c] mb-4">Conectare Aparate</h3>
+              <h3 className="text-xl font-semibold text-[#05213c] mb-4">Conectare aparate</h3>
               <p className="text-gray-600">
                 Conectarea și punerea în funcțiune a aparatelor consumatoare: <Link href="/centrale-termice" className="text-[#f2b721] hover:underline">centrale termice</Link>, aragaze, cuptoare.
               </p>
@@ -107,7 +107,7 @@ export default function InstallatiiGazeNaturale() {
               <div className="w-16 h-16 bg-[#f2b721] rounded-full flex items-center justify-center mb-6">
                 <img src="/img/icon-29.png" alt="Proiectare" className="w-8 h-8" />
               </div>
-              <h3 className="text-xl font-semibold text-[#05213c] mb-4">Proiectare Tehnică</h3>
+              <h3 className="text-xl font-semibold text-[#05213c] mb-4">Proiectare tehnică</h3>
               <p className="text-gray-600">
                 Elaborarea proiectului tehnic conform normelor ANRE. Calcule de dimensionare și planuri de execuție.
               </p>
@@ -127,7 +127,7 @@ export default function InstallatiiGazeNaturale() {
               <div className="w-16 h-16 bg-[#f2b721] rounded-full flex items-center justify-center mb-6">
                 <img src="/img/icon-29.png" alt="Garanție" className="w-8 h-8" />
               </div>
-              <h3 className="text-xl font-semibold text-[#05213c] mb-4">Garanție & Service</h3>
+              <h3 className="text-xl font-semibold text-[#05213c] mb-4">Garanție & service</h3>
               <p className="text-gray-600">
                 Garanție completă 2 ani pentru toate lucrările executate. Service post-garanție și mentenanță periodică.
               </p>
@@ -141,7 +141,7 @@ export default function InstallatiiGazeNaturale() {
         <div className="max-w-7xl mx-auto px-6">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold text-[#05213c] mb-4 [font-family:'Poppins',Helvetica]">
-              Procesul de Instalare
+              Procesul de instalare
             </h2>
             <p className="text-xl text-gray-600">
               Pași simpli pentru instalarea gazelor naturale la tine acasă
@@ -153,7 +153,7 @@ export default function InstallatiiGazeNaturale() {
               <div className="w-20 h-20 bg-[#f2b721] rounded-full flex items-center justify-center mx-auto mb-4">
                 <span className="text-2xl font-bold text-[#05213c]">1</span>
               </div>
-              <h3 className="text-lg font-semibold text-[#05213c] mb-2">Consultare Gratuită</h3>
+              <h3 className="text-lg font-semibold text-[#05213c] mb-2">Consultare gratuită</h3>
               <p className="text-gray-600">Evaluarea locației și stabilirea cerințelor tehnice</p>
             </div>
 
@@ -161,7 +161,7 @@ export default function InstallatiiGazeNaturale() {
               <div className="w-20 h-20 bg-[#f2b721] rounded-full flex items-center justify-center mx-auto mb-4">
                 <span className="text-2xl font-bold text-[#05213c]">2</span>
               </div>
-              <h3 className="text-lg font-semibold text-[#05213c] mb-2">Proiectare & Avizare</h3>
+              <h3 className="text-lg font-semibold text-[#05213c] mb-2">Proiectare & avizare</h3>
               <p className="text-gray-600">Elaborarea proiectului și obținerea autorizațiilor ANRE</p>
             </div>
 
@@ -169,7 +169,7 @@ export default function InstallatiiGazeNaturale() {
               <div className="w-20 h-20 bg-[#f2b721] rounded-full flex items-center justify-center mx-auto mb-4">
                 <span className="text-2xl font-bold text-[#05213c]">3</span>
               </div>
-              <h3 className="text-lg font-semibold text-[#05213c] mb-2">Execuție Lucrări</h3>
+              <h3 className="text-lg font-semibold text-[#05213c] mb-2">Execuție lucrări</h3>
               <p className="text-gray-600">Instalarea conductelor și conectarea aparatelor</p>
             </div>
 
@@ -177,7 +177,7 @@ export default function InstallatiiGazeNaturale() {
               <div className="w-20 h-20 bg-[#f2b721] rounded-full flex items-center justify-center mx-auto mb-4">
                 <span className="text-2xl font-bold text-[#05213c]">4</span>
               </div>
-              <h3 className="text-lg font-semibold text-[#05213c] mb-2">Punere în Funcțiune</h3>
+              <h3 className="text-lg font-semibold text-[#05213c] mb-2">Punere în funcțiune</h3>
               <p className="text-gray-600">Testarea sistemului și eliberarea certificatelor</p>
             </div>
           </div>
@@ -230,7 +230,7 @@ export default function InstallatiiGazeNaturale() {
         <div className="max-w-6xl mx-auto px-6">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold text-[#05213c] mb-4 [font-family:'Poppins',Helvetica]">
-              🗺️ Servicii Specializate pe Zone
+              🗺️ Servicii specializate pe zone
             </h2>
             <p className="text-xl text-gray-600">
               Echipe specializate pentru fiecare zonă din Constanța cu intervenții rapide
@@ -241,7 +241,7 @@ export default function InstallatiiGazeNaturale() {
             <div className="bg-white p-8 rounded-lg shadow-lg border-t-4 border-[#f2b721]">
               <h3 className="text-2xl font-bold text-[#05213c] mb-4 flex items-center">
                 <span className="text-3xl mr-3">🏠</span>
-                Instalații Gaze Constanța Sud
+                Instalații gaze Constanța sud
               </h3>
               <p className="text-gray-600 mb-6">
                 Servicii specializate pentru cartierele Tomis, CET și Campus. Echipă locală cu depozit în zonă pentru intervenții în 30 minute.
@@ -262,7 +262,7 @@ export default function InstallatiiGazeNaturale() {
             <div className="bg-white p-8 rounded-lg shadow-lg border-t-4 border-blue-600">
               <h3 className="text-2xl font-bold text-[#05213c] mb-4 flex items-center">
                 <span className="text-3xl mr-3">🔥</span>
-                Centrale Termice Constanța Nord
+                Centrale termice Constanța nord
               </h3>
               <p className="text-gray-600 mb-6">
                 Service specializat pentru zona de nord: Inel 1, Inel 2 și Zona Industrială. Certificat ISCIR cu urgențe 24/7.
@@ -283,7 +283,7 @@ export default function InstallatiiGazeNaturale() {
 
           <div className="bg-green-600 text-white p-8 rounded-lg text-center">
             <h3 className="text-2xl font-bold mb-4">
-              🏆 De Ce să Alegi o Firmă Autorizată ANRE?
+              🏆 De ce să alegi o firmă autorizată ANRE?
             </h3>
             <p className="text-lg mb-6">
               Verifică toate certificările noastre și află de ce autorizarea ANRE este obligatorie pentru siguranța ta
@@ -311,7 +311,7 @@ export default function InstallatiiGazeNaturale() {
         <div className="max-w-6xl mx-auto px-6">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold text-red-700 mb-4 [font-family:'Poppins',Helvetica]">
-              🚨 Probleme cu Gazele? Ajutor Imediat!
+              🚨 Probleme cu gazele? Ajutor imediat!
             </h2>
             <p className="text-xl text-gray-700">
               Ghiduri de siguranță și soluții pentru cele mai frecvente probleme
@@ -320,7 +320,7 @@ export default function InstallatiiGazeNaturale() {
           
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
             <div className="bg-white p-6 rounded-lg shadow-lg border-t-4 border-red-600">
-              <h3 className="text-lg font-bold text-red-700 mb-3">⚠️ Gaz Scurs</h3>
+              <h3 className="text-lg font-bold text-red-700 mb-3">⚠️ Gaz scurs</h3>
               <p className="text-gray-600 text-sm mb-4">
                 Ce să faci imediat dacă simți miros de gaz în casă
               </p>
@@ -333,7 +333,7 @@ export default function InstallatiiGazeNaturale() {
             </div>
 
             <div className="bg-white p-6 rounded-lg shadow-lg border-t-4 border-orange-600">
-              <h3 className="text-lg font-bold text-orange-700 mb-3">❄️ Centrala Nu Pornește</h3>
+              <h3 className="text-lg font-bold text-orange-700 mb-3">❄️ Centrala nu pornește</h3>
               <p className="text-gray-600 text-sm mb-4">
                 Soluții rapide pentru când centrala nu funcționează iarna
               </p>
@@ -346,7 +346,7 @@ export default function InstallatiiGazeNaturale() {
             </div>
 
             <div className="bg-white p-6 rounded-lg shadow-lg border-t-4 border-yellow-600">
-              <h3 className="text-lg font-bold text-yellow-700 mb-3">🏢 Miros Gaz Apartament</h3>
+              <h3 className="text-lg font-bold text-yellow-700 mb-3">🏢 Miros gaz apartament</h3>
               <p className="text-gray-600 text-sm mb-4">
                 Protocol special pentru problemele de gaze în blocuri
               </p>
@@ -359,7 +359,7 @@ export default function InstallatiiGazeNaturale() {
             </div>
 
             <div className="bg-white p-6 rounded-lg shadow-lg border-t-4 border-purple-600">
-              <h3 className="text-lg font-bold text-purple-700 mb-3">📉 Presiune Scăzută</h3>
+              <h3 className="text-lg font-bold text-purple-700 mb-3">📉 Presiune scăzută</h3>
               <p className="text-gray-600 text-sm mb-4">
                 Diagnosticare și soluții pentru presiunea scăzută la gaze
               </p>
@@ -390,11 +390,11 @@ export default function InstallatiiGazeNaturale() {
       <section className="py-16 bg-white">
         <div className="max-w-4xl mx-auto px-6">
           <h2 className="text-3xl md:text-4xl font-bold text-[#05213c] mb-8 text-center [font-family:'Poppins',Helvetica]">
-            Servicii Conexe
+            Servicii conexe
           </h2>
           <div className="grid md:grid-cols-3 gap-6">
             <div className="bg-[#f3f2ef] p-6 rounded-xl">
-              <h3 className="text-xl font-semibold text-[#05213c] mb-3">Centrale Termice</h3>
+              <h3 className="text-xl font-semibold text-[#05213c] mb-3">Centrale termice</h3>
               <p className="text-gray-600 mb-4">
                 Montaj și service centrale termice pentru instalațiile de gaze naturale.
               </p>
@@ -420,7 +420,7 @@ export default function InstallatiiGazeNaturale() {
             </div>
             
             <div className="bg-[#f3f2ef] p-6 rounded-xl">
-              <h3 className="text-xl font-semibold text-[#05213c] mb-3">Sisteme Siguranță</h3>
+              <h3 className="text-xl font-semibold text-[#05213c] mb-3">Sisteme siguranță</h3>
               <p className="text-gray-600 mb-4">
                 Detectoare de gaze și sisteme de siguranță pentru protecție maximă.
               </p>

@@ -75,7 +75,7 @@ export default function ReviziiANRE() {
         <div className="max-w-7xl mx-auto px-6">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold text-[#05213c] mb-4 [font-family:'Poppins',Helvetica]">
-              De Ce Sunt Obligatorii Reviziile ANRE?
+              De ce sunt obligatorii reviziile ANRE?
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
               Conform legislației în vigoare, instalațiile de gaze naturale trebuie verificate periodic pentru siguranța utilizatorilor
@@ -87,7 +87,7 @@ export default function ReviziiANRE() {
               <div className="w-20 h-20 bg-red-100 rounded-full flex items-center justify-center mx-auto mb-4">
                 <span className="text-2xl">⚠️</span>
               </div>
-              <h3 className="text-xl font-semibold text-[#05213c] mb-4">Obligație Legală</h3>
+              <h3 className="text-xl font-semibold text-[#05213c] mb-4">Obligație legală</h3>
               <p className="text-gray-600">
                 Verificarea tehnică la 2 ani este obligatorie conform Ordinului ANRE nr. 22/2007
               </p>
@@ -115,7 +115,7 @@ export default function ReviziiANRE() {
           </div>
 
           <div className="bg-red-50 border border-red-200 rounded-lg p-6">
-            <h3 className="text-lg font-semibold text-red-800 mb-3">⚠️ ATENȚIE - Sancțiuni pentru Nerespectarea Termenelor</h3>
+            <h3 className="text-lg font-semibold text-red-800 mb-3">⚠️ ATENȚIE - sancțiuni pentru nerespectarea termenelor</h3>
             <ul className="text-red-700 space-y-2">
               <li>• Amenzi de la 500 la 2.500 lei pentru persoane fizice</li>
               <li>• Amenzi de la 2.500 la 25.000 lei pentru persoane juridice</li>
@@ -131,7 +131,7 @@ export default function ReviziiANRE() {
         <div className="max-w-7xl mx-auto px-6">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold text-[#05213c] mb-4 [font-family:'Poppins',Helvetica]">
-              Ce Include Revizia ANRE
+              Ce include revizia ANRE
             </h2>
             <p className="text-xl text-gray-600">
               Verificare completă conform normativelor ANRE cu eliberarea certificatului de conformitate
@@ -143,7 +143,7 @@ export default function ReviziiANRE() {
               <div className="w-16 h-16 bg-[#f2b721] rounded-full flex items-center justify-center mb-6">
                 <span className="text-2xl">🔍</span>
               </div>
-              <h3 className="text-xl font-semibold text-[#05213c] mb-4">Verificare Vizuală</h3>
+              <h3 className="text-xl font-semibold text-[#05213c] mb-4">Verificare vizuală</h3>
               <p className="text-gray-600">
                 Controlul stării conductelor, conectiunilor, aparatelor și sistemelor de ventilație
               </p>
@@ -153,7 +153,7 @@ export default function ReviziiANRE() {
               <div className="w-16 h-16 bg-[#f2b721] rounded-full flex items-center justify-center mb-6">
                 <span className="text-2xl">📏</span>
               </div>
-              <h3 className="text-xl font-semibold text-[#05213c] mb-4">Măsurători Tehnice</h3>
+              <h3 className="text-xl font-semibold text-[#05213c] mb-4">Măsurători tehnice</h3>
               <p className="text-gray-600">
                 Verificarea presiunii de lucru și testarea etanșeității instalației cu aparate certificate
               </p>
@@ -163,7 +163,7 @@ export default function ReviziiANRE() {
               <div className="w-16 h-16 bg-[#f2b721] rounded-full flex items-center justify-center mb-6">
                 <span className="text-2xl">🌬️</span>
               </div>
-              <h3 className="text-xl font-semibold text-[#05213c] mb-4">Control Ventilație</h3>
+              <h3 className="text-xl font-semibold text-[#05213c] mb-4">Control ventilație</h3>
               <p className="text-gray-600">
                 Verificarea sistemelor de ventilare și evacuare a gazelor arse conform normelor
               </p>
@@ -173,7 +173,7 @@ export default function ReviziiANRE() {
               <div className="w-16 h-16 bg-[#f2b721] rounded-full flex items-center justify-center mb-6">
                 <span className="text-2xl">⚡</span>
               </div>
-              <h3 className="text-xl font-semibold text-[#05213c] mb-4">Verificare Electrică</h3>
+              <h3 className="text-xl font-semibold text-[#05213c] mb-4">Verificare electrică</h3>
               <p className="text-gray-600">
                 Controlul instalației electrice a aparatelor consumatoare și sistemelor de siguranță
               </p>
@@ -193,7 +193,7 @@ export default function ReviziiANRE() {
               <div className="w-16 h-16 bg-[#f2b721] rounded-full flex items-center justify-center mb-6">
                 <span className="text-2xl">✅</span>
               </div>
-              <h3 className="text-xl font-semibold text-[#05213c] mb-4">Certificat Conformitate</h3>
+              <h3 className="text-xl font-semibold text-[#05213c] mb-4">Certificat conformitate</h3>
               <p className="text-gray-600">
                 Eliberarea certificatului de conformitate valabil 2 ani de la data verificării
               </p>
@@ -207,7 +207,7 @@ export default function ReviziiANRE() {
         <div className="max-w-7xl mx-auto px-6">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold text-[#05213c] mb-4 [font-family:'Poppins',Helvetica]">
-              Când Trebuie Făcută Revizia?
+              Când trebuie făcută revizia?
             </h2>
             <p className="text-xl text-gray-600">
               Termene obligatorii pentru verificările tehnice periodice
@@ -220,7 +220,7 @@ export default function ReviziiANRE() {
                 1
               </div>
               <div>
-                <h3 className="text-xl font-semibold text-[#05213c] mb-2">Instalații Noi</h3>
+                <h3 className="text-xl font-semibold text-[#05213c] mb-2">Instalații noi</h3>
                 <p className="text-gray-600">
                   Prima revizie se face la <strong>2 ani</strong> de la data punerii în funcțiune a instalației
                 </p>
@@ -232,7 +232,7 @@ export default function ReviziiANRE() {
                 2
               </div>
               <div>
-                <h3 className="text-xl font-semibold text-[#05213c] mb-2">Revizii Ulterioare</h3>
+                <h3 className="text-xl font-semibold text-[#05213c] mb-2">Revizii ulterioare</h3>
                 <p className="text-gray-600">
                   Următoarele revizii se fac din <strong>2 în 2 ani</strong> de la data ultimei verificări
                 </p>
@@ -244,7 +244,7 @@ export default function ReviziiANRE() {
                 3
               </div>
               <div>
-                <h3 className="text-xl font-semibold text-[#05213c] mb-2">Modificări Instalație</h3>
+                <h3 className="text-xl font-semibold text-[#05213c] mb-2">Modificări instalație</h3>
                 <p className="text-gray-600">
                   După orice modificare a instalației trebuie făcută o <strong>nouă verificare</strong>
                 </p>
@@ -256,7 +256,7 @@ export default function ReviziiANRE() {
                 ⚠️
               </div>
               <div>
-                <h3 className="text-xl font-semibold text-red-800 mb-2">Depășirea Termenului</h3>
+                <h3 className="text-xl font-semibold text-red-800 mb-2">Depășirea termenului</h3>
                 <p className="text-red-700">
                   Depășirea termenului de 2 ani poate duce la <strong>oprirea furnizării gazelor</strong> și aplicarea de amenzi
                 </p>
@@ -271,7 +271,7 @@ export default function ReviziiANRE() {
         <div className="max-w-7xl mx-auto px-6">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold text-[#05213c] mb-4 [font-family:'Poppins',Helvetica]">
-              Cum Funcționează?
+              Cum funcționează?
             </h2>
             <p className="text-xl text-gray-600">
               Proces simplu și rapid - de la programare la obținerea certificatului
@@ -299,7 +299,7 @@ export default function ReviziiANRE() {
               <div className="w-20 h-20 bg-[#f2b721] rounded-full flex items-center justify-center mx-auto mb-4">
                 <span className="text-2xl font-bold text-[#05213c]">3</span>
               </div>
-              <h3 className="text-lg font-semibold text-[#05213c] mb-2">Procesul Verbal</h3>
+              <h3 className="text-lg font-semibold text-[#05213c] mb-2">Procesul verbal</h3>
               <p className="text-gray-600">Se întocmește procesul verbal cu rezultatele verificării</p>
             </div>
 
@@ -318,7 +318,7 @@ export default function ReviziiANRE() {
       <section className="py-16 bg-white">
         <div className="max-w-4xl mx-auto px-6 text-center">
           <h2 className="text-3xl md:text-4xl font-bold text-[#05213c] mb-8 [font-family:'Poppins',Helvetica]">
-            Tarife Revizii ANRE
+            Tarife revizii ANRE
           </h2>
           
           <div className="grid md:grid-cols-2 gap-8">

@@ -76,7 +76,7 @@ export default function CentraleTermice() {
         <div className="max-w-7xl mx-auto px-6">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold text-[#05213c] mb-4 [font-family:'Poppins',Helvetica]">
-              Servicii Centrale Termice
+              Servicii centrale termice
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
               Service complet pentru centrale termice - montaj, reparații, mentenanță și revizie anuală
@@ -88,7 +88,7 @@ export default function CentraleTermice() {
               <div className="w-16 h-16 bg-[#f2b721] rounded-full flex items-center justify-center mb-6">
                 <img src="/img/icon-30.png" alt="Montaj" className="w-8 h-8" />
               </div>
-              <h3 className="text-xl font-semibold text-[#05213c] mb-4">Montaj Centrale Noi</h3>
+              <h3 className="text-xl font-semibold text-[#05213c] mb-4">Montaj centrale noi</h3>
               <p className="text-gray-600">
                 Montaj profesional centrale termice cu tiraj forțat sau natural. Consultanță pentru alegerea centralei potrivite. Necesită <Link href="/instalatii-gaze-naturale" className="text-[#f2b721] hover:underline">instalație gaze naturale</Link> autorizată.
               </p>
@@ -98,7 +98,7 @@ export default function CentraleTermice() {
               <div className="w-16 h-16 bg-[#f2b721] rounded-full flex items-center justify-center mb-6">
                 <img src="/img/icon-30.png" alt="Reparații" className="w-8 h-8" />
               </div>
-              <h3 className="text-xl font-semibold text-[#05213c] mb-4">Reparații & Diagnosticare</h3>
+              <h3 className="text-xl font-semibold text-[#05213c] mb-4">Reparații & diagnosticare</h3>
               <p className="text-gray-600">
                 Diagnosticare completă și reparații pentru toate tipurile de defecțiuni. Piese de schimb originale.
               </p>
@@ -108,7 +108,7 @@ export default function CentraleTermice() {
               <div className="w-16 h-16 bg-[#f2b721] rounded-full flex items-center justify-center mb-6">
                 <img src="/img/icon-30.png" alt="Mentenanță" className="w-8 h-8" />
               </div>
-              <h3 className="text-xl font-semibold text-[#05213c] mb-4">Mentenanță Preventivă</h3>
+              <h3 className="text-xl font-semibold text-[#05213c] mb-4">Mentenanță preventivă</h3>
               <p className="text-gray-600">
                 Servicii de mentenanță periodică pentru funcționare optimă și prelungirea duratei de viață.
               </p>
@@ -118,7 +118,7 @@ export default function CentraleTermice() {
               <div className="w-16 h-16 bg-[#f2b721] rounded-full flex items-center justify-center mb-6">
                 <img src="/img/icon-30.png" alt="Revizie" className="w-8 h-8" />
               </div>
-              <h3 className="text-xl font-semibold text-[#05213c] mb-4">Revizie Anuală ISCIR</h3>
+              <h3 className="text-xl font-semibold text-[#05213c] mb-4">Revizie anuală ISCIR</h3>
               <p className="text-gray-600">
                 Revizie tehnică anuală obligatorie conform normelor ISCIR. Eliberarea certificatului de conformitate. Vezi <Link href="/revizii-anre" className="text-[#f2b721] hover:underline">revizii și verificări ANRE</Link>.
               </p>
@@ -128,7 +128,7 @@ export default function CentraleTermice() {
               <div className="w-16 h-16 bg-[#f2b721] rounded-full flex items-center justify-center mb-6">
                 <img src="/img/icon-30.png" alt="Autorizare" className="w-8 h-8" />
               </div>
-              <h3 className="text-xl font-semibold text-[#05213c] mb-4">Autorizare & Avizare</h3>
+              <h3 className="text-xl font-semibold text-[#05213c] mb-4">Autorizare & avizare</h3>
               <p className="text-gray-600">
                 Obținerea tuturor autorizațiilor necesare pentru punerea în funcțiune și exploatarea centralei.
               </p>
@@ -138,7 +138,7 @@ export default function CentraleTermice() {
               <div className="w-16 h-16 bg-[#f2b721] rounded-full flex items-center justify-center mb-6">
                 <img src="/img/icon-30.png" alt="Service urgency" className="w-8 h-8" />
               </div>
-              <h3 className="text-xl font-semibold text-[#05213c] mb-4">Service de Urgență</h3>
+              <h3 className="text-xl font-semibold text-[#05213c] mb-4">Service de urgență</h3>
               <p className="text-gray-600">
                 Intervenții rapide 24/7 pentru defecțiuni urgente. Echipă de tehniciieni disponibili non-stop.
               </p>
@@ -152,7 +152,7 @@ export default function CentraleTermice() {
         <div className="max-w-7xl mx-auto px-6">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold text-[#05213c] mb-4 [font-family:'Poppins',Helvetica]">
-              Lucrăm cu Toate Mărcile
+              Lucrăm cu toate mărcile
             </h2>
             <p className="text-xl text-gray-600">
               Service autorizat pentru principalele mărci de centrale termice
@@ -199,7 +199,7 @@ export default function CentraleTermice() {
         <div className="max-w-7xl mx-auto px-6">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold text-[#05213c] mb-4 [font-family:'Poppins',Helvetica]">
-              Probleme Frecvente Centrale Termice
+              Probleme frecvente centrale termice
             </h2>
             <p className="text-xl text-gray-600">
               Rezolvăm rapid cele mai frecvente probleme ale centralelor termice
@@ -298,11 +298,11 @@ export default function CentraleTermice() {
       <section className="py-16 bg-white">
         <div className="max-w-4xl mx-auto px-6">
           <h2 className="text-3xl md:text-4xl font-bold text-[#05213c] mb-8 text-center [font-family:'Poppins',Helvetica]">
-            Servicii Conexe
+            Servicii conexe
           </h2>
           <div className="grid md:grid-cols-3 gap-6">
             <div className="bg-[#f3f2ef] p-6 rounded-xl">
-              <h3 className="text-xl font-semibold text-[#05213c] mb-3">Instalații Gaze</h3>
+              <h3 className="text-xl font-semibold text-[#05213c] mb-3">Instalații gaze</h3>
               <p className="text-gray-600 mb-4">
                 Instalații complete de gaze naturale pentru alimentarea centralelor termice.
               </p>
@@ -328,7 +328,7 @@ export default function CentraleTermice() {
             </div>
             
             <div className="bg-[#f3f2ef] p-6 rounded-xl">
-              <h3 className="text-xl font-semibold text-[#05213c] mb-3">Smart Home</h3>
+              <h3 className="text-xl font-semibold text-[#05213c] mb-3">Smart home</h3>
               <p className="text-gray-600 mb-4">
                 Modernizare cu termostate inteligente și control automat al centralei.
               </p>

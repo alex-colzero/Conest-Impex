@@ -69,7 +69,7 @@ export default function SistemeSiguranta() {
         <div className="max-w-7xl mx-auto px-6">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold text-[#05213c] mb-4 [font-family:'Poppins',Helvetica]">
-              De Ce Ai Nevoie de Sisteme de Siguranță?
+              De ce ai nevoie de sisteme de siguranță?
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
               Gazele naturale sunt sigure când sunt controlate, dar pot deveni periculoase în caz de scurgeri
@@ -81,7 +81,7 @@ export default function SistemeSiguranta() {
               <div className="w-20 h-20 bg-red-100 rounded-full flex items-center justify-center mx-auto mb-4">
                 <span className="text-3xl text-red-600 font-bold">!</span>
               </div>
-              <h3 className="text-xl font-semibold text-[#05213c] mb-4">Risc de Explozie</h3>
+              <h3 className="text-xl font-semibold text-[#05213c] mb-4">Risc de explozie</h3>
               <p className="text-gray-600">
                 Gazele naturale acumulate în spații închise pot forma amestecuri explozive
               </p>
@@ -91,7 +91,7 @@ export default function SistemeSiguranta() {
               <div className="w-20 h-20 bg-red-100 rounded-full flex items-center justify-center mx-auto mb-4">
                 <span className="text-2xl text-red-600 font-bold">O₂</span>
               </div>
-              <h3 className="text-xl font-semibold text-[#05213c] mb-4">Risc de Asfixiere</h3>
+              <h3 className="text-xl font-semibold text-[#05213c] mb-4">Risc de asfixiere</h3>
               <p className="text-gray-600">
                 Concentrații mari de gaze pot deplasa oxigenul și cauza asfixiere
               </p>
@@ -101,7 +101,7 @@ export default function SistemeSiguranta() {
               <div className="w-20 h-20 bg-red-100 rounded-full flex items-center justify-center mx-auto mb-4">
                 <span className="text-2xl text-red-600 font-bold">△</span>
               </div>
-              <h3 className="text-xl font-semibold text-[#05213c] mb-4">Risc de Incendiu</h3>
+              <h3 className="text-xl font-semibold text-[#05213c] mb-4">Risc de incendiu</h3>
               <p className="text-gray-600">
                 O scânteie poate declanșa un incendiu major în prezența gazelor
               </p>
@@ -110,7 +110,7 @@ export default function SistemeSiguranta() {
 
           <div className="bg-green-50 border border-green-200 rounded-lg p-8 text-center">
             <h3 className="text-2xl font-bold text-green-800 mb-4">
-              Soluția: Sisteme Automate de Detecție
+              Soluția: sisteme automate de detecție
             </h3>
             <p className="text-green-700 text-lg">
               Sistemele noastre detectează gazele înainte să devină periculoase și opresc automat alimentarea!
@@ -124,7 +124,7 @@ export default function SistemeSiguranta() {
         <div className="max-w-7xl mx-auto px-6">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold text-[#05213c] mb-4 [font-family:'Poppins',Helvetica]">
-              Componentele Sistemului de Siguranță
+              Componentele sistemului de siguranță
             </h2>
             <p className="text-xl text-gray-600">
               Sistem complet de detecție și oprire automată
@@ -136,7 +136,7 @@ export default function SistemeSiguranta() {
               <div className="w-16 h-16 bg-[#f2b721] rounded-full flex items-center justify-center mb-6">
                 <span className="text-lg font-bold text-[#05213c]">DETECTOR</span>
               </div>
-              <h3 className="text-xl font-semibold text-[#05213c] mb-4">Detector Gaze</h3>
+              <h3 className="text-xl font-semibold text-[#05213c] mb-4">Detector gaze</h3>
               <p className="text-gray-600 mb-4">
                 Senzor electrochimic de înaltă precizie care detectează concentrații mici de gaze naturale
               </p>
@@ -236,7 +236,7 @@ export default function SistemeSiguranta() {
         <div className="max-w-7xl mx-auto px-6">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold text-[#05213c] mb-4 [font-family:'Poppins',Helvetica]">
-              Cum Funcționează Sistemul?
+              Cum funcționează sistemul?
             </h2>
             <p className="text-xl text-gray-600">
               Protecție automată în 4 pași simpli
@@ -264,7 +264,7 @@ export default function SistemeSiguranta() {
               <div className="w-20 h-20 bg-[#f2b721] rounded-full flex items-center justify-center mx-auto mb-4">
                 <span className="text-2xl font-bold text-[#05213c]">3</span>
               </div>
-              <h3 className="text-lg font-semibold text-[#05213c] mb-2">Oprire Gaze</h3>
+              <h3 className="text-lg font-semibold text-[#05213c] mb-2">Oprire gaze</h3>
               <p className="text-gray-600">Electrovalva oprește automat fluxul de gaze</p>
             </div>
 

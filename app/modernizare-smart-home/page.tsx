@@ -79,7 +79,7 @@ export default function ModernizareSmartHome() {
               <div className="w-20 h-20 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-4">
                 <span className="text-2xl font-bold text-green-700">LEI</span>
               </div>
-              <h3 className="text-xl font-semibold text-[#05213c] mb-4">Economii Mari</h3>
+              <h3 className="text-xl font-semibold text-[#05213c] mb-4">Economii mari</h3>
               <p className="text-gray-600">
                 Reduce consumul cu 30-50% prin optimizarea sistemului de încălzire
               </p>
@@ -89,7 +89,7 @@ export default function ModernizareSmartHome() {
               <div className="w-20 h-20 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4">
                 <span className="text-2xl font-bold text-blue-700">°C</span>
               </div>
-              <h3 className="text-xl font-semibold text-[#05213c] mb-4">Confort Maxim</h3>
+              <h3 className="text-xl font-semibold text-[#05213c] mb-4">Confort maxim</h3>
               <p className="text-gray-600">
                 Temperatură constantă în toată casa, controlată automat
               </p>
@@ -99,7 +99,7 @@ export default function ModernizareSmartHome() {
               <div className="w-20 h-20 bg-purple-100 rounded-full flex items-center justify-center mx-auto mb-4">
                 <span className="text-2xl font-bold text-purple-700">CASA</span>
               </div>
-              <h3 className="text-xl font-semibold text-[#05213c] mb-4">Valoare Proprietate</h3>
+              <h3 className="text-xl font-semibold text-[#05213c] mb-4">Valoare proprietate</h3>
               <p className="text-gray-600">
                 Creșterea valorii casei cu 10-15% prin modernizare
               </p>
@@ -109,7 +109,7 @@ export default function ModernizareSmartHome() {
               <div className="w-20 h-20 bg-orange-100 rounded-full flex items-center justify-center mx-auto mb-4">
                 <span className="text-2xl font-bold text-orange-700">APP</span>
               </div>
-              <h3 className="text-xl font-semibold text-[#05213c] mb-4">Control Smart</h3>
+              <h3 className="text-xl font-semibold text-[#05213c] mb-4">Control smart</h3>
               <p className="text-gray-600">
                 Controlează tot de pe telefon, de oriunde te-ai afla
               </p>
@@ -135,7 +135,7 @@ export default function ModernizareSmartHome() {
               <div className="w-16 h-16 bg-[#f2b721] rounded-full flex items-center justify-center mb-6">
                 <span className="text-lg font-bold text-[#05213c]">UPGRADE</span>
               </div>
-              <h3 className="text-xl font-semibold text-[#05213c] mb-4">Înlocuire Centrale Vechi</h3>
+              <h3 className="text-xl font-semibold text-[#05213c] mb-4">Înlocuire centrale vechi</h3>
               <p className="text-gray-600 mb-4">
                 Înlocuirea centralelor vechi cu modele noi, eficiente energetic cu tehnologie condensare
               </p>
@@ -151,7 +151,7 @@ export default function ModernizareSmartHome() {
               <div className="w-16 h-16 bg-[#f2b721] rounded-full flex items-center justify-center mb-6">
                 <span className="text-lg font-bold text-[#05213c]">TERMO</span>
               </div>
-              <h3 className="text-xl font-semibold text-[#05213c] mb-4">Termostate Inteligente</h3>
+              <h3 className="text-xl font-semibold text-[#05213c] mb-4">Termostate inteligente</h3>
               <p className="text-gray-600 mb-4">
                 Montaj termostate smart care învață rutinele tale și optimizează automat temperatura
               </p>
@@ -167,7 +167,7 @@ export default function ModernizareSmartHome() {
               <div className="w-16 h-16 bg-[#f2b721] rounded-full flex items-center justify-center mb-6">
                 <span className="text-lg font-bold text-[#05213c]">SERVICE</span>
               </div>
-              <h3 className="text-xl font-semibold text-[#05213c] mb-4">Optimizare Rețea</h3>
+              <h3 className="text-xl font-semibold text-[#05213c] mb-4">Optimizare rețea</h3>
               <p className="text-gray-600 mb-4">
                 Reechilibrarea sistemului de încălzire pentru distribuție uniformă a căldurii
               </p>
@@ -183,7 +183,7 @@ export default function ModernizareSmartHome() {
               <div className="w-16 h-16 bg-[#f2b721] rounded-full flex items-center justify-center mb-6">
                 <span className="text-lg font-bold text-[#05213c]">AUTO</span>
               </div>
-              <h3 className="text-xl font-semibold text-[#05213c] mb-4">Automatizare Completă</h3>
+              <h3 className="text-xl font-semibold text-[#05213c] mb-4">Automatizare completă</h3>
               <p className="text-gray-600 mb-4">
                 Sisteme complete de automatizare care controlează încălzirea, ventilatia și apa caldă
               </p>
@@ -199,7 +199,7 @@ export default function ModernizareSmartHome() {
               <div className="w-16 h-16 bg-[#f2b721] rounded-full flex items-center justify-center mb-6">
                 <span className="text-lg font-bold text-[#05213c]">HIBRID</span>
               </div>
-              <h3 className="text-xl font-semibold text-[#05213c] mb-4">Sisteme Hibride</h3>
+              <h3 className="text-xl font-semibold text-[#05213c] mb-4">Sisteme hibride</h3>
               <p className="text-gray-600 mb-4">
                 Combinarea gazelor cu surse regenerabile: pompe de căldură, panouri solare
               </p>
@@ -215,7 +215,7 @@ export default function ModernizareSmartHome() {
               <div className="w-16 h-16 bg-[#f2b721] rounded-full flex items-center justify-center mb-6">
                 <span className="text-lg font-bold text-[#05213c]">MONITOR</span>
               </div>
-              <h3 className="text-xl font-semibold text-[#05213c] mb-4">Monitorizare Avansată</h3>
+              <h3 className="text-xl font-semibold text-[#05213c] mb-4">Monitorizare avansată</h3>
               <p className="text-gray-600 mb-4">
                 Sisteme de monitorizare care urmăresc consumurile și optimizează eficiența
               </p>
@@ -247,7 +247,7 @@ export default function ModernizareSmartHome() {
               <div className="w-24 h-24 bg-gray-100 rounded-lg flex items-center justify-center mx-auto mb-4">
                 <span className="text-2xl font-bold text-gray-700">VOCE</span>
               </div>
-              <h3 className="text-xl font-semibold text-[#05213c] mb-4">Control Vocal</h3>
+              <h3 className="text-xl font-semibold text-[#05213c] mb-4">Control vocal</h3>
               <p className="text-gray-600">
                 "Alexa, pune 22 de grade în living" sau "Hey Google, oprește încălzirea"
               </p>
@@ -257,7 +257,7 @@ export default function ModernizareSmartHome() {
               <div className="w-24 h-24 bg-gray-100 rounded-lg flex items-center justify-center mx-auto mb-4">
                 <span className="text-2xl font-bold text-gray-700">MOBIL</span>
               </div>
-              <h3 className="text-xl font-semibold text-[#05213c] mb-4">Aplicație Mobilă</h3>
+              <h3 className="text-xl font-semibold text-[#05213c] mb-4">Aplicație mobilă</h3>
               <p className="text-gray-600">
                 Controlează de oriunde temperatura, verifică consumurile și primește alerte
               </p>
@@ -267,7 +267,7 @@ export default function ModernizareSmartHome() {
               <div className="w-24 h-24 bg-gray-100 rounded-lg flex items-center justify-center mx-auto mb-4">
                 <span className="text-2xl font-bold text-gray-700">SISTEM</span>
               </div>
-              <h3 className="text-xl font-semibold text-[#05213c] mb-4">Integrare Sisteme</h3>
+              <h3 className="text-xl font-semibold text-[#05213c] mb-4">Integrare sisteme</h3>
               <p className="text-gray-600">
                 Conectare cu sisteme de securitate, iluminat smart, management energie
               </p>
@@ -312,19 +312,19 @@ export default function ModernizareSmartHome() {
           <div className="grid md:grid-cols-3 gap-8 mb-12">
             <div className="bg-white p-6 rounded-xl">
               <div className="text-3xl font-bold text-[#f2b721] mb-2">2-3 ani</div>
-              <h3 className="font-semibold text-[#05213c] mb-2">Modernizare Completă</h3>
+              <h3 className="font-semibold text-[#05213c] mb-2">Modernizare completă</h3>
               <p className="text-gray-600 text-sm">Înlocuirea centralei + termostate smart</p>
             </div>
 
             <div className="bg-white p-6 rounded-xl">
               <div className="text-3xl font-bold text-[#f2b721] mb-2">1-2 ani</div>
-              <h3 className="font-semibold text-[#05213c] mb-2">Sisteme Hibride</h3>
+              <h3 className="font-semibold text-[#05213c] mb-2">Sisteme hibride</h3>
               <p className="text-gray-600 text-sm">Gaze + pompă de căldură</p>
             </div>
 
             <div className="bg-white p-6 rounded-xl">
               <div className="text-3xl font-bold text-[#f2b721] mb-2">6-12 luni</div>
-              <h3 className="font-semibold text-[#05213c] mb-2">Optimizare Sistem</h3>
+              <h3 className="font-semibold text-[#05213c] mb-2">Optimizare sistem</h3>
               <p className="text-gray-600 text-sm">Termostate + echilibrare</p>
             </div>
           </div>

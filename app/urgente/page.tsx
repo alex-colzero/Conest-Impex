@@ -61,7 +61,7 @@ export default function Urgente() {
         <div className="max-w-7xl mx-auto px-6">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold text-[#05213c] mb-4 [font-family:'Poppins',Helvetica]">
-              🚨 Situații de Urgență
+              🚨 Situații de urgență
             </h2>
             <p className="text-xl text-gray-600">Intervenții imediate pentru următoarele situații critice</p>
           </div>
@@ -71,7 +71,7 @@ export default function Urgente() {
               <div className="w-16 h-16 bg-red-100 rounded-full flex items-center justify-center mb-4">
                 <span className="text-2xl">⚠️</span>
               </div>
-              <h3 className="text-xl font-semibold text-red-800 mb-3">Scăpări de Gaze</h3>
+              <h3 className="text-xl font-semibold text-red-800 mb-3">Scăpări de gaze</h3>
               <p className="text-red-700 mb-4">Miros de gaze în casă sau în curte</p>
               <ul className="text-red-600 text-sm space-y-1">
                 <li>• Închideți imediat robinetul general</li>
@@ -85,7 +85,7 @@ export default function Urgente() {
               <div className="w-16 h-16 bg-orange-100 rounded-full flex items-center justify-center mb-4">
                 <span className="text-2xl">🔥</span>
               </div>
-              <h3 className="text-xl font-semibold text-orange-800 mb-3">Centrale Oprite</h3>
+              <h3 className="text-xl font-semibold text-orange-800 mb-3">Centrale oprite</h3>
               <p className="text-orange-700 mb-4">Centrala nu pornește sau se oprește des</p>
               <ul className="text-orange-600 text-sm space-y-1">
                 <li>• Verificare presiune sistem</li>
@@ -99,7 +99,7 @@ export default function Urgente() {
               <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mb-4">
                 <span className="text-2xl">📉</span>
               </div>
-              <h3 className="text-xl font-semibold text-blue-800 mb-3">Presiune Scăzută</h3>
+              <h3 className="text-xl font-semibold text-blue-800 mb-3">Presiune scăzută</h3>
               <p className="text-blue-700 mb-4">Presiune insuficientă în sistem</p>
               <ul className="text-blue-600 text-sm space-y-1">
                 <li>• Identificare cauze presiune scăzută</li>
@@ -113,7 +113,7 @@ export default function Urgente() {
               <div className="w-16 h-16 bg-purple-100 rounded-full flex items-center justify-center mb-4">
                 <span className="text-2xl">🔧</span>
               </div>
-              <h3 className="text-xl font-semibold text-purple-800 mb-3">Avarii Instalații</h3>
+              <h3 className="text-xl font-semibold text-purple-800 mb-3">Avarii instalații</h3>
               <p className="text-purple-700 mb-4">Defecțiuni în instalația de gaze</p>
               <ul className="text-purple-600 text-sm space-y-1">
                 <li>• Robinete defecte</li>
@@ -127,7 +127,7 @@ export default function Urgente() {
               <div className="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mb-4">
                 <span className="text-2xl">❄️</span>
               </div>
-              <h3 className="text-xl font-semibold text-green-800 mb-3">Fără Apă Caldă</h3>
+              <h3 className="text-xl font-semibold text-green-800 mb-3">Fără apă caldă</h3>
               <p className="text-green-700 mb-4">Centrale fără apă caldă menajeră</p>
               <ul className="text-green-600 text-sm space-y-1">
                 <li>• Verificare schimbător căldură</li>
@@ -141,7 +141,7 @@ export default function Urgente() {
               <div className="w-16 h-16 bg-gray-100 rounded-full flex items-center justify-center mb-4">
                 <span className="text-2xl">⚡</span>
               </div>
-              <h3 className="text-xl font-semibold text-gray-800 mb-3">Alte Urgențe</h3>
+              <h3 className="text-xl font-semibold text-gray-800 mb-3">Alte urgențe</h3>
               <p className="text-gray-700 mb-4">Orice situație critică cu gazele</p>
               <ul className="text-gray-600 text-sm space-y-1">
                 <li>• Sunete neobișnuite</li>
@@ -158,19 +158,19 @@ export default function Urgente() {
       <section className="py-16 bg-red-50">
         <div className="max-w-4xl mx-auto px-6 text-center">
           <h2 className="text-3xl md:text-4xl font-bold text-red-800 mb-8 [font-family:'Poppins',Helvetica]">
-            ⏱️ Timpul Nostru de Răspuns
+            ⏱️ Timpul nostru de răspuns
           </h2>
 
           <div className="grid md:grid-cols-3 gap-8 mb-12">
             <div className="bg-white p-6 rounded-xl shadow-md">
               <div className="text-3xl font-bold text-red-600 mb-2">15 min</div>
-              <h3 className="font-semibold text-red-800 mb-2">Scurgeri Gaze</h3>
+              <h3 className="font-semibold text-red-800 mb-2">Scurgeri gaze</h3>
               <p className="text-gray-600 text-sm">Intervenție imediată pentru siguranța dumneavoastră</p>
             </div>
 
             <div className="bg-white p-6 rounded-xl shadow-md">
               <div className="text-3xl font-bold text-red-600 mb-2">30 min</div>
-              <h3 className="font-semibold text-red-800 mb-2">Centrale Oprite</h3>
+              <h3 className="font-semibold text-red-800 mb-2">Centrale oprite</h3>
               <p className="text-gray-600 text-sm">Diagnosticare și remediere rapidă</p>
             </div>
 
@@ -183,7 +183,7 @@ export default function Urgente() {
 
           <div className="bg-white border-l-4 border-red-500 p-6 rounded-lg">
             <h3 className="text-xl font-bold text-red-800 mb-4">
-              🎯 Zonele Noastre de Intervenție Urgentă
+              🎯 Zonele noastre de intervenție urgentă
             </h3>
             <div className="grid md:grid-cols-2 gap-4 text-left">
               <ul className="space-y-2 text-gray-700">

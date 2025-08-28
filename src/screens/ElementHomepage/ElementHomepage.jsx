@@ -111,7 +111,7 @@ const serviceAreas = [
     image: "/img/acoperire-primara-constanta-3.png",
     imageMobile: "/img/acoperire-primara-constanta-2.png",
     title: "Constanța",
-    subtitle: "Acoperire Primară",
+    subtitle: "Acoperire primară",
     areas: [
       { name: "Mamaia", description: "Proprietăți premium" },
       { name: "Centrul Vechi", description: "Modernizări" },
@@ -122,7 +122,7 @@ const serviceAreas = [
   {
     image: "/img/proiecte-nationale-3.png",
     imageMobile: "/img/proiecte-nationale-2.png",
-    title: "Proiecte Naționale",
+    title: "Proiecte naționale",
     areas: [
       { name: "Constanța", description: "Proiecte mari" },
       { name: "Județul Constanța", description: "Zone rurale" },
@@ -144,11 +144,11 @@ const serviceAreas = [
 ];
 
 const emergencyServices = [
-  { title: "Scăpări De Gaze", description: "Intervenție imediată" },
-  { title: "Centrale Oprite", description: "Remediere rapidă" },
-  { title: "Presiune Scăzută", description: "Diagnosticare sistem" },
-  { title: "Detecție Probleme", description: "Verificări siguranță" },
-  { title: "Remediere Avarii", description: "Piese originale" },
+  { title: "Scăpări de gaze", description: "Intervenție imediată" },
+  { title: "Centrale oprite", description: "Remediere rapidă" },
+  { title: "Presiune scăzută", description: "Diagnosticare sistem" },
+  { title: "Detecție probleme", description: "Verificări siguranță" },
+  { title: "Remediere avarii", description: "Piese originale" },
 ];
 
 
@@ -391,7 +391,7 @@ export const ElementHomepage = () => {
 
                   <div className="w-full flex self-stretch flex-col items-center gap-[15px] flex-[0_0_auto] relative">
                     <h3 className="[font-family:'Poppins',Helvetica] self-stretch mt-[-1.00px] tracking-[0] text-[26px] text-[#05213c] font-semibold text-center leading-[33.8px] relative">
-                      Intervenții Urgente 24/7
+                      Intervenții urgente 24/7
                     </h3>
 
                     <p className="[font-family:'Poppins',Helvetica] self-stretch tracking-[0] text-base text-[#05213c] font-normal text-center leading-[20.8px] relative">
@@ -676,7 +676,7 @@ export const ElementHomepage = () => {
                           </span>
 
                           <span className="[font-family:'Poppins',Helvetica] font-normal text-[#05213c] text-[38px] tracking-[0] leading-[49.4px]">
-                            Acoperire Primară
+                            Acoperire primară
                           </span>
                         </p>
 
@@ -834,7 +834,7 @@ export const ElementHomepage = () => {
             <span
               className={`[font-family:'Poppins',Helvetica] tracking-[0] text-[#303030] font-semibold ${screenWidth >= 977 && screenWidth < 1440 ? "text-4xl" : (screenWidth >= 1440) ? "text-[64px]" : ""} ${screenWidth >= 977 && screenWidth < 1440 ? "leading-[46.8px]" : (screenWidth >= 1440) ? "leading-[83.2px]" : ""}`}
             >
-              INTERVENȚII RAPIDE
+              intervenții rapide
             </span>
 
             <span

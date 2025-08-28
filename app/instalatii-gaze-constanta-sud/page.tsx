@@ -154,7 +154,7 @@ export default function InstalaiiGazeConstantaSudPage() {
             <div className="max-w-6xl mx-auto">
               <div className="text-center mb-12">
                 <h2 className="text-3xl md:text-4xl font-bold text-[#05213c] mb-4">
-                  Zone Acoperite în Constanța Sud
+                  Zone acoperite în Constanța sud
                 </h2>
                 <p className="text-xl text-gray-600">
                   Acoperim complet zona de sud cu echipe specializate pentru fiecare cartier
@@ -212,12 +212,12 @@ export default function InstalaiiGazeConstantaSudPage() {
 
                 <div className="bg-white p-8 rounded-lg shadow-lg border-t-4 border-gray-500">
                   <h3 className="text-2xl font-bold text-[#05213c] mb-6">
-                    Campus Universitar
+                    Campus universitar
                   </h3>
                   <ul className="space-y-3 text-gray-700">
                     <li className="flex items-start">
                       <span className="text-[#05213c] mr-2 mt-1">•</span>
-                      Campus Universitar Ovidius
+                      Campus universitar Ovidius
                     </li>
                     <li className="flex items-start">
                       <span className="text-[#05213c] mr-2 mt-1">•</span>
@@ -238,7 +238,7 @@ export default function InstalaiiGazeConstantaSudPage() {
               <div className="mt-12 text-center">
                 <div className="bg-[#f2b721] p-6 rounded-lg">
                   <h3 className="text-2xl font-bold text-[#05213c] mb-4">
-                    Timp de Răspuns Record în Sud
+                    Timp de răspuns record în sud
                   </h3>
                   <p className="text-[#05213c] text-lg">
                     Echipa noastră specializată pentru zona de sud garantează <strong>intervenții în maxim 30 de minute</strong> 
@@ -256,7 +256,7 @@ export default function InstalaiiGazeConstantaSudPage() {
             <div className="max-w-6xl mx-auto">
               <div className="text-center mb-12">
                 <h2 className="text-3xl md:text-4xl font-bold text-[#05213c] mb-4">
-                  Servicii Instalații Gaze Constanța Sud
+                  Servicii instalații gaze Constanța sud
                 </h2>
                 <p className="text-xl text-gray-600">
                   Soluții complete adaptate specificului fiecărui cartier din zona de sud
@@ -266,7 +266,7 @@ export default function InstalaiiGazeConstantaSudPage() {
               <div className="grid md:grid-cols-2 gap-8 mb-12">
                 <div className="bg-white p-8 rounded-lg shadow-lg">
                   <h3 className="text-2xl font-bold text-[#05213c] mb-6">
-                    Blocuri și Apartamente
+                    Blocuri și apartamente
                   </h3>
                   <ul className="space-y-3 text-gray-700">
                     <li className="flex items-start">
@@ -298,7 +298,7 @@ export default function InstalaiiGazeConstantaSudPage() {
 
                 <div className="bg-white p-8 rounded-lg shadow-lg">
                   <h3 className="text-2xl font-bold text-[#05213c] mb-6">
-                    Case și Vile
+                    Case și vile
                   </h3>
                   <ul className="space-y-3 text-gray-700">
                     <li className="flex items-start">
@@ -332,7 +332,7 @@ export default function InstalaiiGazeConstantaSudPage() {
               <div className="bg-[#05213c] text-white p-8 rounded-lg">
                 <div className="text-center mb-8">
                   <h3 className="text-3xl font-bold mb-4">
-                    De Ce Constanța Sud Ne-a Ales pe Noi?
+                    De ce Constanța sud ne-a ales pe noi?
                   </h3>
                 </div>
                 
@@ -367,7 +367,7 @@ export default function InstalaiiGazeConstantaSudPage() {
             <div className="max-w-4xl mx-auto">
               <div className="text-center mb-12">
                 <h2 className="text-3xl md:text-4xl font-bold text-[#05213c] mb-4">
-                  Proces Optimizat pentru Zona Sud
+                  Proces optimizat pentru zona sud
                 </h2>
                 <p className="text-xl text-gray-600">
                   Am adaptat procesul nostru pentru specificul cartierelor din sudul Constanței
@@ -382,7 +382,7 @@ export default function InstalaiiGazeConstantaSudPage() {
                     </div>
                     <div>
                       <h3 className="text-xl font-bold text-[#05213c] mb-2">
-                        Programare Online sau Telefonic
+                        Programare online sau telefonic
                       </h3>
                       <p className="text-gray-700">
                         Sistem de programare optimizat pentru fiecare cartier. Specificați zona (Tomis/CET/Campus) 
@@ -399,7 +399,7 @@ export default function InstalaiiGazeConstantaSudPage() {
                     </div>
                     <div>
                       <h3 className="text-xl font-bold text-[#05213c] mb-2">
-                        Deplasare Rapidă în Zonă
+                        Deplasare rapidă în zonă
                       </h3>
                       <p className="text-gray-700">
                         Echipa se deplasează din depozitul din zona sud în maxim 30 minute. 
@@ -416,7 +416,7 @@ export default function InstalaiiGazeConstantaSudPage() {
                     </div>
                     <div>
                       <h3 className="text-xl font-bold text-[#05213c] mb-2">
-                        Evaluare și Proiectare Locală
+                        Evaluare și proiectare locală
                       </h3>
                       <p className="text-gray-700">
                         Evaluarea ține cont de specificul fiecărui cartier: presiunea rețelei în Tomis, 
@@ -433,7 +433,7 @@ export default function InstalaiiGazeConstantaSudPage() {
                     </div>
                     <div>
                       <h3 className="text-xl font-bold text-[#05213c] mb-2">
-                        Execuție cu Materiale din Depozit Local
+                        Execuție cu materiale din depozit local
                       </h3>
                       <p className="text-gray-700">
                         Materialele sunt aduse rapid din depozitul nostru din zona sud. 
@@ -452,7 +452,7 @@ export default function InstalaiiGazeConstantaSudPage() {
           <div className="container mx-auto px-4 text-center">
             <div className="max-w-3xl mx-auto">
               <h2 className="text-3xl md:text-4xl font-bold text-[#05213c] mb-6">
-                Echipa Specializată Constanța Sud
+                Echipa specializată Constanța sud
               </h2>
               <p className="text-xl text-[#05213c] mb-8 opacity-90">
                 Contactează direct echipa noastră specializată pentru zona de sud a Constanței
