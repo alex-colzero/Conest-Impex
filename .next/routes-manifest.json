@@ -81,6 +81,12 @@
       "namedRegex": "^/instalatii\\-gaze\\-constanta\\-sud(?:/)?$"
     },
     {
+      "page": "/instalatii-gaze-mamaia",
+      "regex": "^/instalatii\\-gaze\\-mamaia(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/instalatii\\-gaze\\-mamaia(?:/)?$"
+    },
+    {
       "page": "/instalatii-gaze-naturale",
       "regex": "^/instalatii\\-gaze\\-naturale(?:/)?$",
       "routeKeys": {},
@@ -123,6 +129,12 @@
       "namedRegex": "^/modernizare\\-smart\\-home(?:/)?$"
     },
     {
+      "page": "/montaj-senzori-electrovalve",
+      "regex": "^/montaj\\-senzori\\-electrovalve(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/montaj\\-senzori\\-electrovalve(?:/)?$"
+    },
+    {
       "page": "/navodari-medgidia",
       "regex": "^/navodari\\-medgidia(?:/)?$",
       "routeKeys": {},
@@ -133,6 +145,12 @@
       "regex": "^/politica\\-confidentialitate(?:/)?$",
       "routeKeys": {},
       "namedRegex": "^/politica\\-confidentialitate(?:/)?$"
+    },
+    {
+      "page": "/pregatire-centrala-iarna",
+      "regex": "^/pregatire\\-centrala\\-iarna(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/pregatire\\-centrala\\-iarna(?:/)?$"
     },
     {
       "page": "/presiune-scazuta-gaze",

@@ -84,6 +84,12 @@ type LayoutConfig<Route extends LayoutRoutes = LayoutRoutes> = {
   handler satisfies AppPageConfig<"/instalatii-gaze-constanta-sud">
 }
 
+// Validate ../../app/instalatii-gaze-mamaia/page.tsx
+{
+  const handler = {} as typeof import("../../app/instalatii-gaze-mamaia/page.js")
+  handler satisfies AppPageConfig<"/instalatii-gaze-mamaia">
+}
+
 // Validate ../../app/instalatii-gaze-naturale/page.tsx
 {
   const handler = {} as typeof import("../../app/instalatii-gaze-naturale/page.js")
@@ -126,6 +132,12 @@ type LayoutConfig<Route extends LayoutRoutes = LayoutRoutes> = {
   handler satisfies AppPageConfig<"/modernizare-smart-home">
 }
 
+// Validate ../../app/montaj-senzori-electrovalve/page.tsx
+{
+  const handler = {} as typeof import("../../app/montaj-senzori-electrovalve/page.js")
+  handler satisfies AppPageConfig<"/montaj-senzori-electrovalve">
+}
+
 // Validate ../../app/navodari-medgidia/page.tsx
 {
   const handler = {} as typeof import("../../app/navodari-medgidia/page.js")
@@ -142,6 +154,12 @@ type LayoutConfig<Route extends LayoutRoutes = LayoutRoutes> = {
 {
   const handler = {} as typeof import("../../app/politica-confidentialitate/page.js")
   handler satisfies AppPageConfig<"/politica-confidentialitate">
+}
+
+// Validate ../../app/pregatire-centrala-iarna/page.tsx
+{
+  const handler = {} as typeof import("../../app/pregatire-centrala-iarna/page.js")
+  handler satisfies AppPageConfig<"/pregatire-centrala-iarna">
 }
 
 // Validate ../../app/presiune-scazuta-gaze/page.tsx
