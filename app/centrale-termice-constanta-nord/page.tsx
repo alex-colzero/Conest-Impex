@@ -1,18 +1,18 @@
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Centrale Termice Constanța Nord | Conest - Service ISCIR',
+  title: 'Centrale termice Constanța Nord | Conest - Service ISCIR',
   description: 'Centrale termice în Constanța Nord: Inel 1, Inel 2, Zona Industrială. Service autorizat ISCIR, montaj, reparații și întreținere. Echipă specializată zona nord.',
   keywords: 'centrale termice Constanta nord, service centrale Inel 1, montaj centrale Inel 2, ISCIR Constanta nord, reparatii centrale',
   openGraph: {
-    title: 'Centrale Termice Constanța Nord | Conest - Service ISCIR',
+    title: 'Centrale termice Constanța Nord | Conest - Service ISCIR',
     description: 'Centrale termice în Constanța Nord: Inel 1, Inel 2, Zona Industrială. Service autorizat ISCIR, montaj, reparații și întreținere. Echipă specializată zona nord.',
     type: 'website',
     locale: 'ro_RO',
   },
   twitter: {
     card: 'summary',
-    title: 'Centrale Termice Constanța Nord | Conest - Service ISCIR',
+    title: 'Centrale termice Constanța Nord | Conest - Service ISCIR',
     description: 'Centrale termice în Constanța Nord: Inel 1, Inel 2, Zona Industrială. Service autorizat ISCIR, montaj, reparații și întreținere.',
   },
   alternates: {

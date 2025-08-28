@@ -291,13 +291,13 @@ export default function SistemeSiguranta() {
       {/* Pricing Section */}
       <PricingSection 
         type="siguranta"
-        title="Pachete Sisteme Siguranță"
+        title="Pachete sisteme siguranță"
         subtitle="Protecție completă cu montaj profesional inclus"
       />
 
       {/* Testimonials Section */}
       <TestimonialsSection 
-        title="Clienți Mulțumiți - Sisteme Siguranță"
+        title="Clienți mulțumiți - Sisteme siguranță"
         maxItems={3} 
       />
 

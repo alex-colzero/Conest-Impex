@@ -6,11 +6,11 @@ import { FAQSection } from '../../src/components/FAQSection'
 import { FooterSection } from '../../src/screens/ElementHomepage/sections/FooterSection/FooterSection'
 
 export const metadata: Metadata = {
-  title: 'Instalații Gaze Naturale Constanța - Autorizate ANRE | Conest',
+  title: 'Instalații gaze naturale Constanța - Autorizate ANRE | Conest',
   description: 'Instalații gaze naturale profesionale în Constanța și județ. Autorizați ANRE și ISCIR. Proiectare, execuție și punere în funcțiune cu garanție 2 ani. ☎️ 0722.619.097',
   keywords: 'instalații gaze naturale, instalatii gaze constanta, branșament gaze, conducte gaze, autorizare ANRE',
   openGraph: {
-    title: 'Instalații Gaze Naturale Constanța - Autorizate ANRE',
+    title: 'Instalații gaze naturale Constanța - Autorizate ANRE',
     description: 'Servicii complete instalații gaze naturale. Autorizați ANRE și ISCIR cu experiență de peste 27 ani.',
     url: 'https://conest.ro/instalatii-gaze-naturale',
     type: 'website',
@@ -30,7 +30,7 @@ export default function InstallatiiGazeNaturale() {
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
               <h1 className="text-4xl md:text-5xl font-bold mb-6 [font-family:'Poppins',Helvetica]">
-                Instalații Gaze Naturale
+                Instalații gaze naturale
                 <span className="block text-[#f2b721] mt-2">Autorizate ANRE</span>
               </h1>
               <p className="text-xl mb-8 leading-relaxed">
@@ -186,14 +186,14 @@ export default function InstallatiiGazeNaturale() {
 
       {/* Testimonials Section */}
       <TestimonialsSection 
-        title="Clienți Mulțumiți - Instalații Gaze Naturale"
+        title="Clienți mulțumiți - Instalații gaze naturale"
         maxItems={3} 
       />
 
       {/* FAQ Section */}
       <FAQSection 
         type="gas"
-        title="Întrebări Frecvente - Instalații Gaze"
+        title="Întrebări frecvente - Instalații gaze"
         maxItems={4}
       />
 

@@ -110,15 +110,15 @@ export const TestimonialsSection = ({ title = "Ce Spun Clienții Noștri", maxIt
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8 max-w-4xl mx-auto">
             <div className="text-center">
               <div className="text-3xl font-bold text-[#f2b721] mb-2">3400+</div>
-              <div className="text-gray-600">Proiecte Finalizate</div>
+              <div className="text-gray-600">Proiecte finalizate</div>
             </div>
             <div className="text-center">
               <div className="text-3xl font-bold text-[#f2b721] mb-2">27</div>
-              <div className="text-gray-600">Ani Experiență</div>
+              <div className="text-gray-600">Ani experiență</div>
             </div>
             <div className="text-center">
               <div className="text-3xl font-bold text-[#f2b721] mb-2">4.9</div>
-              <div className="text-gray-600">Rating Mediu</div>
+              <div className="text-gray-600">Rating mediu</div>
             </div>
             <div className="text-center">
               <div className="text-3xl font-bold text-[#f2b721] mb-2">100%</div>

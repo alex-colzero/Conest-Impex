@@ -3,11 +3,11 @@ import { SharedHeader } from '../../src/components/SharedHeader'
 import { FooterSection } from '../../src/screens/ElementHomepage/sections/FooterSection/FooterSection'
 
 export const metadata: Metadata = {
-  title: 'Urgențe 24/7 - Intervenții Rapide Gaze și Centrale | Conest',
+  title: 'Urgențe 24/7 - Intervenții rapide gaze și centrale | Conest',
   description: 'Service urgent 24/7 pentru gaze și centrale termice în Constanța. Intervenții rapide pentru scurgeri, centrale oprite, presiune scăzută. ☎️ 0744-579-715',
   keywords: 'urgente gaze, service 24/7, interventii rapide, centrale termice, scurgeri gaze, Constanta',
   openGraph: {
-    title: 'Urgențe 24/7 - Intervenții Rapide Gaze și Centrale',
+    title: 'Urgențe 24/7 - Intervenții rapide gaze și centrale',
     description: 'Service urgent non-stop pentru situații de urgență cu gazele și centralele termice.',
     url: 'https://conest.ro/urgente',
     type: 'website',

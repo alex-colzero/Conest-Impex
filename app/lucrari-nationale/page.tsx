@@ -3,7 +3,7 @@ import Link from 'next/link'
 import { FooterSection } from '../../src/screens/ElementHomepage/sections/FooterSection/FooterSection'
 
 export const metadata: Metadata = {
-  title: 'Lucrări Naționale - Instalații Gaze România | Conest',
+  title: 'Lucrări naționale - Instalații gaze România | Conest',
   description: 'Proiecte naționale de instalații gaze naturale și centrale termice. Experiență în proiecte mari în toată România. Autorizat ANRE și ISCIR. ☎️ 0722.619.097',
   keywords: 'lucrari nationale, proiecte mari, instalatii gaze Romania, centrale termice, ANRE ISCIR',
 }

@@ -4,11 +4,11 @@ import { SharedHeader } from '../../src/components/SharedHeader'
 import { FooterSection } from '../../src/screens/ElementHomepage/sections/FooterSection/FooterSection'
 
 export const metadata: Metadata = {
-  title: 'Instalator Gaze Autorizat ANRE Constanța - Certificat ISCIR | Conest',
+  title: 'Instalator gaze autorizat ANRE Constanța - Certificat ISCIR | Conest',
   description: 'Instalator gaze naturale AUTORIZAT ANRE în Constanța din 1996. Certificat ISCIR pentru toate tipurile de instalații. Execuție conformă + garanție 2 ani. Tel: 0722.619.097',
   keywords: 'instalator gaze autorizat ANRE constanta, certificat ISCIR, autorizatie ANRE, instalator autorizat constanta, firma ANRE constanta',
   openGraph: {
-    title: 'Instalator Gaze Autorizat ANRE Constanța - Din 1996',
+    title: 'Instalator gaze autorizat ANRE Constanța - Din 1996',
     description: 'Singurul instalator cu experiență de peste 27 ani și toate autorizările ANRE/ISCIR în vigoare.',
     url: 'https://conest-gaze-centrale.ro/instalator-gaze-autorizat-anre-constanta',
     type: 'website',

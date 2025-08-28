@@ -7,11 +7,11 @@ import { PricingSection } from '../../src/components/PricingSection'
 import { FooterSection } from '../../src/screens/ElementHomepage/sections/FooterSection/FooterSection'
 
 export const metadata: Metadata = {
-  title: 'Centrale Termice Constanța - Montaj și Service Autorizat | Conest',
+  title: 'Centrale termice Constanța - Montaj și service autorizat | Conest',
   description: 'Service centrale termice Constanța. Montaj, reparații și mentenanță pentru toate mărcile. Autorizat ISCIR cu garanție. Intervenții rapide ☎️ 0722.619.097',
   keywords: 'centrale termice, service centrale, montaj centrale, reparatii centrale constanta, service ISCIR',
   openGraph: {
-    title: 'Centrale Termice - Montaj și Service Autorizat Constanța',
+    title: 'Centrale termice - Montaj și service autorizat Constanța',
     description: 'Service complet centrale termice cu tehnicienii autorizați ISCIR. Montaj, reparații și mentenanță.',
     url: 'https://conest.ro/centrale-termice',
     type: 'website',
@@ -249,20 +249,20 @@ export default function CentraleTermice() {
       {/* Services Section */}
       <PricingSection 
         type="centrale"
-        title="Pachete Service Centrale Termice"
+        title="Pachete service centrale termice"
         subtitle="Servicii complete pentru toate nevoile dvs."
       />
 
       {/* Testimonials Section */}
       <TestimonialsSection 
-        title="Clienți Mulțumiți - Centrale Termice"
+        title="Clienți mulțumiți - Centrale termice"
         maxItems={3} 
       />
 
       {/* FAQ Section */}
       <FAQSection 
         type="centrale"
-        title="Întrebări Frecvente - Centrale Termice"
+        title="Întrebări frecvente - Centrale termice"
         maxItems={4}
       />
 

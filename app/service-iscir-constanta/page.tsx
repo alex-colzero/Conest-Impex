@@ -4,11 +4,11 @@ import { SharedHeader } from '../../src/components/SharedHeader'
 import { FooterSection } from '../../src/screens/ElementHomepage/sections/FooterSection/FooterSection'
 
 export const metadata: Metadata = {
-  title: 'Service ISCIR Constanța - Tehnicienii Certificați Centrale Termice | Conest',
+  title: 'Service ISCIR Constanța - Tehnicienii certificați centrale termice | Conest',
   description: 'Service ISCIR autorizat în Constanța cu tehnicienii certificați RVT și RSL. Verificări anuale centrale termice, reparații și mentenanță conformă. ☎️ 0722.619.097',
   keywords: 'service ISCIR constanta, tehnician certificat ISCIR, verificari anuale centrale, RVT RSL constanta, service centrale ISCIR',
   openGraph: {
-    title: 'Service ISCIR Constanța - Tehnicienii Certificați din 1996',
+    title: 'Service ISCIR Constanța - Tehnicienii certificați din 1996',
     description: 'Echipa de tehnicienii ISCIR cu toate certificările necesare pentru service-ul legal al centralelor termice.',
     url: 'https://conest-gaze-centrale.ro/service-iscir-constanta',
     type: 'website',

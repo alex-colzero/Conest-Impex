@@ -4,11 +4,11 @@ import { SharedHeader } from '../../src/components/SharedHeader'
 import { FooterSection } from '../../src/screens/ElementHomepage/sections/FooterSection/FooterSection'
 
 export const metadata: Metadata = {
-  title: 'Presiune Scăzută Gaze - Cauze și Soluții Rapide Constanța | Conest',
+  title: 'Presiune scăzută gaze - Cauze și soluții rapide Constanța | Conest',
   description: 'Presiune scăzută la gazele naturale? Centrala nu pornește? Soluții imediate + service urgent în Constanța. Diagnosticare gratuită. Contact: 0744-579-715',
   keywords: 'presiune scazuta gaze, centrala nu porneste presiune, probleme presiune gaz, manometru rosu, service gaze constanta',
   openGraph: {
-    title: 'Presiune Scăzută Gaze - Soluții Rapide și Service Urgent',
+    title: 'Presiune scăzută gaze - Soluții rapide și service urgent',
     description: 'Cauze și soluții pentru presiunea scăzută la gazele naturale. Service specializat în Constanța.',
     url: 'https://conest-gaze-centrale.ro/presiune-scazuta-gaze',
     type: 'website',

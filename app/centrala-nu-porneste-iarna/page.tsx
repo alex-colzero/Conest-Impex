@@ -4,11 +4,11 @@ import { SharedHeader } from '../../src/components/SharedHeader'
 import { FooterSection } from '../../src/screens/ElementHomepage/sections/FooterSection/FooterSection'
 
 export const metadata: Metadata = {
-  title: 'Centrala Nu Pornește Iarna - Soluții Rapide Constanța | Conest',
+  title: 'Centrala nu pornește iarna - Soluții rapide Constanța | Conest',
   description: 'Centrala termică nu pornește iarna? Soluții immediate + service urgent 24/7 în Constanța. Diagnosticare gratuită și intervenție rapidă. 0744-579-715',
   keywords: 'centrala nu porneste, centrala oprita iarna, service centrale urgenta, reparatii centrale constanta, centrala defecta, frig iarna',
   openGraph: {
-    title: 'Urgență: Centrala Nu Pornește Iarna - Service Rapid Constanța',
+    title: 'Urgență: Centrala nu pornește iarna - Service rapid Constanța',
     description: 'Soluții rapide pentru centrale termice oprite iarna. Service urgent 24/7 cu tehnicienii autorizați ISCIR.',
     url: 'https://conest-gaze-centrale.ro/centrala-nu-porneste-iarna',
     type: 'website',
@@ -16,7 +16,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary',
-    title: 'Urgență: Centrala Nu Pornește Iarna - Service Rapid Constanța',
+    title: 'Urgență: Centrala nu pornește iarna - Service rapid Constanța',
     description: 'Soluții rapide pentru centrale termice oprite iarna. Service urgent 24/7 cu tehnicienii autorizați ISCIR.',
   },
   alternates: {

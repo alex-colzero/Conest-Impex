@@ -1,18 +1,18 @@
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Instalații Gaze Naturale Constanța Sud | Conest - Autorizat ANRE',
+  title: 'Instalații gaze naturale Constanța Sud | Conest - Autorizat ANRE',
   description: 'Instalații gaze naturale în Constanța Sud: Tomis, CET, Campus. Autorizat ANRE, echipă locală, intervenții rapide. Experiență 27 ani în zona de sud.',
   keywords: 'instalatii gaze naturale Constanta sud, Tomis gaze, CET Constanta, Campus instalatii gaze, autorizat ANRE, instalator local',
   openGraph: {
-    title: 'Instalații Gaze Naturale Constanța Sud | Conest - Autorizat ANRE',
+    title: 'Instalații gaze naturale Constanța Sud | Conest - Autorizat ANRE',
     description: 'Instalații gaze naturale în Constanța Sud: Tomis, CET, Campus. Autorizat ANRE, echipă locală, intervenții rapide. Experiență 27 ani în zona de sud.',
     type: 'website',
     locale: 'ro_RO',
   },
   twitter: {
     card: 'summary',
-    title: 'Instalații Gaze Naturale Constanța Sud | Conest - Autorizat ANRE',
+    title: 'Instalații gaze naturale Constanța Sud | Conest - Autorizat ANRE',
     description: 'Instalații gaze naturale în Constanța Sud: Tomis, CET, Campus. Autorizat ANRE, echipă locală, intervenții rapide.',
   },
   alternates: {

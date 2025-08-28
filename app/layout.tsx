@@ -1,7 +1,7 @@
 import './globals.css'
 
 export const metadata = {
-  title: 'Conest - Instalații Gaze și Centrale Termice',
+  title: 'Conest - Instalații gaze și centrale termice',
   description: 'Servicii complete pentru instalații gaze și centrale termice cu experiență de peste 27 de ani.',
 }
 

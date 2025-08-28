@@ -4,11 +4,11 @@ import { SharedHeader } from '../../src/components/SharedHeader'
 import { FooterSection } from '../../src/screens/ElementHomepage/sections/FooterSection/FooterSection'
 
 export const metadata: Metadata = {
-  title: 'Miros Gaz în Apartament - Ce Fac URGENT? Ghid Constanța | Conest',
+  title: 'Miros gaz în apartament - Ce fac URGENT? Ghid Constanța | Conest',
   description: 'Simți miros de gaz în apartament? Pași imediați de siguranță + intervenție urgentă 24/7 în Constanța. Nu risca - sună acum! 0744-579-715',
   keywords: 'miros gaz apartament, scapare gaze apartament, miros gaz bucatarie, gaz metan miros, urgente gaze constanta, siguranța gazelor',
   openGraph: {
-    title: 'URGENT: Miros Gaz în Apartament - Pași Imediați Siguranță',
+    title: 'URGENT: Miros gaz în apartament - Pași imediați siguranță',
     description: 'Ghid complet de siguranță pentru miros de gaz în apartament. Intervenții urgente 24/7 în Constanța.',
     url: 'https://conest-gaze-centrale.ro/miros-gaz-apartament',
     type: 'website',

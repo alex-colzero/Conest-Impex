@@ -4,11 +4,11 @@ import { SharedHeader } from '../../src/components/SharedHeader'
 import { FooterSection } from '../../src/screens/ElementHomepage/sections/FooterSection/FooterSection'
 
 export const metadata: Metadata = {
-  title: 'Gaz Scurs - Ce Fac? | Ghid Complet Siguranță Constanța | Conest',
+  title: 'Gaz scurs - Ce fac? | Ghid complet siguranță Constanța | Conest',
   description: 'Miros de gaz în casă sau apartament? Urmează acești pași IMEDIAT pentru siguranță. Ghid complet + intervenții urgente 24/7 în Constanța. ☎️ 0744-579-715',
   keywords: 'gaz scurs, miros gaz apartament, scapare gaz, urgente gaze constanta, ce fac daca miroase a gaz, siguranța gazelor, detectie scapari gaze',
   openGraph: {
-    title: 'Urgență: Gaz Scurs - Ce Fac? Ghid Complet Siguranță',
+    title: 'Urgență: Gaz scurs - Ce fac? Ghid complet siguranță',
     description: 'Pași imediați pentru siguranța ta în caz de scăpare de gaze. Intervenții urgente 24/7 în Constanța.',
     url: 'https://conest-gaze-centrale.ro/gaz-scurs-ce-fac',
     type: 'website',
@@ -16,7 +16,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary',
-    title: 'Urgență: Gaz Scurs - Ce Fac? Ghid Complet Siguranță',
+    title: 'Urgență: Gaz scurs - Ce fac? Ghid complet siguranță',
     description: 'Pași imediați pentru siguranța ta în caz de scăpare de gaze. Intervenții urgente 24/7 în Constanță.',
   },
   alternates: {

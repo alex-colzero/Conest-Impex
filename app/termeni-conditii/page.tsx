@@ -3,7 +3,7 @@ import Link from 'next/link'
 import { FooterSection } from '../../src/screens/ElementHomepage/sections/FooterSection/FooterSection'
 
 export const metadata: Metadata = {
-  title: 'Termeni și Condiții - Conest Instalații Gaze și Centrale',
+  title: 'Termeni și condiții - Conest instalații gaze și centrale',
   description: 'Termenii și condițiile de utilizare a serviciilor Conest pentru instalații gaze naturale și centrale termice în Constanța.',
   keywords: 'termeni conditii, instalatii gaze, centrale termice, Conest, contract',
 }

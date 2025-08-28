@@ -6,11 +6,11 @@ import { PricingSection } from '../../src/components/PricingSection'
 import { FooterSection } from '../../src/screens/ElementHomepage/sections/FooterSection/FooterSection'
 
 export const metadata: Metadata = {
-  title: 'Revizii ANRE Constanța - Verificări Tehnice Obligatorii | Conest',
+  title: 'Revizii ANRE Constanța - Verificări tehnice obligatorii | Conest',
   description: 'Revizii ANRE și verificări tehnice periodice în Constanța. Certificat de conformitate eliberat în aceeași zi. Autorizat ANRE ☎️ 0722.619.097',
   keywords: 'revizii ANRE, verificari tehnice, certificat conformitate, revizie gaze, control ANRE constanta',
   openGraph: {
-    title: 'Revizii ANRE - Verificări Tehnice Obligatorii',
+    title: 'Revizii ANRE - Verificări tehnice obligatorii',
     description: 'Servicii complete de revizii ANRE și verificări tehnice. Certificat de conformitate în aceeași zi.',
     url: 'https://conest.ro/revizii-anre',
     type: 'website',
@@ -385,14 +385,14 @@ export default function ReviziiANRE() {
       {/* Pricing Section */}
       <PricingSection 
         type="revizii"
-        title="Tarife Revizii ANRE"
+        title="Tarife revizii ANRE"
         subtitle="Prețuri transparente cu certificat de conformitate inclus"
       />
 
       {/* FAQ Section */}
       <FAQSection 
         type="revizii"
-        title="Întrebări Frecvente - Revizii ANRE"
+        title="Întrebări frecvente - Revizii ANRE"
         maxItems={4}
       />
 
