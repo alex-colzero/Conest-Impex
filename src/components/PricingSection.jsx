@@ -276,17 +276,6 @@ export const PricingSection = ({
                   ))}
                 </ul>
 
-                {/* CTA Button */}
-                <a
-                  href={`mailto:contact@conest-gaze-centrale.ro?subject=Ofertă%20${encodeURIComponent(plan.title)}%20Constanța&body=Bună%20ziua,%0D%0A%0D%0AVă%20rog%20să%20îmi%20trimiteți%20o%20ofertă%20pentru%20${encodeURIComponent(plan.title + ' - ' + plan.subtitle)}%20în%20zona%20Constanța.%0D%0A%0D%0ADetalii%20proprietate:%0D%0A-%20Tip:%20apartament/casă%0D%0A-%20Suprafața:%0D%0A-%20Locația:%0D%0A-%20Observații:%0D%0A%0D%0AMulțumesc!`}
-                  className={`block w-full text-center px-6 py-3 rounded-lg font-semibold transition-colors duration-200 ${
-                    plan.popular
-                      ? 'bg-[#f2b721] text-[#05213c] hover:bg-[#e0a61d]'
-                      : 'bg-[#05213c] text-white hover:bg-[#0a2a4a]'
-                  }`}
-                >
-                  Solicită Ofertă
-                </a>
               </div>
             </div>
           ))}
