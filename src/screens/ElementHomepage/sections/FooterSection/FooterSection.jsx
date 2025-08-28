@@ -10,12 +10,14 @@ export const FooterSection = () => {
     { text: "Urgențe 24/7", href: "/urgente" },
     { text: "Revizii și verificări", href: "/revizii-anre" },
     { text: "Senzori și electrovalve", href: "/sisteme-siguranta" },
+    { text: "Montaj senzori și electrovalve", href: "/montaj-senzori-electrovalve" },
     { text: "Întrebări frecvente", href: "/intrebari-frecvente" },
   ];
 
   const emergencyPages = [
     { text: "Gaz Scurs - Ce Fac?", href: "/gaz-scurs-ce-fac" },
     { text: "Centrala Nu Pornește", href: "/centrala-nu-porneste-iarna" },
+    { text: "Pregătire centrală iarnă", href: "/pregatire-centrala-iarna" },
     { text: "Miros Gaz în Apartament", href: "/miros-gaz-apartament" },
     { text: "Presiune Scăzută Gaze", href: "/presiune-scazuta-gaze" },
   ];
@@ -28,10 +30,10 @@ export const FooterSection = () => {
 
   const zones = [
     { text: "Constanța și Mamaia", href: "/constanta-mamaia" },
+    { text: "Instalații gaze Mamaia", href: "/instalatii-gaze-mamaia" },
     { text: "Năvodari și Medgidia", href: "/navodari-medgidia" },
     { text: "Mangalia și Eforie", href: "/mangalia-eforie" },
     { text: "Lucrări naționale", href: "/lucrari-nationale" },
-    { text: "Instalații Gaze Sud", href: "/instalatii-gaze-constanta-sud" },
     { text: "Centrale Termice Nord", href: "/centrale-termice-constanta-nord" },
   ];
 

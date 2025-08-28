@@ -433,6 +433,34 @@ export default function InstallatiiGazeNaturale() {
             </div>
           </div>
           
+          <div className="grid md:grid-cols-2 gap-6 mt-8">
+            <div className="bg-[#f3f2ef] p-6 rounded-xl">
+              <h3 className="text-xl font-semibold text-[#05213c] mb-3">Instalații gaze Mamaia</h3>
+              <p className="text-gray-600 mb-4">
+                Servicii specializate pentru proprietăți în zona costieră Mamaia.
+              </p>
+              <Link 
+                href="/instalatii-gaze-mamaia"
+                className="text-[#f2b721] font-semibold hover:text-[#e0a61d] transition-colors"
+              >
+                Vezi Servicii Mamaia →
+              </Link>
+            </div>
+            
+            <div className="bg-[#f3f2ef] p-6 rounded-xl">
+              <h3 className="text-xl font-semibold text-[#05213c] mb-3">Montaj senzori</h3>
+              <p className="text-gray-600 mb-4">
+                Montaj profesional senzori de gaz și electrovalve de siguranță.
+              </p>
+              <Link 
+                href="/montaj-senzori-electrovalve"
+                className="text-[#f2b721] font-semibold hover:text-[#e0a61d] transition-colors"
+              >
+                Vezi Montaj →
+              </Link>
+            </div>
+          </div>
+          
           <div className="text-center mt-8">
             <p className="text-gray-600 mb-4">
               Ai întrebări despre serviciile noastre?
