@@ -6,8 +6,8 @@ import { FAQSection } from '../../src/components/FAQSection'
 import { FooterSection } from '../../src/screens/ElementHomepage/sections/FooterSection/FooterSection'
 
 export const metadata: Metadata = {
-  title: 'Instalații gaze naturale Constanța - Autorizate ANRE | Conest',
-  description: 'Instalații gaze naturale profesionale în Constanța și județ. Autorizați ANRE și ISCIR. Proiectare, execuție și punere în funcțiune cu garanție 2 ani. ☎️ 0722.619.097',
+  title: 'Instalații gaze Constanța - Autorizate ANRE | Conest',
+  description: 'Instalații gaze naturale profesionale în Constanța. Autorizați ANRE și ISCIR. Proiectare, execuție și punere în funcțiune. ☎️ 0722.619.097',
   keywords: 'instalații gaze naturale, instalatii gaze constanta, branșament gaze, conducte gaze, autorizare ANRE',
   openGraph: {
     title: 'Instalații gaze naturale Constanța - Autorizate ANRE',

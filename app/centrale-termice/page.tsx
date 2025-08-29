@@ -7,7 +7,7 @@ import { PricingSection } from '../../src/components/PricingSection'
 import { FooterSection } from '../../src/screens/ElementHomepage/sections/FooterSection/FooterSection'
 
 export const metadata: Metadata = {
-  title: 'Centrale termice Constanța - Montaj și service autorizat | Conest',
+  title: 'Centrale termice Constanța - Service autorizat | Conest',
   description: 'Service centrale termice Constanța. Montaj, reparații și mentenanță pentru toate mărcile. Autorizat ISCIR cu garanție. Intervenții rapide ☎️ 0722.619.097',
   keywords: 'centrale termice, service centrale, montaj centrale, reparatii centrale constanta, service ISCIR',
   openGraph: {

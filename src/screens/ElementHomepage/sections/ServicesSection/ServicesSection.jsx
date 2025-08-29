@@ -60,9 +60,9 @@ export const ServicesSection = () => {
         </h2>
       </header>
 
-      <h1 className="relative self-stretch [font-family:'Poppins',Helvetica] font-semibold text-[#303030] text-[34px] text-center tracking-[0] leading-[44.2px]">
+      <h2 className="relative self-stretch [font-family:'Poppins',Helvetica] font-semibold text-[#303030] text-[34px] text-center tracking-[0] leading-[44.2px]">
         Soluții complete pentru instalații gaze și centrale termice
-      </h1>
+      </h2>
 
       <p className="relative self-stretch [font-family:'Poppins',Helvetica] font-normal text-[#5a5a5a] text-xl text-center tracking-[0] leading-[26.0px]">
         Cu o experiență de peste 27 de ani, oferim servicii complete autorizate

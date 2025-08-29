@@ -39,7 +39,7 @@ export const ExpertiseBoxSection = () => {
         </h2>
       </header>
 
-      <h1 className="relative self-stretch [font-family:'Poppins',Helvetica] font-semibold text-[#303030] text-4xl text-center tracking-[0] leading-[46.8px]">
+      <h2 className="relative self-stretch [font-family:'Poppins',Helvetica] font-semibold text-[#303030] text-4xl text-center tracking-[0] leading-[46.8px]">
         <span className="[font-family:'Poppins',Helvetica] font-semibold text-[#303030] text-4xl tracking-[0] leading-[46.8px]">
           Urgențe gaze și centrale termice{" "}
         </span>
@@ -52,7 +52,7 @@ export const ExpertiseBoxSection = () => {
           {" "}
           24/7
         </span>
-      </h1>
+      </h2>
 
       <p className="relative self-stretch [font-family:'Poppins',Helvetica] font-normal text-[#5a5a5a] text-3xl text-center tracking-[0] leading-[39.0px]">
         Când aveți o urgență cu gazele sau centrala termică, fiecare minut

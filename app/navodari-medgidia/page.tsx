@@ -3,7 +3,7 @@ import Link from 'next/link'
 import { FooterSection } from '../../src/screens/ElementHomepage/sections/FooterSection/FooterSection'
 
 export const metadata: Metadata = {
-  title: 'Instalații Gaze Năvodari și Medgidia - Service Centrale | Conest',
+  title: 'Instalații Gaze Năvodari și Medgidia | Conest',
   description: 'Instalații gaze naturale și centrale termice în Năvodari și Medgidia. Service autorizat ANRE și ISCIR cu deplasare gratuită. ☎️ 0722.619.097',
   keywords: 'instalatii gaze Navodari, centrale termice Medgidia, service gaze, ANRE ISCIR',
 }

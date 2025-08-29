@@ -5,7 +5,7 @@ import { TestimonialsSection } from '../../src/components/TestimonialsSection'
 import { FooterSection } from '../../src/screens/ElementHomepage/sections/FooterSection/FooterSection'
 
 export const metadata: Metadata = {
-  title: 'Instalații gaze Constanța și Mamaia - Centrale termice | Conest',
+  title: 'Instalații gaze Constanța și Mamaia | Conest',
   description: 'Instalații gaze naturale și centrale termice în Constanța și Mamaia. Service autorizat ANRE și ISCIR. Experiență 27 ani. ☎️ 0722.619.097',
   keywords: 'instalatii gaze Constanta, centrale termice Mamaia, service gaze Constanta, ANRE ISCIR',
 }

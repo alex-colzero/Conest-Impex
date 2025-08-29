@@ -1,0 +1,59 @@
+
+SEO AUDIT SUMMARY - https://www.conest-gaze-centrale.ro
+Generated: 2025-08-28T19:11:07.199Z
+======================================================================
+
+PAGES CRAWLED: 18
+ERRORS: 0
+
+KEY FINDINGS:
+-------------
+✅ Pages with proper status (200): 18
+⚠️  Pages with issues: 0
+
+TITLE TAGS:
+-----------
+✅ Optimal length (30-60 chars): 7
+⚠️  Too long (>60 chars): 11
+⚠️  Too short (<30 chars): 0
+
+META DESCRIPTIONS:
+------------------
+✅ Optimal length (120-160 chars): 16
+⚠️  Too long (>160 chars): 2
+⚠️  Too short (<120 chars): 0
+
+HEADINGS:
+---------
+✅ Pages with exactly 1 H1: 17
+⚠️  Pages with no H1: 0
+⚠️  Pages with multiple H1s: 1
+
+STRUCTURED DATA:
+----------------
+✅ Pages with schema markup: 18
+⚠️  Pages without schema: 0
+
+IMAGES:
+-------
+⚠️  Total images without alt text: 0
+
+INTERNAL LINKING:
+-----------------
+📊 Average internal links per page: 34
+📊 Total internal links: 604
+
+
+
+RECOMMENDATIONS:
+----------------
+1. Fix any title tags that are too long or too short
+2. Optimize meta descriptions to be 120-160 characters
+3. Ensure each page has exactly one H1 tag
+4. Add alt text to all images for accessibility and SEO
+5. Implement schema markup on pages that don't have it
+6. Review internal linking structure for optimal SEO juice distribution
+
+Report saved to: ./seo-exports/
+- CSV Report: seo-audit-report.csv
+- Summary: seo-audit-summary.txt

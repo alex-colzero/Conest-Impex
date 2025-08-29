@@ -7,11 +7,11 @@ import { PricingSection } from '../../src/components/PricingSection'
 import { FooterSection } from '../../src/screens/ElementHomepage/sections/FooterSection/FooterSection'
 
 export const metadata: Metadata = {
-  title: 'Montaj senzori gaze și electrovalve - Protecție automată Constanța',
+  title: 'Montaj senzori gaze și electrovalve Constanța | Conest',
   description: 'Montaj senzori gaze cu electrovalve automate pentru protecție completă. Detectare scurgeri și închidere automată. Certificat ISCIR ☎️ 0722.619.097',
   keywords: 'montaj senzori gaze, electrovalve automate, detectoare gaze, sisteme siguranta gaze, protectie gaze',
   openGraph: {
-    title: 'Montaj senzori gaze și electrovalve - Protecție automată Constanța',
+    title: 'Montaj senzori gaze și electrovalve Constanța | Conest',
     description: 'Sisteme complete de protecție cu senzori gaze și închidere automată prin electrovalve.',
     url: 'https://conest.ro/montaj-senzori-electrovalve',
     type: 'website',

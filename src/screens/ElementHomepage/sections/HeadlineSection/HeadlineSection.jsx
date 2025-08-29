@@ -11,9 +11,9 @@ export const HeadlineSection = () => {
         </div>
       </div>
 
-      <h1 className="relative self-stretch [font-family:'Poppins',Helvetica] font-semibold text-[#303030] text-4xl text-center tracking-[0] leading-[46.8px]">
+      <h2 className="relative self-stretch [font-family:'Poppins',Helvetica] font-semibold text-[#303030] text-4xl text-center tracking-[0] leading-[46.8px]">
         Servicii complete în Constanța și la nivel național
-      </h1>
+      </h2>
 
       <p className="relative self-stretch [font-family:'Poppins',Helvetica] font-normal text-[#5a5a5a] text-base text-center tracking-[0] leading-[20.8px]">
         Echipa CON EST deservește Constanța și regiunea Dobrogea cu intervenții

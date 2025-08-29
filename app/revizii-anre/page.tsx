@@ -6,7 +6,7 @@ import { PricingSection } from '../../src/components/PricingSection'
 import { FooterSection } from '../../src/screens/ElementHomepage/sections/FooterSection/FooterSection'
 
 export const metadata: Metadata = {
-  title: 'Revizii ANRE Constanța - Verificări tehnice obligatorii | Conest',
+  title: 'Revizii ANRE Constanța - Verificări obligatorii | Conest',
   description: 'Revizii ANRE și verificări tehnice periodice în Constanța. Certificat de conformitate eliberat în aceeași zi. Autorizat ANRE ☎️ 0722.619.097',
   keywords: 'revizii ANRE, verificari tehnice, certificat conformitate, revizie gaze, control ANRE constanta',
   openGraph: {

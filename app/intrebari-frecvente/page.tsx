@@ -4,7 +4,7 @@ import { SharedHeader } from '../../src/components/SharedHeader'
 import { FooterSection } from '../../src/screens/ElementHomepage/sections/FooterSection/FooterSection'
 
 export const metadata: Metadata = {
-  title: 'Întrebări frecvente - Instalații gaze și centrale termice | Conest',
+  title: 'Întrebări frecvente - Gaze și centrale | Conest',
   description: 'Răspunsuri la întrebările frecvente despre instalații gaze naturale, centrale termice și revizii ANRE în Constanța. Informații utile și sfaturi de la experți.',
   keywords: 'intrebari frecvente, FAQ, instalatii gaze, centrale termice, ANRE, ISCIR, constanta',
   openGraph: {

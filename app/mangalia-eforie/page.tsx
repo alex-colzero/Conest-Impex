@@ -3,7 +3,7 @@ import Link from 'next/link'
 import { FooterSection } from '../../src/screens/ElementHomepage/sections/FooterSection/FooterSection'
 
 export const metadata: Metadata = {
-  title: 'Instalații gaze Mangalia și Eforie - Service centrale | Conest',
+  title: 'Instalații gaze Mangalia și Eforie | Conest',
   description: 'Instalații gaze naturale și centrale termice în Mangalia și Eforie. Service pentru zona de sud. Autorizat ANRE și ISCIR. ☎️ 0722.619.097',
   keywords: 'instalatii gaze Mangalia, centrale termice Eforie, service gaze sud, ANRE ISCIR',
 }

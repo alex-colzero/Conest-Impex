@@ -3,7 +3,7 @@ import Link from 'next/link'
 import { FooterSection } from '../../src/screens/ElementHomepage/sections/FooterSection/FooterSection'
 
 export const metadata: Metadata = {
-  title: 'Politica de confidențialitate - Conest instalații gaze și centrale',
+  title: 'Politica de confidențialitate | Conest',
   description: 'Politica de confidențialitate și protecția datelor personale pentru serviciile Conest - instalații gaze naturale și centrale termice în Constanța.',
   keywords: 'politica confidentialitate, protectia datelor, GDPR, Conest, instalatii gaze',
 }

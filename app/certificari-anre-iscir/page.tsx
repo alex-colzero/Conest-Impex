@@ -3,18 +3,18 @@ import Link from 'next/link'
 import { FooterSection } from '../../src/screens/ElementHomepage/sections/FooterSection/FooterSection'
 
 export const metadata: Metadata = {
-  title: 'Certificări ANRE & ISCIR Constanța | Conest - Autorizat Legal',
-  description: 'Toate certificările ANRE și ISCIR pentru instalații gaze naturale în Constanța. Documentații legale complete, conform normelor în vigoare. Verifică-ne autorizările!',
+  title: 'Certificări ANRE & ISCIR Constanța | Conest',
+  description: 'Toate certificările ANRE și ISCIR pentru instalații gaze în Constanța. Documentații legale complete, conform normelor.',
   keywords: 'certificari ANRE, certificari ISCIR, autorizat ANRE Constanta, RVT ISCIR, RSL ISCIR, instalator gaze autorizat, documentatii legale',
   openGraph: {
-    title: 'Certificări ANRE & ISCIR Constanța | Conest - Autorizat Legal',
-    description: 'Toate certificările ANRE și ISCIR pentru instalații gaze naturale în Constanța. Documentații legale complete, conform normelor în vigoare. Verifică-ne autorizările!',
+    title: 'Certificări ANRE & ISCIR Constanța | Conest',
+    description: 'Toate certificările ANRE și ISCIR pentru instalații gaze în Constanța. Documentații legale complete, conform normelor.',
     type: 'website',
     locale: 'ro_RO',
   },
   twitter: {
     card: 'summary',
-    title: 'Certificări ANRE & ISCIR Constanța | Conest - Autorizat Legal',
+    title: 'Certificări ANRE & ISCIR Constanța | Conest',
     description: 'Toate certificările ANRE și ISCIR pentru instalații gaze naturale în Constanța. Documentații legale complete, conform normelor în vigoare.',
   },
   alternates: {
