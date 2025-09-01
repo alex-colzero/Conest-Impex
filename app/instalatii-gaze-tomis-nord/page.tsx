@@ -78,7 +78,7 @@ export default function InstallatiiGazeTomisNord() {
               </p>
               
               <div className="bg-white/10 backdrop-blur-sm rounded-lg p-4 mb-6">
-                <p className="text-sm mb-2">🚨 Timp mediu de intervenție în Tomis Nord:</p>
+                <p className="text-sm mb-2">Timp mediu de intervenție în Tomis Nord:</p>
                 <p className="text-2xl font-bold text-[#f2b721]">15-25 minute</p>
               </div>
 

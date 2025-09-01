@@ -73,17 +73,17 @@ export default function UrgenteGazeFalezaNord() {
             </p>
             
             <div className="bg-white/10 backdrop-blur-sm rounded-lg p-6 max-w-2xl mx-auto mb-8">
-              <p className="text-xl mb-4 font-bold">⚡ Timp mediu intervenție Faleza Nord:</p>
+              <p className="text-xl mb-4 font-bold">Timp mediu intervenție Faleza Nord:</p>
               <p className="text-4xl font-bold text-[#f2b721]">10-20 minute</p>
               <p className="text-sm mt-2">Cazino: 10 min | Rex: 12 min | Pescărie: 15 min</p>
             </div>
 
             <div className="flex flex-wrap gap-4 justify-center">
               <a href="tel:0744579715" className="inline-flex items-center bg-[#f2b721] text-[#05213c] px-8 py-4 rounded-lg font-bold hover:bg-[#f2b721]/90 transition text-xl animate-pulse">
-                🚨 URGENȚE: 0744.579.715
+                URGENȚE: 0744.579.715
               </a>
               <a href="tel:0722619097" className="inline-flex items-center bg-white text-red-700 px-8 py-4 rounded-lg font-bold hover:bg-white/90 transition text-xl">
-                📞 Programări: 0722.619.097
+                Programări: 0722.619.097
               </a>
             </div>
           </div>
@@ -98,7 +98,7 @@ export default function UrgenteGazeFalezaNord() {
           </h2>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             <div className="bg-red-50 border-2 border-red-200 rounded-lg p-6">
-              <h3 className="text-xl font-bold text-red-700 mb-4">🚨 Miros de gaz</h3>
+              <h3 className="text-xl font-bold text-red-700 mb-4">Miros de gaz</h3>
               <ul className="space-y-2 text-[#303030]">
                 <li>• Detectare rapidă cu echipamente profesionale</li>
                 <li>• Identificare și izolare scurgere</li>
@@ -110,7 +110,7 @@ export default function UrgenteGazeFalezaNord() {
             </div>
             
             <div className="bg-orange-50 border-2 border-orange-200 rounded-lg p-6">
-              <h3 className="text-xl font-bold text-orange-700 mb-4">🔥 Centrală nu pornește</h3>
+              <h3 className="text-xl font-bold text-orange-700 mb-4">Centrală nu pornește</h3>
               <ul className="space-y-2 text-[#303030]">
                 <li>• Diagnosticare rapidă</li>
                 <li>• Reparație la fața locului</li>
@@ -122,7 +122,7 @@ export default function UrgenteGazeFalezaNord() {
             </div>
             
             <div className="bg-yellow-50 border-2 border-yellow-200 rounded-lg p-6">
-              <h3 className="text-xl font-bold text-yellow-700 mb-4">⚠️ Presiune scăzută</h3>
+              <h3 className="text-xl font-bold text-yellow-700 mb-4">Presiune scăzută</h3>
               <ul className="space-y-2 text-[#303030]">
                 <li>• Verificare întreaga instalație</li>
                 <li>• Detectare pierderi</li>
@@ -147,23 +147,23 @@ export default function UrgenteGazeFalezaNord() {
               <h3 className="text-xl font-bold text-[#05213c] mb-6">Zone acoperite non-stop:</h3>
               <div className="space-y-4">
                 <div className="bg-white rounded-lg p-4 flex justify-between items-center">
-                  <span className="font-semibold">🎰 Zona Cazino</span>
+                  <span className="font-semibold">Zona Cazino</span>
                   <span className="text-green-600 font-bold">10 minute</span>
                 </div>
                 <div className="bg-white rounded-lg p-4 flex justify-between items-center">
-                  <span className="font-semibold">🏛️ Hotel Rex & Împrejurimi</span>
+                  <span className="font-semibold">Hotel Rex & Împrejurimi</span>
                   <span className="text-green-600 font-bold">12 minute</span>
                 </div>
                 <div className="bg-white rounded-lg p-4 flex justify-between items-center">
-                  <span className="font-semibold">🐟 Zona Pescărie</span>
+                  <span className="font-semibold">Zona Pescărie</span>
                   <span className="text-green-600 font-bold">15 minute</span>
                 </div>
                 <div className="bg-white rounded-lg p-4 flex justify-between items-center">
-                  <span className="font-semibold">⚓ Port Tomis Marina</span>
+                  <span className="font-semibold">Port Tomis Marina</span>
                   <span className="text-green-600 font-bold">15 minute</span>
                 </div>
                 <div className="bg-white rounded-lg p-4 flex justify-between items-center">
-                  <span className="font-semibold">🏖️ Plaja Modern</span>
+                  <span className="font-semibold">Plaja Modern</span>
                   <span className="text-green-600 font-bold">18 minute</span>
                 </div>
               </div>
@@ -249,7 +249,7 @@ export default function UrgenteGazeFalezaNord() {
             Intervenție garantată în maxim 20 minute în Faleza Nord.
           </p>
           <a href="tel:0744579715" className="inline-flex items-center bg-[#f2b721] text-[#05213c] px-10 py-5 rounded-lg font-bold hover:bg-[#f2b721]/90 transition text-2xl animate-pulse">
-            🚨 URGENȚE NON-STOP: 0744.579.715
+            URGENȚE NON-STOP: 0744.579.715
           </a>
           <p className="mt-6 text-sm">
             Salvați acest număr în telefon! Poate fi vital în caz de urgență.

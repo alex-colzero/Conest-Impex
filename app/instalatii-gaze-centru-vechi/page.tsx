@@ -71,8 +71,8 @@ export default function InstallatiiGazeCentruVechi() {
         <div className="max-w-7xl mx-auto px-6">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
-              <div className="inline-flex items-center bg-[#f2b721]/20 backdrop-blur-sm rounded-full px-4 py-2 mb-6">
-                <span className="text-sm font-semibold">🏛️ SPECIALIST CLĂDIRI ISTORICE</span>
+              <div className="inline-flex items-center bg-[#f2b721]/20 backdrop-blur-sm rounded-lg px-4 py-2 mb-6">
+                <span className="text-sm font-semibold">SPECIALIST CLĂDIRI ISTORICE</span>
               </div>
               <h1 className="text-4xl md:text-5xl font-bold mb-6 [font-family:'Poppins',Helvetica]">
                 Instalații gaze
@@ -84,7 +84,7 @@ export default function InstallatiiGazeCentruVechi() {
               </p>
               
               <div className="bg-white/10 backdrop-blur-sm rounded-lg p-4 mb-6">
-                <p className="text-sm mb-2">📍 Acoperim toată Peninsula istorică:</p>
+                <p className="text-sm mb-2">Acoperim toată Peninsula istorică:</p>
                 <p className="text-lg">Piața Ovidiu • Str. Marc Aureliu • Muzeul de Artă • Moscheea Carol</p>
               </div>
 
@@ -146,7 +146,6 @@ export default function InstallatiiGazeCentruVechi() {
           </h2>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             <div className="bg-[#f3f2ef] rounded-lg p-6">
-              <div className="text-3xl mb-4">🏛️</div>
               <h3 className="text-xl font-bold text-[#05213c] mb-4">Pereți groși de piatră</h3>
               <p className="text-[#303030] mb-4">
                 Clădirile din Centrul Vechi au pereți de 60-100cm grosime.
@@ -158,7 +157,6 @@ export default function InstallatiiGazeCentruVechi() {
             </div>
             
             <div className="bg-[#f3f2ef] rounded-lg p-6">
-              <div className="text-3xl mb-4">🎨</div>
               <h3 className="text-xl font-bold text-[#05213c] mb-4">Păstrarea aspectului</h3>
               <p className="text-[#303030] mb-4">
                 Fațadele și interioarele trebuie păstrate intact.
@@ -170,7 +168,6 @@ export default function InstallatiiGazeCentruVechi() {
             </div>
             
             <div className="bg-[#f3f2ef] rounded-lg p-6">
-              <div className="text-3xl mb-4">📜</div>
               <h3 className="text-xl font-bold text-[#05213c] mb-4">Avize speciale</h3>
               <p className="text-[#303030] mb-4">
                 Monumentele necesită aprobări suplimentare.
@@ -182,7 +179,6 @@ export default function InstallatiiGazeCentruVechi() {
             </div>
             
             <div className="bg-[#f3f2ef] rounded-lg p-6">
-              <div className="text-3xl mb-4">🔇</div>
               <h3 className="text-xl font-bold text-[#05213c] mb-4">Zgomot minim</h3>
               <p className="text-[#303030] mb-4">
                 Vecinătate densă, pereți subțiri între apartamente.
@@ -194,7 +190,6 @@ export default function InstallatiiGazeCentruVechi() {
             </div>
             
             <div className="bg-[#f3f2ef] rounded-lg p-6">
-              <div className="text-3xl mb-4">⚡</div>
               <h3 className="text-xl font-bold text-[#05213c] mb-4">Infrastructură veche</h3>
               <p className="text-[#303030] mb-4">
                 Instalații electrice și conducte învechite.
@@ -206,7 +201,6 @@ export default function InstallatiiGazeCentruVechi() {
             </div>
             
             <div className="bg-[#f3f2ef] rounded-lg p-6">
-              <div className="text-3xl mb-4">🏗️</div>
               <h3 className="text-xl font-bold text-[#05213c] mb-4">Acces dificil</h3>
               <p className="text-[#303030] mb-4">
                 Străzi înguste, curți interioare complexe.

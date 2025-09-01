@@ -68,7 +68,7 @@ export default function CentraleTermiceCityPark() {
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
               <div className="inline-flex items-center bg-[#f2b721]/20 backdrop-blur-sm rounded-full px-4 py-2 mb-6">
-                <span className="text-sm font-semibold">🏢 SPECIALIST SPAȚII COMERCIALE</span>
+                <span className="text-sm font-semibold">SPECIALIST SPAȚII COMERCIALE</span>
               </div>
               <h1 className="text-4xl md:text-5xl font-bold mb-6 [font-family:'Poppins',Helvetica]">
                 Centrale termice
@@ -126,7 +126,7 @@ export default function CentraleTermiceCityPark() {
                 </li>
               </ul>
               <div className="mt-6 p-4 bg-[#f2b721]/20 rounded-lg">
-                <p className="font-semibold">💼 Ofertă specială business:</p>
+                <p className="font-semibold">Ofertă specială business:</p>
                 <p className="text-sm mt-1">Contract mentenanță cu -20% reducere pentru 12 luni</p>
               </div>
             </div>
@@ -260,7 +260,6 @@ export default function CentraleTermiceCityPark() {
           </h2>
           <div className="grid md:grid-cols-3 gap-8">
             <div className="border-2 border-[#05213c]/20 rounded-lg p-6">
-              <div className="text-3xl mb-4">🏬</div>
               <h3 className="font-bold text-[#05213c] mb-2">Magazin Fashion 800mp</h3>
               <p className="text-sm text-gray-600 mb-4">Instalare sistem cascadă 2x35kW pentru încălzire uniformă</p>
               <div className="text-sm">
@@ -270,7 +269,6 @@ export default function CentraleTermiceCityPark() {
             </div>
             
             <div className="border-2 border-[#05213c]/20 rounded-lg p-6">
-              <div className="text-3xl mb-4">🍽️</div>
               <h3 className="font-bold text-[#05213c] mb-2">Restaurant 300 locuri</h3>
               <p className="text-sm text-gray-600 mb-4">Centrală Viessmann 45kW cu preparare ACM instant</p>
               <div className="text-sm">
@@ -280,7 +278,6 @@ export default function CentraleTermiceCityPark() {
             </div>
             
             <div className="border-2 border-[#05213c]/20 rounded-lg p-6">
-              <div className="text-3xl mb-4">🏢</div>
               <h3 className="font-bold text-[#05213c] mb-2">Clădire birouri 5 etaje</h3>
               <p className="text-sm text-gray-600 mb-4">Modernizare completă sistem încălzire cu BMS</p>
               <div className="text-sm">
@@ -302,7 +299,7 @@ export default function CentraleTermiceCityPark() {
             Contract mentenanță 12 luni = 2 luni GRATUIT + Verificare inițială gratuită
           </p>
           <div className="bg-white/10 backdrop-blur-sm rounded-lg p-6 max-w-2xl mx-auto mb-8">
-            <p className="text-lg mb-2">📞 Linie dedicată business:</p>
+            <p className="text-lg mb-2">Linie dedicată business:</p>
             <p className="text-3xl font-bold text-[#f2b721]">0722.619.097</p>
             <p className="text-sm mt-2">Luni-Vineri: 8:00-20:00 | Weekend: urgențe</p>
           </div>
