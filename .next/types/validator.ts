@@ -42,6 +42,12 @@ type LayoutConfig<Route extends LayoutRoutes = LayoutRoutes> = {
   handler satisfies AppPageConfig<"/centrala-nu-porneste-iarna">
 }
 
+// Validate ../../app/centrale-termice-city-park/page.tsx
+{
+  const handler = {} as typeof import("../../app/centrale-termice-city-park/page.js")
+  handler satisfies AppPageConfig<"/centrale-termice-city-park">
+}
+
 // Validate ../../app/centrale-termice-constanta-nord/page.tsx
 {
   const handler = {} as typeof import("../../app/centrale-termice-constanta-nord/page.js")
@@ -78,6 +84,12 @@ type LayoutConfig<Route extends LayoutRoutes = LayoutRoutes> = {
   handler satisfies AppPageConfig<"/gaz-scurs-ce-fac">
 }
 
+// Validate ../../app/instalatii-gaze-centru-vechi/page.tsx
+{
+  const handler = {} as typeof import("../../app/instalatii-gaze-centru-vechi/page.js")
+  handler satisfies AppPageConfig<"/instalatii-gaze-centru-vechi">
+}
+
 // Validate ../../app/instalatii-gaze-constanta-sud/page.tsx
 {
   const handler = {} as typeof import("../../app/instalatii-gaze-constanta-sud/page.js")
@@ -94,6 +106,12 @@ type LayoutConfig<Route extends LayoutRoutes = LayoutRoutes> = {
 {
   const handler = {} as typeof import("../../app/instalatii-gaze-naturale/page.js")
   handler satisfies AppPageConfig<"/instalatii-gaze-naturale">
+}
+
+// Validate ../../app/instalatii-gaze-tomis-nord/page.tsx
+{
+  const handler = {} as typeof import("../../app/instalatii-gaze-tomis-nord/page.js")
+  handler satisfies AppPageConfig<"/instalatii-gaze-tomis-nord">
 }
 
 // Validate ../../app/instalator-gaze-autorizat-anre-constanta/page.tsx
@@ -190,6 +208,12 @@ type LayoutConfig<Route extends LayoutRoutes = LayoutRoutes> = {
 {
   const handler = {} as typeof import("../../app/termeni-conditii/page.js")
   handler satisfies AppPageConfig<"/termeni-conditii">
+}
+
+// Validate ../../app/urgente-gaze-faleza-nord/page.tsx
+{
+  const handler = {} as typeof import("../../app/urgente-gaze-faleza-nord/page.js")
+  handler satisfies AppPageConfig<"/urgente-gaze-faleza-nord">
 }
 
 // Validate ../../app/urgente/page.tsx

@@ -10,11 +10,22 @@ Allow: /sisteme-siguranta
 Allow: /intrebari-frecvente
 Allow: /modernizare-smart-home
 
+# Strategic service pages
+Allow: /montaj-senzori-electrovalve
+Allow: /pregatire-centrala-iarna
+
 # Zone pages
 Allow: /constanta-mamaia
 Allow: /navodari-medgidia
 Allow: /mangalia-eforie
 Allow: /lucrari-nationale
+Allow: /instalatii-gaze-mamaia
+
+# Local SEO Domination pages
+Allow: /instalatii-gaze-tomis-nord
+Allow: /urgente-gaze-faleza-nord
+Allow: /centrale-termice-city-park
+Allow: /instalatii-gaze-centru-vechi
 
 # Legal pages
 Allow: /politica-confidentialitate

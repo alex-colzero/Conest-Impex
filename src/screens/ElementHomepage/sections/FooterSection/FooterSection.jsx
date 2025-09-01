@@ -31,10 +31,13 @@ export const FooterSection = () => {
   const zones = [
     { text: "Constanța și Mamaia", href: "/constanta-mamaia" },
     { text: "Instalații gaze Mamaia", href: "/instalatii-gaze-mamaia" },
+    { text: "Instalații Tomis Nord", href: "/instalatii-gaze-tomis-nord" },
+    { text: "Urgențe Faleza Nord", href: "/urgente-gaze-faleza-nord" },
+    { text: "Centrale City Park", href: "/centrale-termice-city-park" },
+    { text: "Centrul Vechi", href: "/instalatii-gaze-centru-vechi" },
     { text: "Năvodari și Medgidia", href: "/navodari-medgidia" },
     { text: "Mangalia și Eforie", href: "/mangalia-eforie" },
     { text: "Lucrări naționale", href: "/lucrari-nationale" },
-    { text: "Centrale Termice Nord", href: "/centrale-termice-constanta-nord" },
   ];
 
   const contactItems = [

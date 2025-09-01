@@ -45,6 +45,12 @@
       "namedRegex": "^/centrale\\-termice(?:/)?$"
     },
     {
+      "page": "/centrale-termice-city-park",
+      "regex": "^/centrale\\-termice\\-city\\-park(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/centrale\\-termice\\-city\\-park(?:/)?$"
+    },
+    {
       "page": "/centrale-termice-constanta-nord",
       "regex": "^/centrale\\-termice\\-constanta\\-nord(?:/)?$",
       "routeKeys": {},
@@ -75,6 +81,12 @@
       "namedRegex": "^/gaz\\-scurs\\-ce\\-fac(?:/)?$"
     },
     {
+      "page": "/instalatii-gaze-centru-vechi",
+      "regex": "^/instalatii\\-gaze\\-centru\\-vechi(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/instalatii\\-gaze\\-centru\\-vechi(?:/)?$"
+    },
+    {
       "page": "/instalatii-gaze-constanta-sud",
       "regex": "^/instalatii\\-gaze\\-constanta\\-sud(?:/)?$",
       "routeKeys": {},
@@ -91,6 +103,12 @@
       "regex": "^/instalatii\\-gaze\\-naturale(?:/)?$",
       "routeKeys": {},
       "namedRegex": "^/instalatii\\-gaze\\-naturale(?:/)?$"
+    },
+    {
+      "page": "/instalatii-gaze-tomis-nord",
+      "regex": "^/instalatii\\-gaze\\-tomis\\-nord(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/instalatii\\-gaze\\-tomis\\-nord(?:/)?$"
     },
     {
       "page": "/instalator-gaze-autorizat-anre-constanta",
@@ -199,6 +217,12 @@
       "regex": "^/urgente(?:/)?$",
       "routeKeys": {},
       "namedRegex": "^/urgente(?:/)?$"
+    },
+    {
+      "page": "/urgente-gaze-faleza-nord",
+      "regex": "^/urgente\\-gaze\\-faleza\\-nord(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/urgente\\-gaze\\-faleza\\-nord(?:/)?$"
     }
   ],
   "dataRoutes": [],
